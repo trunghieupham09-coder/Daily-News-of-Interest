@@ -1,7 +1,7 @@
 {
   "name": "5 Chuyện Sáng",
   "short_name": "5 Chuyện",
-  "description": "Năm câu hỏi tại sao về kinh tế, tài chính, AI và đời sống, mỗi sáng 10 giờ.",
+  "description": "Năm chuyện đáng biết về kinh tế, tài chính, tâm lý, AI và xã hội, mỗi sáng 10 giờ.",
   "lang": "vi",
   "start_url": "./",
   "scope": "./",

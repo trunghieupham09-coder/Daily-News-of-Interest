@@ -21,13 +21,14 @@ const errors = [], warns = [];
 const err = (m) => errors.push(m);
 const warn = (m) => warns.push(m);
 const words = (s) => String(s || '').trim().split(/\s+/).filter(Boolean).length;
+const titleOf = (t) => t.title || t.question || '';
 
-// Lịch xoay theo thứ (0 = Chủ Nhật)
-const QUOTA = {
-  1: { econ: 4, ai: 1, other: 0 }, 2: { econ: 3, ai: 1, other: 1 }, 3: { econ: 4, ai: 0, other: 1 },
-  4: { econ: 3, ai: 1, other: 1 }, 5: { econ: 4, ai: 1, other: 0 }, 6: { econ: 3, ai: 1, other: 1 },
-  0: { econ: 4, ai: 0, other: 1 },
-};
+// Cơ cấu cố định mỗi ngày (AGENT.md mục 3). Các số trước QUOTA_FROM chỉ cảnh báo.
+const QUOTA = { econ: 2, psych: 1, ai: 1, society: 1 };
+const QUOTA_FROM = '2026-11-11';
+const CATS = ['econ', 'psych', 'ai', 'society'];
+const KINDS = ['why', 'concept', 'theory', 'fact', 'tip'];
+const normCat = (c) => (c === 'other' ? 'society' : c);
 
 if (ed.date !== date) err(`date trong JSON (${ed.date}) khác tên file (${date})`);
 if (!Number.isInteger(ed.number) || ed.number < 1) err('number phải là số nguyên dương');
@@ -35,10 +36,9 @@ if (!ed.intro) err('thiếu intro'); else if (words(ed.intro) > 80) warn(`intro 
 if (!Array.isArray(ed.topics) || ed.topics.length !== 5) err(`phải có đúng 5 topics, hiện có ${ed.topics?.length ?? 0}`);
 
 const [y, m, d] = date.split('-').map(Number);
-const dow = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
-const count = { econ: 0, ai: 0, other: 0 };
+const count = { econ: 0, psych: 0, ai: 0, society: 0 };
+const kinds = new Set();
 const ids = new Set();
-const QSTART = /^(Tại sao|Vì sao|Điều gì|Làm thế nào|Làm sao|Có thật|Chuyện gì)/;
 
 const cutoff = new Date(Date.UTC(y, m - 1, d)); cutoff.setUTCDate(cutoff.getUTCDate() - 120);
 const recentUsed = used.filter((u) => u.date !== date && new Date(u.date + 'T00:00:00Z') >= cutoff);
@@ -47,13 +47,18 @@ const overlap = (a, b) => { const A = tokens(a), B = tokens(b); let n = 0; for (
 
 (ed.topics || []).forEach((t, i) => {
   const tag = `bài ${i + 1}`;
+  const cat = normCat(t.category);
   if (!t.id || !/^[a-z0-9-]+$/.test(t.id)) err(`${tag}: id phải là chữ thường/gạch nối`);
   if (ids.has(t.id)) err(`${tag}: id trùng trong cùng số`); ids.add(t.id);
-  if (!['econ', 'ai', 'other'].includes(t.category)) err(`${tag}: category không hợp lệ (${t.category})`); else count[t.category]++;
-  if (!t.question) err(`${tag}: thiếu question`);
+  if (!CATS.includes(cat)) err(`${tag}: category không hợp lệ (${t.category}); dùng econ / psych / ai / society`); else count[cat]++;
+  if (!t.kind) err(`${tag}: thiếu kind (why / concept / theory / fact / tip)`);
+  else if (!KINDS.includes(t.kind)) err(`${tag}: kind không hợp lệ (${t.kind})`); else kinds.add(t.kind);
+  const title = titleOf(t);
+  if (!title) err(`${tag}: thiếu title`);
   else {
-    if (!QSTART.test(t.question.trim())) warn(`${tag}: question nên bắt đầu bằng "Tại sao / Vì sao / Điều gì / Làm thế nào / Có thật"`);
-    if (words(t.question) > 22) warn(`${tag}: question dài ${words(t.question)} từ (tối đa 20)`);
+    if (words(title) > 22) warn(`${tag}: title dài ${words(title)} từ (tối đa 20)`);
+    if (t.kind === 'why' && !/\?\s*$/.test(title)) warn(`${tag}: kind=why nhưng title không phải câu hỏi`);
+    if (t.kind !== 'why' && /^(Tại sao|Vì sao)/.test(title)) warn(`${tag}: title là câu "tại sao" nhưng kind=${t.kind}`);
   }
   if (!t.hook) err(`${tag}: thiếu hook`); else if (words(t.hook) > 100) warn(`${tag}: hook dài ${words(t.hook)} từ (tối đa 90)`);
   if (!Array.isArray(t.body) || t.body.length < 2) err(`${tag}: body cần 3 đến 4 đoạn`);
@@ -75,14 +80,21 @@ const overlap = (a, b) => { const A = tokens(a), B = tokens(b); let n = 0; for (
 
   for (const u of recentUsed) {
     if (u.id === t.id) err(`${tag}: id "${t.id}" đã dùng ngày ${u.date}`);
-    else if (overlap(u.question, t.question) >= 0.6) warn(`${tag}: câu hỏi giống bài ngày ${u.date}: "${u.question}"`);
+    else if (overlap(titleOf(u), title) >= 0.6) warn(`${tag}: tiêu đề giống bài ngày ${u.date}: "${titleOf(u)}"`);
   }
   if (/[!]{1}/.test(t.body?.join(' ') || '')) warn(`${tag}: có dấu chấm than trong phần cơ chế`);
 });
 
-const q = QUOTA[dow];
-if (ed.topics?.length === 5 && (count.econ !== q.econ || count.ai !== q.ai || count.other !== q.other)) {
-  warn(`quota hôm nay (thứ ${dow === 0 ? 'CN' : dow + 1}) là econ ${q.econ} / ai ${q.ai} / other ${q.other}; hiện có econ ${count.econ} / ai ${count.ai} / other ${count.other}`);
+if (ed.topics?.length === 5) {
+  const off = CATS.filter((c) => count[c] !== QUOTA[c]);
+  if (off.length) {
+    const msg = `cơ cấu phải là econ 2 / psych 1 / ai 1 / society 1; hiện có econ ${count.econ} / psych ${count.psych} / ai ${count.ai} / society ${count.society}`;
+    (date >= QUOTA_FROM ? err : warn)(msg);
+  }
+  if (kinds.size < 3) warn(`chỉ có ${kinds.size} kind khác nhau (cần ít nhất 3: why / concept / theory / fact / tip)`);
+  for (let i = 1; i < ed.topics.length; i++) {
+    if (normCat(ed.topics[i].category) === 'econ' && normCat(ed.topics[i - 1].category) === 'econ') { warn('hai bài econ đặt liền nhau, nên tách ra'); break; }
+  }
 }
 const links = (ed.topics || []).filter((t) => t.link).length;
 if (links < 2) warn(`chỉ ${links} bài có link nối sang bài khác (cần ít nhất 2)`);

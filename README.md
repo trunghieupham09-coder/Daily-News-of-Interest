@@ -1,6 +1,6 @@
 # 5 Chuyện Sáng
 
-Ấn phẩm hàng ngày: năm câu hỏi "tại sao" về kinh tế, tài chính, AI và đời sống, tự động soạn lúc 10:00 giờ Việt Nam, xuất bản lên GitHub Pages và gửi qua email.
+Ấn phẩm hàng ngày: năm chuyện đáng biết, tự động soạn lúc 10:00 giờ Việt Nam, xuất bản lên GitHub Pages và gửi qua email. Cơ cấu cố định mỗi số: 2 kinh tế tài chính, 1 tâm lý con người, 1 AI hoặc mẹo hay, 1 xã hội. Mỗi bài có thể là câu hỏi, khái niệm, lý thuyết, fact hoặc mẹo.
 
 ## Cấu trúc
 

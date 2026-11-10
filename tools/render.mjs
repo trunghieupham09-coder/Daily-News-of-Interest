@@ -21,10 +21,14 @@ const feed = JSON.parse(readFileSync(feedPath, 'utf8'));
 const usedPath = resolve(ROOT, 'topics-used.json');
 const used = JSON.parse(readFileSync(usedPath, 'utf8'));
 
-const CAT = { econ: 'Kinh tế & Tài chính', ai: 'AI & Công nghệ', other: 'Đời sống & Xã hội' };
-const COLOR = { econ: '#b5521c', ai: '#2b6d8d', other: '#4c7a48' };
-const SHORT = { econ: 'Kinh tế', ai: 'AI', other: 'Đời sống' };
+// `other` là tên cũ của `society`, giữ để các số cũ vẫn render được.
+const normCat = (c) => (c === 'other' ? 'society' : c);
+const CAT = { econ: 'Kinh tế & Tài chính', psych: 'Tâm lý con người', ai: 'AI & Mẹo hay', society: 'Xã hội' };
+const SHORT = { econ: 'Kinh tế', psych: 'Tâm lý', ai: 'AI', society: 'Xã hội' };
+const COLOR = { econ: '#b5521c', psych: '#7a4a86', ai: '#2b6d8d', society: '#4c7a48' };
+const KIND = { why: 'Câu hỏi', concept: 'Khái niệm', theory: 'Lý thuyết', fact: 'Fact', tip: 'Mẹo' };
 const DAYS = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
+const titleOf = (t) => t.title || t.question || '';
 
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // markdown-lite: **bold**, *italic*
@@ -42,13 +46,14 @@ function topicWords(t) {
 }
 const totalWords = ed.topics.reduce((a, t) => a + topicWords(t), 0);
 const readMinutes = Math.max(1, Math.round(totalWords / 300));
+const catCounts = Object.keys(CAT).map((c) => [c, ed.topics.filter((t) => normCat(t.category) === c).length]).filter(([, n]) => n > 0);
 
 // ---------- feed update ----------
 feed.name = cfg.name; feed.tagline = cfg.tagline;
 feed.editions = (feed.editions || []).filter((e) => e.date !== ed.date);
 feed.editions.push({
   date: ed.date, number: ed.number, readMinutes,
-  topics: ed.topics.map((t) => ({ id: t.id, question: t.question, category: t.category })),
+  topics: ed.topics.map((t) => ({ id: t.id, title: titleOf(t), category: normCat(t.category), kind: t.kind || 'why' })),
 });
 feed.editions.sort((a, b) => (a.date < b.date ? 1 : -1));
 const idx = feed.editions.findIndex((e) => e.date === ed.date);
@@ -57,17 +62,19 @@ const older = feed.editions[idx + 1];
 
 // ---------- topics-used update ----------
 const usedFiltered = used.filter((u) => u.date !== ed.date);
-for (const t of ed.topics) usedFiltered.push({ date: ed.date, id: t.id, category: t.category, question: t.question });
+for (const t of ed.topics) usedFiltered.push({ date: ed.date, id: t.id, category: normCat(t.category), kind: t.kind || 'why', title: titleOf(t) });
 usedFiltered.sort((a, b) => (a.date < b.date ? 1 : -1));
 
 // ---------- web page ----------
 function articleHTML(t, i) {
   const n = pad2(i + 1);
+  const cat = normCat(t.category);
   const srcs = (t.sources || []).map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></li>`).join('');
+  const kind = KIND[t.kind] ? `<span class="kind">${esc(KIND[t.kind])}</span>` : '';
   return `
-<article class="article cat-${esc(t.category)}" id="t${i + 1}">
-  <div class="eyebrow"><span class="num">${n}</span><span class="tag ${esc(t.category)}">${esc(CAT[t.category])}</span><span>${esc(t.subcategory || '')}</span></div>
-  <h2>${esc(t.question)}</h2>
+<article class="article cat-${esc(cat)}" id="t${i + 1}">
+  <div class="eyebrow"><span class="num">${n}</span><span class="tag ${esc(cat)}">${esc(CAT[cat])}</span>${kind}<span>${esc(t.subcategory || '')}</span></div>
+  <h2>${esc(titleOf(t))}</h2>
   <p class="hook">${md(t.hook)}</p>
   <div class="body">${t.body.map((p) => `<p>${md(p)}</p>`).join('\n')}</div>
   ${t.example ? `<aside class="box example"><div class="label">Ví dụ thực tế</div><h3>${esc(t.example.title)}</h3><p>${md(t.example.text)}</p></aside>` : ''}
@@ -81,7 +88,7 @@ function linkify(s) {
 }
 
 const tocHTML = ed.topics.map((t, i) =>
-  `<li><a href="#t${i + 1}"><span class="num">${pad2(i + 1)}</span><span class="q">${esc(t.question)}</span><span class="tag ${esc(t.category)}">${esc(SHORT[t.category])}</span></a></li>`).join('\n');
+  `<li><a href="#t${i + 1}"><span class="num">${pad2(i + 1)}</span><span class="q">${esc(titleOf(t))}</span><span class="tag ${esc(normCat(t.category))}">${esc(SHORT[normCat(t.category)])}</span></a></li>`).join('\n');
 
 const page = `<!doctype html>
 <html lang="vi">
@@ -89,7 +96,7 @@ const page = `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Số ${ed.number} · ${fmtDate(ed.date)} · ${esc(cfg.name)}</title>
-<meta name="description" content="${esc(ed.topics.map((t) => t.question).join(' · '))}">
+<meta name="description" content="${esc(ed.topics.map(titleOf).join(' · '))}">
 <meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -117,7 +124,7 @@ const page = `<!doctype html>
   <section class="masthead">
     <div class="eyebrow">Số ${ed.number}</div>
     <h1>${fmtDate(ed.date)}</h1>
-    <div class="meta"><span>5 chủ đề</span><span>${readMinutes} phút đọc</span><span>${ed.topics.filter((t) => t.category === 'econ').length} kinh tế · ${ed.topics.filter((t) => t.category === 'ai').length} AI · ${ed.topics.filter((t) => t.category === 'other').length} khác</span></div>
+    <div class="meta"><span>5 chủ đề</span><span>${readMinutes} phút đọc</span><span>${catCounts.map(([c, n]) => `${n} ${SHORT[c].toLowerCase()}`).join(' · ')}</span></div>
   </section>
 
   <p class="intro">${md(ed.intro)}</p>
@@ -148,7 +155,7 @@ ${ed.topics.map(articleHTML).join('\n')}
 </html>
 `;
 
-// ---------- email (inline styles, Gmail-safe) ----------
+// ---------- email (inline styles, Gmail-safe; không dùng nháy kép trong style) ----------
 const base = (cfg.baseUrl || '').replace(/\/$/, '');
 const webUrl = `${base}/editions/${ed.date}.html`;
 const E = {
@@ -170,12 +177,14 @@ const E = {
   foot: 'color:#6f685e;font-size:12px;text-align:center;margin:24px 0 0;',
 };
 function emailTopic(t, i) {
-  const c = COLOR[t.category];
-  const tag = `<span style="display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${c};">${pad2(i + 1)} · ${esc(CAT[t.category])}</span>`;
+  const cat = normCat(t.category);
+  const c = COLOR[cat];
+  const kind = KIND[t.kind] ? ` · ${esc(KIND[t.kind])}` : '';
+  const tag = `<span style="display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${c};">${pad2(i + 1)} · ${esc(CAT[cat])}${kind}</span>`;
   const srcs = (t.sources || []).map((s) => `<a href="${esc(s.url)}" style="color:#6f685e;">${esc(s.name)}</a>`).join(' · ');
   return `<div style="${E.card}">
 ${tag}
-<h2 style="${E.h2}">${esc(t.question)}</h2>
+<h2 style="${E.h2}">${esc(titleOf(t))}</h2>
 <p style="${E.hook}">${md(t.hook)}</p>
 ${t.body.map((p) => `<p style="${E.p}">${md(p)}</p>`).join('\n')}
 ${t.example ? `<div style="${E.exampleBox}"><p style="${E.label}">Ví dụ thực tế</p><p style="${E.exTitle}"><b>${esc(t.example.title)}</b></p><p style="margin:0;color:#3d3934;font-size:15px;">${md(t.example.text)}</p></div>` : ''}
@@ -193,7 +202,7 @@ const email = `<!doctype html>
   <p style="${E.meta}">5 chủ đề · ${readMinutes} phút đọc · <a href="${esc(webUrl)}" style="color:#b5521c;">Mở bản web</a></p>
   <p style="${E.intro}">${md(ed.intro)}</p>
   <ol style="margin:0 0 20px;padding-left:22px;color:#3d3934;font-size:15px;">
-    ${ed.topics.map((t) => `<li style="margin:4px 0;">${esc(t.question)}</li>`).join('\n    ')}
+    ${ed.topics.map((t) => `<li style="margin:4px 0;">${esc(titleOf(t))}</li>`).join('\n    ')}
   </ol>
 ${ed.topics.map(emailTopic).join('\n')}
   <p style="text-align:center;margin:20px 0 0;"><a href="${esc(webUrl)}" style="${E.btn}">Đọc trên web · lưu vào màn hình chính</a></p>

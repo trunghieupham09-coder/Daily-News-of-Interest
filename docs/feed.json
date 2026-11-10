@@ -1,6 +1,6 @@
 {
   "name": "5 Chuyện Sáng",
-  "tagline": "Năm câu hỏi tại sao, mỗi sáng 10 giờ",
+  "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
       "date": "2026-11-10",
@@ -9,28 +9,33 @@
       "topics": [
         {
           "id": "coffee-loss-leader-contribution-margin",
-          "question": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?",
-          "category": "econ"
+          "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?",
+          "category": "econ",
+          "kind": "why"
         },
         {
           "id": "prisoners-dilemma-opec-cartel",
-          "question": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?",
-          "category": "econ"
+          "title": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?",
+          "category": "econ",
+          "kind": "why"
         },
         {
           "id": "decoy-effect-asymmetric-dominance",
-          "question": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?",
-          "category": "econ"
+          "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?",
+          "category": "econ",
+          "kind": "why"
         },
         {
           "id": "llm-hallucination-next-token-and-benchmark-incentives",
-          "question": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?",
-          "category": "ai"
+          "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?",
+          "category": "ai",
+          "kind": "why"
         },
         {
           "id": "dunbar-number-social-capacity",
-          "question": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?",
-          "category": "other"
+          "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?",
+          "category": "psych",
+          "kind": "why"
         }
       ]
     }

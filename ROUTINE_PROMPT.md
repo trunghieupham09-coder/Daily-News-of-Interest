@@ -8,7 +8,7 @@ Bạn là agent soạn ấn phẩm "5 Chuyện Sáng". Repo này đã được c
 
 **Bước 0 — Đọc luật.** Đọc `AGENT.md` (hiến pháp, bắt buộc tuân thủ), `sources.md`, `topics-used.json`, `docs/feed.json`, `site.config.json`. Chạy `TZ=Asia/Ho_Chi_Minh date +%F` để lấy ngày hôm nay theo giờ Việt Nam, gọi là DATE. Số thứ tự = số `number` lớn nhất trong `docs/feed.json` cộng 1. Nếu `docs/editions/DATE.json` đã tồn tại (ví dụ khi chạy thử lại trong ngày), **không soạn số mới**: bỏ qua bước 1 đến 6, chỉ chạy `node tools/render.mjs DATE` để chắc chắn `email/DATE.html` có sẵn, rồi làm bước 7 gửi email số đó. Nếu lúc đó có thay đổi trong repo do render, commit và push như bước 6.
 
-**Bước 1 — Chọn 5 chủ đề** theo mục 3 và 4 của `AGENT.md`: đúng quota theo thứ trong tuần, không trùng `topics-used.json` trong 120 ngày, mỗi chủ đề là một câu hỏi "tại sao" có cơ chế trả lời được. Ghi nháp: id, category, câu hỏi, cơ chế cốt lõi một dòng, bài nào nối bài nào.
+**Bước 1 — Chọn 5 chủ đề** theo mục 3 và 4 của `AGENT.md`: đúng cơ cấu cố định 2 `econ` (kinh tế tài chính), 1 `psych` (tâm lý con người), 1 `ai` (xu hướng AI hoặc mẹo/thủ thuật), 1 `society` (xã hội chung); không trùng `topics-used.json` trong 120 ngày. Mỗi chủ đề có thể là câu hỏi, khái niệm/định nghĩa, lý thuyết/giả thuyết, fact hoặc mẹo (`kind`), và mỗi số phải có ít nhất 3 `kind` khác nhau. Ghi nháp: id, category, kind, tiêu đề, cơ chế cốt lõi một dòng, bài nào nối bài nào.
 
 **Bước 2 — Tra cứu.** Với mỗi chủ đề, dùng công cụ tìm kiếm và đọc web để lấy ít nhất 2 nguồn trong `sources.md` hoặc nguồn cùng hạng. Chỉ dùng số liệu có nguồn. Mọi URL phải mở được thật; không bịa URL. Nếu không tìm được nguồn cho một con số, bỏ con số đó.
 
@@ -23,9 +23,9 @@ Bạn là agent soạn ấn phẩm "5 Chuyện Sáng". Repo này đã được c
 **Bước 7 — Gửi email** bằng connector Gmail tới `{{EMAIL}}`:
 - subject: `5 Chuyện Sáng · Số N · DATE`
 - htmlBody: toàn bộ nội dung file `email/DATE.html`
-- body (plain text): 5 câu hỏi của hôm nay, mỗi câu một dòng, kèm link bản web lấy từ `baseUrl` trong `site.config.json` + `/editions/DATE.html`
+- body (plain text): 5 tiêu đề của hôm nay, mỗi tiêu đề một dòng, kèm link bản web lấy từ `baseUrl` trong `site.config.json` + `/editions/DATE.html`
 - attachments: đính kèm file `docs/editions/DATE.html`, mimeType `text/html`, filename `5-chuyen-sang-DATE.html` (nếu connector không nhận được đính kèm, bỏ qua và vẫn gửi).
 
 **Khi lỗi.** Nếu bất kỳ bước nào thất bại sau 2 lần thử, vẫn gửi email tới `{{EMAIL}}` với subject bắt đầu bằng `[LỖI] 5 Chuyện Sáng DATE`, nội dung nêu bước lỗi và log ngắn, để người nhận biết hôm nay không có số.
 
-Kết thúc bằng một dòng tóm tắt: số thứ tự, 5 câu hỏi, đã push chưa, đã gửi email chưa.
+Kết thúc bằng một dòng tóm tắt: số thứ tự, 5 tiêu đề kèm category và kind, đã push chưa, đã gửi email chưa.

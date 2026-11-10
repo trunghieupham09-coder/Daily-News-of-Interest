@@ -6,8 +6,9 @@
     {
       "id": "coffee-loss-leader-contribution-margin",
       "category": "econ",
+      "kind": "why",
       "subcategory": "Kinh tế vi mô & tâm lý khách hàng",
-      "question": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?",
+      "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?",
       "hook": "Chủ quán nào cũng than: \"Ly cà phê đen 20 nghìn này bán là lỗ đó em.\" Lạ ở chỗ, họ than như vậy suốt năm năm, quán vẫn mở cửa đều đặn, thậm chí còn mở thêm chi nhánh. Hoặc là họ nói dối, hoặc là chữ \"lỗ\" có nhiều nghĩa hơn ta tưởng.",
       "body": [
         "Chi phí của một quán cà phê chia làm hai loại. **Biến phí** (variable cost) là cà phê, sữa, đá, ly nhựa: tăng theo từng ly bán ra. **Định phí** (fixed cost) là tiền thuê mặt bằng, lương nhân viên, điện máy lạnh: trả đủ dù hôm đó bán 10 hay 300 ly. Một ly cà phê phin có biến phí ước tính 5 đến 7 nghìn. Bán 20 nghìn thì mỗi ly vẫn dư 13 đến 15 nghìn, kế toán gọi phần dư này là **lãi gộp trên đơn vị** (contribution margin). Vậy chữ \"lỗ\" chui vào từ đâu?",
@@ -22,16 +23,26 @@
       "takeaway": "Khi nghe ai đó \"bán lỗ\", hỏi ngay hai câu: lỗ theo biến phí hay định phí, và họ đang bán kèm thứ gì? Mồi rẻ thì luôn có lưỡi câu đâu đó.",
       "link": "Hai quán cạnh nhau cùng giảm giá để giành khách rồi cùng chết: đó là chuyện của bài số 2.",
       "sources": [
-        { "name": "Investopedia — Loss Leader Strategy", "url": "https://www.investopedia.com/terms/l/lossleader.asp" },
-        { "name": "Investopedia — Contribution Margin", "url": "https://www.investopedia.com/terms/c/contributionmargin.asp" },
-        { "name": "Wikipedia — Loss leader (ví dụ Costco hot dog)", "url": "https://en.wikipedia.org/wiki/Loss_leader" }
+        {
+          "name": "Investopedia — Loss Leader Strategy",
+          "url": "https://www.investopedia.com/terms/l/lossleader.asp"
+        },
+        {
+          "name": "Investopedia — Contribution Margin",
+          "url": "https://www.investopedia.com/terms/c/contributionmargin.asp"
+        },
+        {
+          "name": "Wikipedia — Loss leader (ví dụ Costco hot dog)",
+          "url": "https://en.wikipedia.org/wiki/Loss_leader"
+        }
       ]
     },
     {
       "id": "prisoners-dilemma-opec-cartel",
       "category": "econ",
+      "kind": "why",
       "subcategory": "Lý thuyết nền: lý thuyết trò chơi",
-      "question": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?",
+      "title": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?",
       "hook": "Hãy tưởng tượng 12 người cùng hứa sẽ ăn ít bánh để bánh còn nhiều và đắt giá. Rồi khi quay lưng đi, mỗi người lén cắn một miếng. Đó không phải chuyện kể cho trẻ con. Đó là lý thuyết trò chơi, và nó giải thích vì sao các-ten dầu mỏ lớn nhất hành tinh cứ tự bắn vào chân mình.",
       "body": [
         "Mô hình nền là **song đề tù nhân** (prisoner's dilemma). Hai nghi phạm bị hỏi cung riêng. Cả hai im lặng: mỗi người 1 năm tù. Một khai, một im: kẻ khai được thả, kẻ im lãnh 10 năm. Cả hai khai: 5 năm mỗi người. Dù đối phương làm gì, khai luôn tốt hơn cho riêng bạn, nên khai là **chiến lược trội** (dominant strategy). Kết quả: cả hai khai, cả hai lãnh 5 năm, trong khi hợp tác chỉ mất 1 năm. Lý trí cá nhân dẫn tới dại dột tập thể.",
@@ -46,17 +57,30 @@
       "takeaway": "Khi thấy một nhóm cùng hứa mà ai cũng gian, đừng vội đổ cho đạo đức. Hãy xem cấu trúc phần thưởng có đang thưởng cho kẻ xé rào, và có \"ngày mai\" nào để trừng phạt không.",
       "link": "Cấu trúc phần thưởng cũng là lý do AI thích đoán bừa hơn nói \"tôi không biết\", xem bài số 4.",
       "sources": [
-        { "name": "Stanford Encyclopedia of Philosophy — Prisoner's Dilemma", "url": "https://plato.stanford.edu/entries/prisoner-dilemma/" },
-        { "name": "Investopedia — Prisoner's Dilemma", "url": "https://www.investopedia.com/terms/p/prisoners-dilemma.asp" },
-        { "name": "Robert Axelrod — The Evolution of Cooperation (1984)", "url": "https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation" },
-        { "name": "Wikipedia — 2010s oil glut (quyết định tháng 11/2014 của OPEC)", "url": "https://en.wikipedia.org/wiki/2010s_oil_glut" }
+        {
+          "name": "Stanford Encyclopedia of Philosophy — Prisoner's Dilemma",
+          "url": "https://plato.stanford.edu/entries/prisoner-dilemma/"
+        },
+        {
+          "name": "Investopedia — Prisoner's Dilemma",
+          "url": "https://www.investopedia.com/terms/p/prisoners-dilemma.asp"
+        },
+        {
+          "name": "Robert Axelrod — The Evolution of Cooperation (1984)",
+          "url": "https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation"
+        },
+        {
+          "name": "Wikipedia — 2010s oil glut (quyết định tháng 11/2014 của OPEC)",
+          "url": "https://en.wikipedia.org/wiki/2010s_oil_glut"
+        }
       ]
     },
     {
       "id": "decoy-effect-asymmetric-dominance",
       "category": "econ",
+      "kind": "why",
       "subcategory": "Kinh tế vi mô & tâm lý khách hàng",
-      "question": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?",
+      "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?",
       "hook": "Rạp phim bán bắp rang: size vừa 55 nghìn, size lớn 60 nghìn. Ai mua size vừa thì hơi... kỳ. Và đó chính xác là điều rạp muốn. Size vừa không sinh ra để được mua. Nó sinh ra để size lớn trông như một món hời.",
       "body": [
         "Hiện tượng này gọi là **hiệu ứng mồi nhử** (decoy effect), tên học thuật là trội bất đối xứng (asymmetric dominance). Khi bạn phân vân giữa A rẻ và B đắt, người bán thêm vào C: kém B ở mọi mặt nhưng không kém A một cách rõ ràng. Lập tức nhiều người chuyển từ A sang B. Não người rất tệ ở phép định giá tuyệt đối (ly cà phê này đáng bao nhiêu?) nhưng rất giỏi so sánh tương đối (cái này hời hơn cái kia). Mồi nhử cung cấp đúng phép so sánh mà người bán muốn bạn làm.",
@@ -70,16 +94,26 @@
       "takeaway": "Trước khi chọn, xóa lựa chọn vô lý nhất khỏi đầu rồi so sánh lại hai cái còn lại. Nếu kết luận thay đổi, bạn vừa thoát một con mồi.",
       "link": "Ly cà phê đen 20 nghìn ở bài số 1 cũng là một kiểu mồi, chỉ khác là nó nhử bạn bước vào chứ không nhử bạn chọn size.",
       "sources": [
-        { "name": "Dan Ariely — Predictably Irrational (2008)", "url": "https://danariely.com/books/predictably-irrational/" },
-        { "name": "Wikipedia — Decoy effect", "url": "https://en.wikipedia.org/wiki/Decoy_effect" },
-        { "name": "Investopedia — Anchoring", "url": "https://www.investopedia.com/terms/a/anchoring.asp" }
+        {
+          "name": "Dan Ariely — Predictably Irrational (2008)",
+          "url": "https://danariely.com/books/predictably-irrational/"
+        },
+        {
+          "name": "Wikipedia — Decoy effect",
+          "url": "https://en.wikipedia.org/wiki/Decoy_effect"
+        },
+        {
+          "name": "Investopedia — Anchoring",
+          "url": "https://www.investopedia.com/terms/a/anchoring.asp"
+        }
       ]
     },
     {
       "id": "llm-hallucination-next-token-and-benchmark-incentives",
       "category": "ai",
+      "kind": "why",
       "subcategory": "Cơ chế mô hình ngôn ngữ",
-      "question": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?",
+      "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?",
       "hook": "Năm 2023, hai luật sư ở New York nộp lên tòa một hồ sơ trích dẫn sáu bản án. Tòa không tìm thấy bản án nào, vì chúng chưa từng tồn tại: ChatGPT đã sáng tác chúng, kèm số hiệu vụ án và tên thẩm phán rất chỉn chu. Hai luật sư bị phạt 5.000 đô la. Câu hỏi còn lại: tại sao một cỗ máy đọc gần hết internet lại bịa, thay vì nói \"tôi không chắc\"?",
       "body": [
         "Mô hình ngôn ngữ lớn không tra cứu sự thật, nó **dự đoán từ tiếp theo** (next-token prediction). Sau khi học hàng nghìn tỷ từ, nó biết rằng sau \"Vụ ... kiện ... năm\" thường tới một con số bốn chữ số và tên một tòa án. Trong thế giới xác suất, văn phong của sự thật và văn phong của điều bịa giống hệt nhau. Với sự kiện phổ biến (thủ đô nước Pháp) tín hiệu rất mạnh. Với sự kiện hiếm (một bản án nhỏ năm 1996) mô hình chỉ còn \"phong cách\" để bám vào, và nó điền vào chỗ trống y như bạn hát nốt một câu quên lời.",
@@ -93,16 +127,26 @@
       "takeaway": "AI không nói dối, nó đang đoán rất giỏi. Mọi con số, tên người và trích dẫn mà AI đưa ra đều là một giả thuyết cho tới khi bạn bấm vào nguồn.",
       "link": "Mô hình làm điều được thưởng chứ không phải điều ta mong, hệt như các thành viên OPEC ở bài số 2.",
       "sources": [
-        { "name": "OpenAI — Why language models hallucinate (9/2025)", "url": "https://openai.com/index/why-language-models-hallucinate/" },
-        { "name": "Reuters — New York lawyers sanctioned for using fake ChatGPT cases (6/2023)", "url": "https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/" },
-        { "name": "3Blue1Brown — But what is a GPT?", "url": "https://www.3blue1brown.com/lessons/gpt" }
+        {
+          "name": "OpenAI — Why language models hallucinate (9/2025)",
+          "url": "https://openai.com/index/why-language-models-hallucinate/"
+        },
+        {
+          "name": "Reuters — New York lawyers sanctioned for using fake ChatGPT cases (6/2023)",
+          "url": "https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/"
+        },
+        {
+          "name": "3Blue1Brown — But what is a GPT?",
+          "url": "https://www.3blue1brown.com/lessons/gpt"
+        }
       ]
     },
     {
       "id": "dunbar-number-social-capacity",
-      "category": "other",
-      "subcategory": "Tâm lý & xã hội",
-      "question": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?",
+      "category": "psych",
+      "kind": "why",
+      "subcategory": "Tâm lý xã hội",
+      "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?",
       "hook": "Mở Facebook: 1.200 bạn bè. Mở danh sách những người bạn dám gọi lúc 2 giờ sáng: 5. Ở giữa hai con số đó có một con số khác, 150, và nó được một nhà nhân chủng học tìm ra khi đang... đo não khỉ.",
       "body": [
         "Năm 1992, Robin Dunbar ở Đại học Oxford nhận thấy ở các loài linh trưởng, kích thước tương đối của **vỏ não mới** (neocortex) tỷ lệ với quy mô bầy đàn. Ngoại suy cho não người, ông được con số khoảng 150: số người bạn có thể duy trì quan hệ thật sự, tức biết họ là ai và họ quan hệ thế nào với những người khác trong nhóm. Thú vị là lịch sử đã \"biết\" trước: làng thời đồ đá mới quanh 150 người, đại đội trong nhiều quân đội hiện đại từ 100 đến 150, và cộng đồng Hutterite ở Bắc Mỹ chủ động tách làng khi vượt 150 vì lớn hơn thì cần cảnh sát.",
@@ -116,9 +160,18 @@
       "takeaway": "Mạng xã hội bán cho bạn ảo giác 1.000 bạn bè, nhưng phần cứng trong hộp sọ chỉ chạy ổn với khoảng 150. Hãy đầu tư thời gian theo vòng tròn, không theo số đếm.",
       "link": "Mỗi mối quan hệ cũng có định phí thời gian, giống chi phí mặt bằng của quán cà phê ở bài số 1: không nuôi thì nó vẫn tốn.",
       "sources": [
-        { "name": "BBC Future — Dunbar's number: why we can only maintain 150 relationships", "url": "https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships" },
-        { "name": "Lindenfors, Wartel & Lind — 'Dunbar's number' deconstructed, Biology Letters (2021)", "url": "https://royalsocietypublishing.org/doi/10.1098/rsbl.2021.0158" },
-        { "name": "Dunbar — Neocortex size as a constraint on group size in primates, J. Human Evolution (1992)", "url": "https://doi.org/10.1016/0047-2484(92)90081-J" }
+        {
+          "name": "BBC Future — Dunbar's number: why we can only maintain 150 relationships",
+          "url": "https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships"
+        },
+        {
+          "name": "Lindenfors, Wartel & Lind — 'Dunbar's number' deconstructed, Biology Letters (2021)",
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rsbl.2021.0158"
+        },
+        {
+          "name": "Dunbar — Neocortex size as a constraint on group size in primates, J. Human Evolution (1992)",
+          "url": "https://doi.org/10.1016/0047-2484(92)90081-J"
+        }
       ]
     }
   ]

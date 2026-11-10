@@ -2,31 +2,36 @@
   {
     "date": "2026-11-10",
     "id": "dunbar-number-social-capacity",
-    "category": "other",
-    "question": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
   },
   {
     "date": "2026-11-10",
     "id": "llm-hallucination-next-token-and-benchmark-incentives",
     "category": "ai",
-    "question": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
+    "kind": "why",
+    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
   },
   {
     "date": "2026-11-10",
     "id": "decoy-effect-asymmetric-dominance",
     "category": "econ",
-    "question": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+    "kind": "why",
+    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
   },
   {
     "date": "2026-11-10",
     "id": "prisoners-dilemma-opec-cartel",
     "category": "econ",
-    "question": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?"
+    "kind": "why",
+    "title": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?"
   },
   {
     "date": "2026-11-10",
     "id": "coffee-loss-leader-contribution-margin",
     "category": "econ",
-    "question": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
+    "kind": "why",
+    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
   }
 ]

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>5 Chuyện Sáng</title>
-<meta name="description" content="Năm câu hỏi tại sao về kinh tế, tài chính, AI và đời sống, mỗi sáng 10 giờ.">
+<meta name="description" content="Năm chuyện đáng biết về kinh tế, tài chính, tâm lý, AI và xã hội, mỗi sáng 10 giờ.">
 <meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,8 +36,8 @@
 <main class="wrap">
   <section class="masthead">
     <div class="eyebrow">Ấn phẩm hàng ngày · 10:00</div>
-    <h1>Năm câu hỏi tại sao, mỗi sáng.</h1>
-    <p class="lede">70% kinh tế và tài chính, 15% AI, 15% mọi thứ còn lại. Số mới nhất nằm trên cùng, kéo xuống để lật các số cũ.</p>
+    <h1>Năm chuyện đáng biết, mỗi sáng.</h1>
+    <p class="lede">Mỗi ngày hai chuyện kinh tế tài chính, một chuyện tâm lý con người, một chuyện AI hoặc mẹo hay, một chuyện xã hội. Số mới nhất nằm trên cùng, kéo xuống để lật các số cũ.</p>
   </section>
 
   <section class="stack" id="stack" aria-live="polite">
@@ -66,7 +66,7 @@
     if (!eds.length) { el.innerHTML = '<p class="empty">Chưa có số nào. Số đầu tiên sẽ xuất hiện lúc 10:00.</p>'; return; }
     el.innerHTML = eds.map(function (e, i) {
       var items = (e.topics || []).map(function (t) {
-        return '<li class="cat-' + esc(t.category) + '"><i></i><span>' + esc(t.question) + '</span></li>';
+        return '<li class="cat-' + esc(t.category) + '"><i></i><span>' + esc(t.title || t.question) + '</span></li>';
       }).join('');
       var mins = e.readMinutes ? e.readMinutes + ' phút đọc' : '';
       return '<a class="card' + (i === 0 ? ' latest' : '') + '" href="editions/' + esc(e.date) + '.html">' +

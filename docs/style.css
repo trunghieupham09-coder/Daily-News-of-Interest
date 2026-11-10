@@ -12,6 +12,7 @@
   --line-2: #cfc5b3;
   --accent: #b5521c;
   --econ: #b5521c;
+  --psych: #7a4a86;
   --ai: #2b6d8d;
   --other: #4c7a48;
   --shadow: 0 1px 2px rgba(40, 30, 10, .06), 0 10px 30px -14px rgba(40, 30, 10, .25);
@@ -33,6 +34,7 @@
     --line-2: #40392e;
     --accent: #e08a4b;
     --econ: #e08a4b;
+    --psych: #b98ac4;
     --ai: #74b3d3;
     --other: #93bd8b;
     --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 12px 32px -14px rgba(0, 0, 0, .7);
@@ -49,6 +51,7 @@
   --line-2: #40392e;
   --accent: #e08a4b;
   --econ: #e08a4b;
+  --psych: #b98ac4;
   --ai: #74b3d3;
   --other: #93bd8b;
   --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 12px 32px -14px rgba(0, 0, 0, .7);
@@ -139,8 +142,14 @@ em { font-style: italic; }
   color: var(--c, var(--accent)); background: color-mix(in srgb, var(--c, var(--accent)) 12%, transparent);
 }
 .tag.econ, .cat-econ { --c: var(--econ); }
+.tag.psych, .cat-psych { --c: var(--psych); }
 .tag.ai, .cat-ai { --c: var(--ai); }
-.tag.other, .cat-other { --c: var(--other); }
+.tag.society, .cat-society, .tag.other, .cat-other { --c: var(--other); }
+.kind {
+  font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 999px; white-space: nowrap;
+  color: var(--muted); border: 1px solid var(--line-2);
+}
 
 /* ---------- article ---------- */
 .article {
