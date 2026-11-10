@@ -1,6 +1,6 @@
 /* 5 Chuyện Sáng — service worker
-   Shell: cache-first. Editions and feed: network-first, fall back to cache when offline. */
-var VERSION = 'v1';
+   Mọi thứ: network-first, rơi về cache khi offline. Shell được cache sẵn lúc cài. Tăng VERSION khi đổi CSS/JS. */
+var VERSION = 'v2';
 var SHELL = ['./', './index.html', './style.css', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', function (e) {
@@ -18,12 +18,6 @@ self.addEventListener('fetch', function (e) {
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
   var sameOrigin = url.origin === self.location.origin;
-  var isShell = sameOrigin && SHELL.some(function (p) { return url.pathname.endsWith(p.replace('./', '/')); });
-
-  if (isShell && !url.pathname.endsWith('/')) {
-    e.respondWith(caches.match(req).then(function (hit) { return hit || fetchAndCache(req); }));
-    return;
-  }
   if (sameOrigin || url.hostname.indexOf('fonts.') === 0) {
     e.respondWith(fetchAndCache(req).catch(function () { return caches.match(req); }));
   }
