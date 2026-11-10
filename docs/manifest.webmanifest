@@ -1,0 +1,16 @@
+{
+  "name": "5 Chuyện Sáng",
+  "short_name": "5 Chuyện",
+  "description": "Năm câu hỏi tại sao về kinh tế, tài chính, AI và đời sống, mỗi sáng 10 giờ.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4efe6",
+  "theme_color": "#b5521c",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

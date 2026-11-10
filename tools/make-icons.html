@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>make icons</title>
+<p>Mở trang này rồi bấm chuột phải lưu từng ảnh, hoặc đọc <code>window.ICONS</code>.</p>
+<script>
+function draw(size) {
+  const c = document.createElement('canvas'); c.width = c.height = size;
+  const x = c.getContext('2d'); const s = size / 512;
+  x.fillStyle = '#b5521c';
+  x.beginPath(); x.roundRect(0, 0, size, size, 112 * s); x.fill();
+  for (const [y, a] of [[128, .55], [212, .75], [296, 1]]) { x.globalAlpha = a; x.fillStyle = '#f4efe6'; x.beginPath(); x.roundRect(96 * s, y * s, 320 * s, 56 * s, 12 * s); x.fill(); }
+  x.globalAlpha = 1; x.fillStyle = '#f4efe6'; x.font = `bold ${96 * s}px Georgia, serif`; x.textAlign = 'center';
+  x.fillText('5', 256 * s, 430 * s);
+  document.body.appendChild(c);
+  return c.toDataURL('image/png');
+}
+window.ICONS = { 192: draw(192), 512: draw(512) };
+window.SAVE = () => fetch('/__icons', { method: 'POST', body: JSON.stringify(window.ICONS) }).then(r => r.text());
+</script>

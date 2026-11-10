@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>5 Chuyện Sáng</title>
+<meta name="description" content="Năm câu hỏi tại sao về kinh tế, tài chính, AI và đời sống, mỗi sáng 10 giờ.">
+<meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="5 Chuyện Sáng">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,500;0,7..72,700;1,7..72,500&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./">5 Chuyện Sáng</a>
+    <div class="topbar-actions">
+      <button class="iconbtn" id="themeBtn" aria-label="Đổi sáng tối" title="Sáng / tối">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.4A6 6 0 0 1 12 3z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="masthead">
+    <div class="eyebrow">Ấn phẩm hàng ngày · 10:00</div>
+    <h1>Năm câu hỏi tại sao, mỗi sáng.</h1>
+    <p class="lede">70% kinh tế và tài chính, 15% AI, 15% mọi thứ còn lại. Số mới nhất nằm trên cùng, kéo xuống để lật các số cũ.</p>
+  </section>
+
+  <section class="stack" id="stack" aria-live="polite">
+    <p class="empty">Đang tải các số…</p>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  Chạm vào một số để đọc. Trên iPhone: Chia sẻ → Thêm vào MH chính. Trên Android: menu → Cài đặt ứng dụng.
+</footer>
+
+<script>
+(function () {
+  var CAT = { econ: 'Kinh tế & Tài chính', ai: 'AI & Công nghệ', other: 'Đời sống & Xã hội' };
+  var DAYS = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
+
+  function fmtDate(iso) {
+    var p = iso.split('-'); var d = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+    return DAYS[d.getUTCDay()] + ', ' + (+p[2]) + '/' + (+p[1]) + '/' + p[0];
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function render(feed) {
+    var el = document.getElementById('stack');
+    var eds = (feed.editions || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    if (!eds.length) { el.innerHTML = '<p class="empty">Chưa có số nào. Số đầu tiên sẽ xuất hiện lúc 10:00.</p>'; return; }
+    el.innerHTML = eds.map(function (e, i) {
+      var items = (e.topics || []).map(function (t) {
+        return '<li class="cat-' + esc(t.category) + '"><i></i><span>' + esc(t.question) + '</span></li>';
+      }).join('');
+      var mins = e.readMinutes ? e.readMinutes + ' phút đọc' : '';
+      return '<a class="card' + (i === 0 ? ' latest' : '') + '" href="editions/' + esc(e.date) + '.html">' +
+        '<div class="card-head"><div class="date">' + fmtDate(e.date) + '</div><div class="no">' + (i === 0 ? 'Mới nhất · ' : '') + 'Số ' + esc(e.number) + '</div></div>' +
+        '<ol>' + items + '</ol>' +
+        '<div class="card-foot"><span>' + mins + '</span><b>Đọc →</b></div>' +
+        '</a>';
+    }).join('');
+  }
+
+  fetch('feed.json', { cache: 'no-cache' })
+    .then(function (r) { return r.json(); })
+    .then(render)
+    .catch(function () {
+      document.getElementById('stack').innerHTML = '<p class="empty">Không tải được danh sách. Kiểm tra kết nối rồi thử lại.</p>';
+    });
+
+  var btn = document.getElementById('themeBtn');
+  btn.addEventListener('click', function () {
+    var root = document.documentElement;
+    var cur = root.getAttribute('data-theme');
+    var sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var next = cur ? (cur === 'dark' ? 'light' : 'dark') : (sysDark ? 'light' : 'dark');
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(function () {});
+  }
+})();
+</script>
+</body>
+</html>
