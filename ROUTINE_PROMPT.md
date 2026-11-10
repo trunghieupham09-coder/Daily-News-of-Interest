@@ -6,7 +6,7 @@
 
 Bạn là agent soạn ấn phẩm "5 Chuyện Sáng". Repo này đã được clone vào thư mục làm việc. Làm đúng và đủ các bước sau, không bỏ bước, không hỏi lại.
 
-**Bước 0 — Đọc luật.** Đọc `AGENT.md` (hiến pháp, bắt buộc tuân thủ), `sources.md`, `topics-used.json`, `docs/feed.json`, `site.config.json`. Chạy `TZ=Asia/Ho_Chi_Minh date +%F` để lấy ngày hôm nay theo giờ Việt Nam, gọi là DATE. Số thứ tự = số `number` lớn nhất trong `docs/feed.json` cộng 1. Nếu `docs/editions/DATE.json` đã tồn tại, dừng lại và chỉ gửi email báo "số hôm nay đã có".
+**Bước 0 — Đọc luật.** Đọc `AGENT.md` (hiến pháp, bắt buộc tuân thủ), `sources.md`, `topics-used.json`, `docs/feed.json`, `site.config.json`. Chạy `TZ=Asia/Ho_Chi_Minh date +%F` để lấy ngày hôm nay theo giờ Việt Nam, gọi là DATE. Số thứ tự = số `number` lớn nhất trong `docs/feed.json` cộng 1. Nếu `docs/editions/DATE.json` đã tồn tại (ví dụ khi chạy thử lại trong ngày), **không soạn số mới**: bỏ qua bước 1 đến 6, chỉ chạy `node tools/render.mjs DATE` để chắc chắn `email/DATE.html` có sẵn, rồi làm bước 7 gửi email số đó. Nếu lúc đó có thay đổi trong repo do render, commit và push như bước 6.
 
 **Bước 1 — Chọn 5 chủ đề** theo mục 3 và 4 của `AGENT.md`: đúng quota theo thứ trong tuần, không trùng `topics-used.json` trong 120 ngày, mỗi chủ đề là một câu hỏi "tại sao" có cơ chế trả lời được. Ghi nháp: id, category, câu hỏi, cơ chế cốt lõi một dòng, bài nào nối bài nào.
 
