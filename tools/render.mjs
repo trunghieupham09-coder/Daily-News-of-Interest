@@ -153,13 +153,13 @@ const base = (cfg.baseUrl || '').replace(/\/$/, '');
 const webUrl = `${base}/editions/${ed.date}.html`;
 const E = {
   body: 'margin:0;padding:0;background:#f4efe6;',
-  wrap: 'max-width:600px;margin:0 auto;padding:20px 14px 32px;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1c1a17;font-size:16px;line-height:1.6;',
-  brand: 'font-family:Georgia,"Times New Roman",serif;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#6f685e;margin:0 0 6px;',
-  h1: 'font-family:Georgia,"Times New Roman",serif;font-size:28px;line-height:1.15;margin:0 0 6px;color:#1c1a17;',
+  wrap: 'max-width:600px;margin:0 auto;padding:20px 14px 32px;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1c1a17;font-size:16px;line-height:1.6;',
+  brand: 'font-family:Georgia,Times New Roman,serif;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#6f685e;margin:0 0 6px;',
+  h1: 'font-family:Georgia,Times New Roman,serif;font-size:28px;line-height:1.15;margin:0 0 6px;color:#1c1a17;',
   meta: 'color:#6f685e;font-size:13px;margin:0 0 18px;',
-  intro: 'font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.5;color:#3d3934;border-left:3px solid #b5521c;padding-left:14px;margin:0 0 22px;',
+  intro: 'font-family:Georgia,Times New Roman,serif;font-size:18px;line-height:1.5;color:#3d3934;border-left:3px solid #b5521c;padding-left:14px;margin:0 0 22px;',
   card: 'background:#fffdf8;border:1px solid #e3dbcc;border-radius:16px;padding:20px 18px;margin:0 0 16px;',
-  h2: 'font-family:Georgia,"Times New Roman",serif;font-size:22px;line-height:1.2;margin:8px 0 12px;color:#1c1a17;',
+  h2: 'font-family:Georgia,Times New Roman,serif;font-size:22px;line-height:1.2;margin:8px 0 12px;color:#1c1a17;',
   hook: 'font-size:17px;line-height:1.55;margin:0 0 14px;color:#1c1a17;',
   p: 'margin:0 0 12px;color:#3d3934;',
   exampleBox: 'background:#f9f5ec;border:1px dashed #cfc5b3;border-radius:12px;padding:12px 14px;margin:14px 0;',
