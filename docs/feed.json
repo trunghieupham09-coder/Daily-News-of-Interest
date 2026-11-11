@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-11",
+      "number": 2,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "real-interest-rate-fisher-money-illusion",
+          "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "prospect-theory-loss-aversion",
+          "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn",
+          "category": "psych",
+          "kind": "theory"
+        },
+        {
+          "id": "tulipmania-myth-futures-options",
+          "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "few-shot-prompting-examples",
+          "title": "Cách khiến AI viết đúng ý: đưa 2-3 ví dụ mẫu thay vì một đoạn mô tả dài",
+          "category": "ai",
+          "kind": "tip"
+        },
+        {
+          "id": "jet-lag-eastward-circadian-period",
+          "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "number": 1,
       "readMinutes": 8,

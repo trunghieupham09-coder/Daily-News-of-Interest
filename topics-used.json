@@ -1,24 +1,45 @@
 [
   {
-    "date": "2026-11-10",
-    "id": "dunbar-number-social-capacity",
-    "category": "psych",
+    "date": "2026-11-11",
+    "id": "jet-lag-eastward-circadian-period",
+    "category": "society",
     "kind": "why",
-    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
+    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
   },
   {
-    "date": "2026-11-10",
-    "id": "llm-hallucination-next-token-and-benchmark-incentives",
+    "date": "2026-11-11",
+    "id": "few-shot-prompting-examples",
     "category": "ai",
-    "kind": "why",
-    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
+    "kind": "tip",
+    "title": "Cách khiến AI viết đúng ý: đưa 2-3 ví dụ mẫu thay vì một đoạn mô tả dài"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "tulipmania-myth-futures-options",
+    "category": "econ",
+    "kind": "fact",
+    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "prospect-theory-loss-aversion",
+    "category": "psych",
+    "kind": "theory",
+    "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "real-interest-rate-fisher-money-illusion",
+    "category": "econ",
+    "kind": "concept",
+    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
   },
   {
     "date": "2026-11-10",
-    "id": "decoy-effect-asymmetric-dominance",
+    "id": "coffee-loss-leader-contribution-margin",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
   },
   {
     "date": "2026-11-10",
@@ -29,9 +50,23 @@
   },
   {
     "date": "2026-11-10",
-    "id": "coffee-loss-leader-contribution-margin",
+    "id": "decoy-effect-asymmetric-dominance",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
+    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "llm-hallucination-next-token-and-benchmark-incentives",
+    "category": "ai",
+    "kind": "why",
+    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "dunbar-number-social-capacity",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
   }
 ]
