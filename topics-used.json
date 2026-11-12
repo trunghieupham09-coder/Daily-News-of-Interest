@@ -1,24 +1,45 @@
 [
   {
-    "date": "2026-11-11",
-    "id": "jet-lag-eastward-circadian-period",
+    "date": "2026-11-12",
+    "id": "power-nap-sleep-inertia",
     "category": "society",
-    "kind": "why",
-    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
-  },
-  {
-    "date": "2026-11-11",
-    "id": "few-shot-prompting-examples",
-    "category": "ai",
     "kind": "tip",
-    "title": "Cách khiến AI viết đúng ý: đưa 2-3 ví dụ mẫu thay vì một đoạn mô tả dài"
+    "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "bullwhip-effect-supply-chain",
+    "category": "econ",
+    "kind": "concept",
+    "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "tokenizer-language-cost-disparity",
+    "category": "ai",
+    "kind": "fact",
+    "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "efficient-market-hypothesis-index-funds",
+    "category": "econ",
+    "kind": "theory",
+    "title": "Giả thuyết thị trường hiệu quả, và vì sao đa số quỹ chuyên nghiệp vẫn thua chỉ số"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "survivorship-bias-wald-planes",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?"
   },
   {
     "date": "2026-11-11",
-    "id": "tulipmania-myth-futures-options",
+    "id": "real-interest-rate-fisher-money-illusion",
     "category": "econ",
-    "kind": "fact",
-    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
+    "kind": "concept",
+    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
   },
   {
     "date": "2026-11-11",
@@ -29,31 +50,31 @@
   },
   {
     "date": "2026-11-11",
-    "id": "real-interest-rate-fisher-money-illusion",
+    "id": "tulipmania-myth-futures-options",
     "category": "econ",
-    "kind": "concept",
-    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
+    "kind": "fact",
+    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "few-shot-prompting-examples",
+    "category": "ai",
+    "kind": "tip",
+    "title": "Cách khiến AI viết đúng ý: đưa 2-3 ví dụ mẫu thay vì một đoạn mô tả dài"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "jet-lag-eastward-circadian-period",
+    "category": "society",
+    "kind": "why",
+    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
   },
   {
     "date": "2026-11-10",
-    "id": "coffee-loss-leader-contribution-margin",
-    "category": "econ",
+    "id": "dunbar-number-social-capacity",
+    "category": "psych",
     "kind": "why",
-    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
-  },
-  {
-    "date": "2026-11-10",
-    "id": "prisoners-dilemma-opec-cartel",
-    "category": "econ",
-    "kind": "why",
-    "title": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?"
-  },
-  {
-    "date": "2026-11-10",
-    "id": "decoy-effect-asymmetric-dominance",
-    "category": "econ",
-    "kind": "why",
-    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
   },
   {
     "date": "2026-11-10",
@@ -64,9 +85,23 @@
   },
   {
     "date": "2026-11-10",
-    "id": "dunbar-number-social-capacity",
-    "category": "psych",
+    "id": "decoy-effect-asymmetric-dominance",
+    "category": "econ",
     "kind": "why",
-    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
+    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "prisoners-dilemma-opec-cartel",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao OPEC họp liên miên mà thành viên vẫn lén \"xé rào\" bơm dầu?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "coffee-loss-leader-contribution-margin",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
   }
 ]

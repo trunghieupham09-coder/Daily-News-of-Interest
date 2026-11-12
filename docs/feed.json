@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-12",
+      "number": 3,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "survivorship-bias-wald-planes",
+          "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?",
+          "category": "psych",
+          "kind": "why"
+        },
+        {
+          "id": "efficient-market-hypothesis-index-funds",
+          "title": "Giả thuyết thị trường hiệu quả, và vì sao đa số quỹ chuyên nghiệp vẫn thua chỉ số",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "tokenizer-language-cost-disparity",
+          "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "bullwhip-effect-supply-chain",
+          "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "power-nap-sleep-inertia",
+          "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn",
+          "category": "society",
+          "kind": "tip"
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "number": 2,
       "readMinutes": 8,

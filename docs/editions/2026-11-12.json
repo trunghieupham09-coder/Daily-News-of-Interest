@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-12",
+  "number": 3,
+  "intro": "Chào buổi sáng. Sợi chỉ hôm nay là những thứ bạn không nhìn thấy: chiếc máy bay không về, quỹ đầu tư đã đóng cửa, đơn hàng phình to ở tận nhà máy, những mẩu chữ AI âm thầm tính tiền, và món nợ ngủ ngay sau bữa trưa. Phần khuất mặt thường mới là phần quyết định.",
+  "topics": [
+    {
+      "id": "survivorship-bias-wald-planes",
+      "category": "psych",
+      "kind": "why",
+      "subcategory": "Ra quyết định & thiên kiến",
+      "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?",
+      "hook": "Một tỷ phú bỏ học kể rằng bí quyết là dám liều. Một quán phở 30 năm khuyên bạn cứ mở quán, làm ngon là khách tự đến. Nghe rất thuyết phục. Chỉ có một vấn đề: hàng nghìn người cũng dám liều, cũng nấu ngon, và không ai mời họ lên sân khấu kể chuyện.",
+      "body": [
+        "Lỗi tư duy ở đây gọi là **thiên kiến kẻ sống sót** (survivorship bias): ta chỉ nhìn những trường hợp đã vượt qua một vòng sàng lọc, rồi rút kết luận như thể đó là toàn bộ dữ liệu. Vòng sàng lọc có thể là thị trường, chiến tranh hay đơn giản là việc ai được báo chí phỏng vấn. Vì những người thất bại biến mất khỏi tầm mắt, đặc điểm chung của người thành công trông giống nguyên nhân, dù có thể người thất bại cũng mang đúng đặc điểm đó.",
+        "Câu chuyện kinh điển đến từ Thế chiến II. Nhóm Statistical Research Group ở Đại học Columbia được giao xem nên bọc thép chỗ nào trên máy bay ném bom. Dữ liệu là lỗ đạn trên những chiếc trở về. Nhà thống kê Abraham Wald lập luận rằng chỗ không có lỗ đạn mới đáng lo: máy bay trúng đạn ở đó, như động cơ, đã không về được để được đếm. Một bài của Hiệp hội Toán học Mỹ (AMS) năm 2016 lưu ý rằng các bản kể phổ biến đã thêm thắt nhiều chi tiết, nhưng nguyên lý trong các bản ghi nhớ của Wald là có thật.",
+        "Thiên kiến này có mặt ở mọi nơi có \"vòng loại\": sách bí quyết khởi nghiệp, nhà cổ \"xây thời xưa bền hơn\" (nhà kém đã sập từ lâu), hay thống kê quỹ đầu tư chỉ tính quỹ còn sống. Cách chữa là luôn hỏi: mẫu này được lọc như thế nào, và nhóm bị loại trông ra sao? Giới hạn cần nhớ: không phải lời khuyên nào từ người thành công cũng vô giá trị. Nó chỉ trở nên đáng tin khi bạn so được với nhóm đã thử cùng cách mà thất bại."
+      ],
+      "example": {
+        "title": "Ba quán cà phê trên một con phố",
+        "text": "Giả sử (ước tính) năm năm trước có 20 quán cà phê mở trên một con phố, hôm nay còn 3 quán. Cả 3 đều có sân vườn. Kết luận \"cứ làm sân vườn là sống\" nghe hợp lý, cho tới khi bạn hỏi chủ nhà và biết 12 trong 17 quán đã đóng cũng có sân vườn. Sân vườn hóa ra chỉ là mốt của con phố, còn lý do sống sót có thể là giá thuê, vị trí góc hay đơn giản là may mắn."
+      },
+      "takeaway": "Trước khi chép bí quyết của người thắng, hãy hỏi xem có bao nhiêu người đã làm y hệt mà thua. Nghĩa trang không mở hội thảo.",
+      "link": "Thiên kiến này làm đẹp cả bảng xếp hạng quỹ đầu tư, và đó là một phần lý do quỹ chỉ số khó bị đánh bại: xem bài số 2.",
+      "sources": [
+        {
+          "name": "American Mathematical Society — The Legend of Abraham Wald (Feature Column, 2016)",
+          "url": "https://www.ams.org/samplings/feature-column/fc-2016-06"
+        },
+        {
+          "name": "Corporate Finance Institute — Survivorship Bias",
+          "url": "https://corporatefinanceinstitute.com/resources/capital-markets/survivorship-bias/"
+        },
+        {
+          "name": "Wikipedia — Survivorship bias",
+          "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+        }
+      ]
+    },
+    {
+      "id": "efficient-market-hypothesis-index-funds",
+      "category": "econ",
+      "kind": "theory",
+      "subcategory": "Tài chính cá nhân & đầu tư",
+      "title": "Giả thuyết thị trường hiệu quả, và vì sao đa số quỹ chuyên nghiệp vẫn thua chỉ số",
+      "hook": "Bạn nghe tin một công ty sắp ký hợp đồng lớn, vội mở app định mua cổ phiếu, thì giá đã nhảy lên từ hai phút trước. Ở đâu đó có hàng nghìn người cũng vừa đọc đúng tin ấy, nhanh tay hơn bạn. Vậy rốt cuộc còn ai kiếm được lợi thế từ tin tức?",
+      "body": [
+        "**Giả thuyết thị trường hiệu quả** (efficient market hypothesis), được Eugene Fama hệ thống hóa năm 1970, nói rằng giá chứng khoán đã phản ánh thông tin sẵn có. Cơ chế là cạnh tranh: hễ có tin tốt, người mua chen nhau đẩy giá lên cho tới khi món hời biến mất. Fama chia ba mức: dạng yếu (giá đã chứa mọi thông tin từ giá quá khứ, nên nhìn đồ thị không đủ để thắng), dạng vừa (chứa cả thông tin công khai) và dạng mạnh (chứa cả thông tin nội bộ). Hệ quả: muốn thắng thị trường đều đặn, bạn cần biết điều mà đám đông chưa biết.",
+        "Bằng chứng mạnh nhất là thành tích thực tế. Báo cáo SPIVA của S&P Dow Jones Indices cho thấy năm 2024 có 65% quỹ cổ phiếu vốn hóa lớn quản lý chủ động ở Mỹ thua chỉ số S&P 500. Trong giai đoạn 15 năm tới cuối 2024, không có nhóm quỹ cổ phiếu Mỹ nào mà đa số thắng được chỉ số chuẩn. Nhiều quỹ thua đã bị đóng hoặc sáp nhập, nên nếu chỉ nhìn quỹ còn sống, bức tranh sẽ đẹp hơn thực tế.",
+        "Nhưng giả thuyết này có phản biện nặng ký. Robert Shiller, người chia giải Nobel 2013 với chính Fama, chỉ ra giá cổ phiếu biến động mạnh hơn mức mà cổ tức tương lai biện minh, và các đợt tăng nóng thường kéo theo điều chỉnh mạnh. Viện Hàn lâm Thụy Điển tóm lại: rất khó đoán giá trong ngắn hạn, nhưng có thể thấy xu hướng trong ba năm trở lên. Ngoài ra, nếu thị trường hoàn toàn hiệu quả thì chẳng ai bỏ công phân tích, và chính việc đó làm thị trường kém hiệu quả đi. Ở thị trường mới nổi, ít người theo dõi, lợi thế thông tin có thể còn lớn hơn."
+      ],
+      "example": {
+        "title": "Bạn đối đầu ai khi đặt lệnh",
+        "text": "Khi bạn mua một mã cổ phiếu trên sàn, ở đầu bên kia có thể là một quỹ với đội phân tích đi thăm nhà máy mỗi quý. Giả sử (ước tính) bạn bỏ 2 giờ mỗi tuần đọc tin và tin rằng mình thắng thị trường 3% mỗi năm. Hãy so con số đó với việc đa số quỹ chuyên nghiệp ở Mỹ, làm việc này toàn thời gian, còn không làm được trong 15 năm. Với phần lớn người đi làm, một quỹ chỉ số phí thấp là lựa chọn khiêm tốn mà thực tế."
+      },
+      "takeaway": "Thị trường không hoàn hảo, nhưng đủ hiệu quả để làm khiêm tốn hầu hết người thử thắng nó. Trước khi chọn cổ phiếu, hãy hỏi mình biết gì mà người bán chưa biết.",
+      "link": "Shiller cho rằng giá cổ phiếu phản ứng thái quá; chuỗi cung ứng cũng có kiểu khuếch đại tương tự, gọi là hiệu ứng roi da: xem bài số 4.",
+      "sources": [
+        {
+          "name": "S&P Dow Jones Indices — SPIVA U.S. Scorecard Year-End 2024",
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2024"
+        },
+        {
+          "name": "Royal Swedish Academy of Sciences — The Prize in Economic Sciences 2013",
+          "url": "https://www.kva.se/en/news/ekonomipriset-2013-2/"
+        },
+        {
+          "name": "NBER — Hansen, Shiller and Fama shared the Nobel Prize in Economics 2013",
+          "url": "https://www.nber.org/news/lars-peter-hansen-and-robert-shiller-shared-nobel-prize-economics-eugene-fama-2013"
+        }
+      ]
+    },
+    {
+      "id": "tokenizer-language-cost-disparity",
+      "category": "ai",
+      "kind": "fact",
+      "subcategory": "Cách mô hình hoạt động",
+      "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh",
+      "hook": "Bạn và một đồng nghiệp ở London cùng dán một bản hợp đồng vào chatbot, nội dung y hệt, chỉ khác ngôn ngữ. Cuối tháng, hóa đơn API của bạn cao hơn, và cuộc trò chuyện của bạn \"hết bộ nhớ\" sớm hơn. Không ai tính phí theo quốc tịch cả. Thủ phạm nằm ở một bước mà bạn chưa bao giờ nhìn thấy.",
+      "body": [
+        "Mô hình ngôn ngữ không đọc chữ cái hay từ, mà đọc **token**: những mẩu chữ do một bộ tách gọi là **tokenizer** cắt ra. Bộ tách này học từ dữ liệu, thường nặng tiếng Anh, nên các cụm tiếng Anh phổ biến được gói gọn thành một token, còn ngôn ngữ ít dữ liệu bị băm vụn thành nhiều mẩu. Mọi thứ trong AI đều đếm bằng token: giá API, tốc độ trả lời và giới hạn ngữ cảnh (context window), tức lượng văn bản mô hình nhớ được trong một lần.",
+        "Nghiên cứu của Aleksandar Petrov và cộng sự tại Đại học Oxford, trình bày ở hội nghị NeurIPS 2023, so sánh 17 tokenizer trên cùng một nội dung dịch ra nhiều ngôn ngữ. Độ dài sau khi tách có thể chênh tới 15 lần giữa các ngôn ngữ, với trường hợp cực đoan là tiếng Shan ở Myanmar. Chênh lệch vẫn còn ngay cả ở tokenizer được thiết kế đa ngôn ngữ. Nhóm tác giả kết luận điều này tạo ra bất công về chi phí, độ trễ và lượng nội dung đưa được vào mô hình.",
+        "Tiếng Việt không nằm ở nhóm cực đoan, nhưng chữ có dấu thường tốn nhiều token hơn bản tiếng Anh cùng nghĩa, và mức chênh phụ thuộc mạnh vào tokenizer. Thế hệ tokenizer mới có bộ từ vựng lớn hơn đã thu hẹp khoảng cách đáng kể, nên con số của mô hình này không áp được cho mô hình khác. Giới hạn của chuyện này: với người dùng gói thuê bao cố định, bạn không trả tiền theo token, chỉ cảm nhận qua việc cuộc trò chuyện dài bị \"quên\" sớm hơn."
+      ],
+      "example": {
+        "title": "Tự đo trước khi chọn mô hình",
+        "text": "Nếu công ty bạn định xử lý 10.000 email tiếng Việt mỗi tháng qua API, đừng ước chi phí bằng bảng giá tính cho tiếng Anh. Lấy 20 email thật, dán vào công cụ đếm token mà nhà cung cấp công bố, so với bản dịch tiếng Anh. Giả sử (ước tính) bản tiếng Việt tốn gấp 1,5 lần, thì ngân sách và giới hạn ngữ cảnh của bạn cũng phải nhân 1,5. Phép thử này mất mười lăm phút."
+      },
+      "takeaway": "AI tính tiền theo mẩu chữ, không theo ý nghĩa. Trước khi so giá hai mô hình, hãy đo xem mỗi mô hình băm tiếng Việt của bạn vụn đến đâu.",
+      "sources": [
+        {
+          "name": "Petrov et al. (2023), Language Model Tokenizers Introduce Unfairness Between Languages — arXiv",
+          "url": "https://arxiv.org/abs/2305.15425"
+        },
+        {
+          "name": "NeurIPS 2023 Proceedings — Language Model Tokenizers Introduce Unfairness Between Languages",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/74bb24dca8334adce292883b4b651eda-Abstract.html"
+        },
+        {
+          "name": "GitHub — AleksandarPetrov/tokenization-fairness (dữ liệu và bảng so sánh)",
+          "url": "https://github.com/AleksandarPetrov/tokenization-fairness"
+        }
+      ]
+    },
+    {
+      "id": "bullwhip-effect-supply-chain",
+      "category": "econ",
+      "kind": "concept",
+      "subcategory": "Thị trường & doanh nghiệp",
+      "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất",
+      "hook": "Một tuần trời trở lạnh, khách mua áo khoác nhiều hơn bình thường một chút. Cửa hàng hoảng, đặt thêm gấp đôi. Đại lý thấy đơn tăng vọt, đặt nhà máy gấp ba. Sáu tuần sau trời ấm lại, và cả chuỗi ngồi trên núi áo khoác không ai cần.",
+      "body": [
+        "**Hiệu ứng roi da** (bullwhip effect) là hiện tượng biến động nhỏ ở nhu cầu người mua cuối cùng bị khuếch đại dần khi đi ngược chuỗi cung ứng: từ cửa hàng lên nhà phân phối, nhà máy rồi nhà cung cấp nguyên liệu. Như cổ tay rung nhẹ mà đầu roi quất mạnh. Mỗi mắt xích chỉ thấy đơn hàng của mắt xích ngay dưới, không thấy nhu cầu thật, và cộng thêm phần dự phòng của mình vào.",
+        "Khái niệm được phổ biến qua bài báo năm 1997 của Hau Lee, V. Padmanabhan và Seungjin Whang trên Sloan Management Review. Ví dụ nổi tiếng là tã Pampers của Procter & Gamble: em bé dùng tã khá đều, doanh số ở cửa hàng dao động không nhiều, vậy mà đơn của nhà phân phối gửi P&G và đơn của P&G gửi nhà cung cấp lại dao động dữ dội. Nhóm tác giả nêu bốn nguyên nhân: dự báo dựa trên đơn hàng thay vì nhu cầu thật, gom đơn thành đợt lớn, khuyến mãi làm người ta mua tích trữ, và **đặt hàng khống** khi sợ thiếu hàng.",
+        "Trò chơi mô phỏng Beer Game ở MIT, gắn với giáo sư John Sterman, cho thấy hiệu ứng này xảy ra ngay cả khi nhu cầu gần như không đổi: người chơi quên tính lượng hàng đã đặt mà chưa về, nên đặt tiếp. Cách giảm là chia sẻ dữ liệu bán thật giữa các mắt xích, đặt hàng nhỏ và đều, giữ giá ổn định thay vì khuyến mãi dồn dập. Giới hạn: không thể triệt tiêu hoàn toàn, vì thời gian giao hàng và chi phí đặt đơn luôn tồn tại."
+      ],
+      "example": {
+        "title": "Cơn sốt khẩu trang trong chuỗi bán lẻ",
+        "text": "Giả sử (ước tính) một nhà thuốc thường bán 100 hộp khẩu trang mỗi tuần, tuần có tin dịch bán 150 hộp. Sợ hết hàng, nhà thuốc đặt 300 hộp. Nhà phân phối nhận đơn tăng gấp ba từ hàng trăm nhà thuốc, đặt nhà máy gấp năm. Khi tin dịch lắng xuống, nhu cầu về 100 hộp, nhưng hàng đặt gấp năm vẫn đang trên đường về, và kho chất đầy tới mấy tháng."
+      },
+      "takeaway": "Khi thấy đơn hàng tăng vọt, hãy hỏi người mua cuối cùng thật sự mua thêm bao nhiêu. Đừng để cái rung cổ tay của người khác thành cú quất của bạn.",
+      "link": "Thị trường cổ phiếu cũng bị cáo buộc phản ứng thái quá như vậy, và đó là phản biện chính với giả thuyết ở bài số 2.",
+      "sources": [
+        {
+          "name": "Lee, Padmanabhan & Whang (1997), The Bullwhip Effect in Supply Chains — MIT Sloan Management Review",
+          "url": "https://sloanreview.mit.edu/article/the-bullwhip-effect-in-supply-chains/"
+        },
+        {
+          "name": "Forio — The MIT Beer Game (John Sterman)",
+          "url": "https://forio.com/store/mit-beer-game-supply-chain-simulation"
+        },
+        {
+          "name": "TechTarget — What is the bullwhip effect",
+          "url": "https://www.techtarget.com/searcherp/definition/bullwhip-effect"
+        }
+      ]
+    },
+    {
+      "id": "power-nap-sleep-inertia",
+      "category": "society",
+      "kind": "tip",
+      "subcategory": "Sức khỏe",
+      "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn",
+      "hook": "Hai giờ chiều, mắt bạn díp lại trước bảng tính. Bạn gục xuống bàn \"chợp mắt chút thôi\", tỉnh dậy đã gần bốn giờ, đầu nặng như đội mũ bảo hiểm và mất nửa tiếng mới nhớ mình đang làm gì. Cùng là ngủ trưa, sao có lần sảng khoái, có lần như bị đánh thuốc mê?",
+      "body": [
+        "Giấc ngủ chạy theo chu kỳ: vài phút đầu ngủ nông, sau đó dần chìm vào ngủ sâu. Nếu bị đánh thức khi não đang ở giai đoạn ngủ sâu, bạn rơi vào **quán tính giấc ngủ** (sleep inertia): trạng thái lờ đờ, phản xạ chậm, có thể kéo dài từ vài phút tới hơn nửa giờ. Giấc ngắn hiệu quả vì nó lấy được phần trả nợ buồn ngủ mà chưa kịp chìm sâu. Mayo Clinic khuyên người trưởng thành giữ giấc trưa trong khoảng 10 đến 20 phút, vì càng ngủ lâu càng dễ dậy trong trạng thái lờ đờ.",
+        "Bằng chứng nổi tiếng nhất đến từ NASA. Năm 1995, nhóm của Mark Rosekind cho phi công đường dài xuyên Thái Bình Dương một khoảng nghỉ 40 phút trong buồng lái. Nhóm được nghỉ ngủ trung bình khoảng 26 phút, và so với nhóm không nghỉ, hiệu suất tăng 34%, độ tỉnh táo sinh lý tăng 54%. Các bước: chọn đầu giờ chiều, khoảng 13 đến 15 giờ; hẹn báo thức 20 phút; nằm hoặc ngả ghế ở chỗ tối, yên; dậy thì đứng lên, rửa mặt, ra chỗ sáng vài phút trước khi làm việc cần phản xạ nhanh.",
+        "Lỗi thường gặp nhất là ngủ quá giờ, hoặc ngủ quá muộn trong chiều khiến tối khó ngủ, rồi hôm sau lại buồn ngủ hơn. Lỗi thứ hai là dùng giấc trưa để bù cho đêm ngủ quá ít: nó đỡ được buổi chiều chứ không thay được giấc đêm. Giới hạn của bằng chứng: con số 26 phút là thời gian phi công ngủ được trong 40 phút, không phải mức tối ưu đã được thử nghiệm riêng. Nếu bạn buồn ngủ ban ngày triền miên dù ngủ đủ, đó là chuyện nên hỏi bác sĩ."
+      ],
+      "example": {
+        "title": "Giấc trưa ở văn phòng",
+        "text": "Ở nhiều văn phòng Việt Nam, giờ nghỉ trưa kéo dài từ 12 giờ tới 13 giờ 30. Thay vì ăn xong lướt điện thoại tới 13 giờ 10 rồi ngủ vội, bạn có thể ăn sớm, nằm xuống lúc 12 giờ 50, hẹn chuông 13 giờ 10. Khoảng 20 phút còn lại dùng để đi bộ ra hành lang, uống nước. Khi họp lúc 13 giờ 30, bạn đã qua giai đoạn lờ đờ, còn đồng nghiệp ngủ một mạch tới giờ họp thì có thể chưa."
+      },
+      "takeaway": "Ngủ trưa như uống cà phê đậm: liều nhỏ thì tỉnh, liều lớn thì choáng. Hẹn chuông 20 phút và để điện thoại xa tầm tay.",
+      "link": "Tin tốt: lời khuyên này không chỉ đến từ người ngủ trưa thành công, mà từ thí nghiệm có nhóm đối chứng, đúng kiểu dữ liệu mà bài số 1 khuyên bạn đòi hỏi.",
+      "sources": [
+        {
+          "name": "Mayo Clinic — Napping: Do's and don'ts for healthy adults",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319"
+        },
+        {
+          "name": "NASA Technical Reports Server — Crew factors in flight operations 9: Effects of planned cockpit rest (Rosekind et al., 1995)",
+          "url": "https://ntrs.nasa.gov/citations/19950006379"
+        },
+        {
+          "name": "Sleep Foundation — The NASA Nap",
+          "url": "https://www.sleepfoundation.org/sleep-hygiene/nasa-nap"
+        }
+      ]
+    }
+  ]
+}
