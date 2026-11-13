@@ -1,24 +1,45 @@
 [
   {
-    "date": "2026-11-12",
-    "id": "power-nap-sleep-inertia",
+    "date": "2026-11-13",
+    "id": "urban-heat-island-night",
     "category": "society",
-    "kind": "tip",
-    "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn"
+    "kind": "why",
+    "title": "Tại sao giữa thành phố, nửa đêm vẫn nóng hơn ngoại ô vài độ?"
   },
   {
-    "date": "2026-11-12",
-    "id": "bullwhip-effect-supply-chain",
+    "date": "2026-11-13",
+    "id": "rule-of-72-doubling-time",
     "category": "econ",
-    "kind": "concept",
-    "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất"
+    "kind": "tip",
+    "title": "Quy tắc 72: cách tính nhẩm bao lâu tiền của bạn gấp đôi, hoặc mất một nửa"
   },
   {
-    "date": "2026-11-12",
-    "id": "tokenizer-language-cost-disparity",
+    "date": "2026-11-13",
+    "id": "serial-position-primacy-recency",
+    "category": "psych",
+    "kind": "concept",
+    "title": "Hiệu ứng vị trí nối tiếp: vì sao bạn nhớ đầu và cuối, quên khúc giữa"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "greshams-law-bad-money",
+    "category": "econ",
+    "kind": "theory",
+    "title": "Định luật Gresham: vì sao tờ tiền rách luôn được tiêu trước"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "lost-in-the-middle-long-context",
     "category": "ai",
     "kind": "fact",
-    "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh"
+    "title": "AI đọc tài liệu dài hay bỏ sót đoạn giữa, đôi khi tệ hơn cả không đọc"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "survivorship-bias-wald-planes",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?"
   },
   {
     "date": "2026-11-12",
@@ -29,31 +50,31 @@
   },
   {
     "date": "2026-11-12",
-    "id": "survivorship-bias-wald-planes",
-    "category": "psych",
-    "kind": "why",
-    "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?"
+    "id": "tokenizer-language-cost-disparity",
+    "category": "ai",
+    "kind": "fact",
+    "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh"
   },
   {
-    "date": "2026-11-11",
-    "id": "real-interest-rate-fisher-money-illusion",
+    "date": "2026-11-12",
+    "id": "bullwhip-effect-supply-chain",
     "category": "econ",
     "kind": "concept",
-    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
+    "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "power-nap-sleep-inertia",
+    "category": "society",
+    "kind": "tip",
+    "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn"
   },
   {
     "date": "2026-11-11",
-    "id": "prospect-theory-loss-aversion",
-    "category": "psych",
-    "kind": "theory",
-    "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn"
-  },
-  {
-    "date": "2026-11-11",
-    "id": "tulipmania-myth-futures-options",
-    "category": "econ",
-    "kind": "fact",
-    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
+    "id": "jet-lag-eastward-circadian-period",
+    "category": "society",
+    "kind": "why",
+    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
   },
   {
     "date": "2026-11-11",
@@ -64,31 +85,31 @@
   },
   {
     "date": "2026-11-11",
-    "id": "jet-lag-eastward-circadian-period",
-    "category": "society",
-    "kind": "why",
-    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
+    "id": "tulipmania-myth-futures-options",
+    "category": "econ",
+    "kind": "fact",
+    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
   },
   {
-    "date": "2026-11-10",
-    "id": "dunbar-number-social-capacity",
+    "date": "2026-11-11",
+    "id": "prospect-theory-loss-aversion",
     "category": "psych",
-    "kind": "why",
-    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
+    "kind": "theory",
+    "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "real-interest-rate-fisher-money-illusion",
+    "category": "econ",
+    "kind": "concept",
+    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
   },
   {
     "date": "2026-11-10",
-    "id": "llm-hallucination-next-token-and-benchmark-incentives",
-    "category": "ai",
-    "kind": "why",
-    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
-  },
-  {
-    "date": "2026-11-10",
-    "id": "decoy-effect-asymmetric-dominance",
+    "id": "coffee-loss-leader-contribution-margin",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
   },
   {
     "date": "2026-11-10",
@@ -99,9 +120,23 @@
   },
   {
     "date": "2026-11-10",
-    "id": "coffee-loss-leader-contribution-margin",
+    "id": "decoy-effect-asymmetric-dominance",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
+    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "llm-hallucination-next-token-and-benchmark-incentives",
+    "category": "ai",
+    "kind": "why",
+    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "dunbar-number-social-capacity",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
   }
 ]

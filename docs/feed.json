@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-13",
+      "number": 4,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "lost-in-the-middle-long-context",
+          "title": "AI đọc tài liệu dài hay bỏ sót đoạn giữa, đôi khi tệ hơn cả không đọc",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "greshams-law-bad-money",
+          "title": "Định luật Gresham: vì sao tờ tiền rách luôn được tiêu trước",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "serial-position-primacy-recency",
+          "title": "Hiệu ứng vị trí nối tiếp: vì sao bạn nhớ đầu và cuối, quên khúc giữa",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "rule-of-72-doubling-time",
+          "title": "Quy tắc 72: cách tính nhẩm bao lâu tiền của bạn gấp đôi, hoặc mất một nửa",
+          "category": "econ",
+          "kind": "tip"
+        },
+        {
+          "id": "urban-heat-island-night",
+          "title": "Tại sao giữa thành phố, nửa đêm vẫn nóng hơn ngoại ô vài độ?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "number": 3,
       "readMinutes": 8,
