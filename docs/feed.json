@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-14",
+      "number": 5,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "shrinkflation-package-downsizing",
+          "title": "Tại sao gói bánh snack mỗi năm một nhẹ mà giá vẫn y nguyên?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "webers-law-relative-price-thinking",
+          "title": "Định luật Weber: vì sao bớt 5 nghìn ly trà sữa thì mừng, bớt 5 nghìn tiền laptop thì kệ",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "market-for-lemons-adverse-selection",
+          "title": "Thị trường “quả chanh”: vì sao chiếc xe cũ tốt nhất lại khó bán đúng giá nhất",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "chain-of-thought-prompting-step-by-step",
+          "title": "Cách khiến AI làm toán và suy luận đúng hơn: bắt nó viết từng bước trước khi chốt đáp án",
+          "category": "ai",
+          "kind": "tip"
+        },
+        {
+          "id": "britain-1752-calendar-tax-year-april",
+          "title": "Năm 1752, nước Anh xóa 11 ngày khỏi lịch, nhưng ngân khố không chịu mất một ngày thuế",
+          "category": "society",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "number": 4,
       "readMinutes": 7,

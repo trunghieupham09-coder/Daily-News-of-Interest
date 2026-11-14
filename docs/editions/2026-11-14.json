@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-14",
+  "number": 5,
+  "intro": "Chào buổi sáng. Hôm nay là chuyện những thứ bị bớt đi mà bạn không thấy: vài gram trong gói bánh, vài nghìn trong hóa đơn lớn, chất lượng giấu dưới nắp capô, bước suy luận AI bỏ qua, và 11 ngày biến khỏi lịch nước Anh. Cái mắt không thấy thì ví vẫn chịu.",
+  "topics": [
+    {
+      "id": "shrinkflation-package-downsizing",
+      "category": "econ",
+      "kind": "why",
+      "subcategory": "Kinh tế vi mô & định giá",
+      "title": "Tại sao gói bánh snack mỗi năm một nhẹ mà giá vẫn y nguyên?",
+      "hook": "Bạn mua gói bánh quen thuộc, giá vẫn thế, bao bì vẫn thế, chỉ có tay bạn chạm đáy túi nhanh hơn. Bạn không tưởng tượng đâu. Nhà sản xuất vừa tăng giá với bạn, chỉ là họ không dán thông báo lên kệ.",
+      "body": [
+        "Hiện tượng này gọi là **lạm phát thu nhỏ** (shrinkflation): giữ nguyên giá niêm yết nhưng giảm lượng hàng trong mỗi gói. Cơ chế nằm ở chỗ người mua theo dõi con số trên tem giá kỹ hơn nhiều so với con số gram in nhỏ trên bao bì. Khi chi phí nguyên liệu, vận chuyển hay tiền lương tăng, doanh nghiệp có hai lựa chọn: tăng giá thẳng và chịu phản ứng ngay, hoặc bớt hàng và hy vọng không ai đếm. Lựa chọn thứ hai thường ít làm mất khách hơn, nhất là với các mức giá tròn kiểu 10 nghìn, 20 nghìn mà khách đã quen.",
+        "Về mặt thống kê, đây vẫn là tăng giá. Cục Thống kê Lao động Mỹ (BLS) quy mọi mặt hàng về **giá trên mỗi đơn vị** (ví dụ giá mỗi ounce), nên gói nhỏ đi mà giá giữ nguyên được ghi nhận là giá tăng, theo giải thích của Fed St. Louis. Ví dụ kinh điển được Diễn đàn Kinh tế Thế giới nêu: chai Gatorade 32 ounce được thay bằng chai 28 ounce cùng giá, tương đương tăng giá khoảng 14%.",
+        "Nhưng đừng thổi phồng nó. Báo cáo năm 2025 của Văn phòng Trách nhiệm Giải trình Chính phủ Mỹ (GAO) dựa trên chỉ số nghiên cứu của BLS cho thấy tác động của việc thu nhỏ bao bì lên lạm phát chung là nhỏ, một phần vì cũng có sản phẩm được tăng kích cỡ. Vấn đề của shrinkflation không nằm ở con số vĩ mô, mà ở chỗ nó khó thấy, nên người mua so sánh sai. Còn một biến thể khó đo hơn: **lạm phát cắt xén** (skimpflation), khi lượng giữ nguyên nhưng chất lượng hoặc dịch vụ kém đi."
+      ],
+      "example": {
+        "title": "Gói bánh 10 nghìn ở tạp hóa đầu ngõ",
+        "text": "Giả sử (ước tính) một gói bánh giá 10.000 đồng, nặng 40 gram, tức 250 đồng mỗi gram. Năm sau gói vẫn 10.000 đồng nhưng còn 35 gram, tức khoảng 286 đồng mỗi gram: giá thực tăng hơn 14%. Nếu bán 12.000 đồng cho 40 gram, mức tăng chỉ 20% thôi nhưng ai cũng thấy và than. Cách nhẹ hơn lại được chọn chính vì nó không bị thấy."
+      },
+      "takeaway": "Ở siêu thị, đừng nhìn giá gói, hãy nhìn dòng nhỏ “giá/100g” trên tem kệ. Món hàng không đổi giá có thể là món vừa tăng giá mạnh nhất.",
+      "link": "Vì sao bớt 5 gram thì bạn không nhận ra, mà tăng 2 nghìn thì nhận ra ngay? Bài số 2 có câu trả lời từ thế kỷ 19.",
+      "sources": [
+        { "name": "Federal Reserve Bank of St. Louis — Beyond Inflation Numbers: Shrinkflation and Skimpflation", "url": "https://www.stlouisfed.org/publications/page-one-economics/2022/12/01/beyond-inflation-numbers-shrinkflation-and-skimpflation" },
+        { "name": "World Economic Forum — How companies are hiding inflation without charging you more", "url": "https://www.weforum.org/stories/2022/03/how-companies-are-hiding-inflation-without-charging-you-more/" },
+        { "name": "U.S. GAO — Report GAO-25-107451 on product downsizing", "url": "https://files.gao.gov/reports/GAO-25-107451/index.html" },
+        { "name": "Britannica Money — Shrinkflation: Inflation hiding in plain sight", "url": "https://www.britannica.com/money/what-is-shrinkflation" }
+      ]
+    },
+    {
+      "id": "webers-law-relative-price-thinking",
+      "category": "psych",
+      "kind": "concept",
+      "subcategory": "Ra quyết định",
+      "title": "Định luật Weber: vì sao bớt 5 nghìn ly trà sữa thì mừng, bớt 5 nghìn tiền laptop thì kệ",
+      "hook": "Bạn sẵn sàng đi bộ thêm hai con phố để mua ly trà sữa rẻ hơn 5 nghìn. Nhưng khi mua laptop 20 triệu, cửa hàng bên kia đường rẻ hơn đúng 5 nghìn, bạn không buồn bước qua. Tiền vẫn là tiền, quãng đường vẫn là quãng đường. Vậy cái gì đã thay đổi?",
+      "body": [
+        "Thứ thay đổi là cái nền để so sánh. **Định luật Weber** (Weber's law) nói rằng mức thay đổi nhỏ nhất mà ta nhận ra được không phải là một lượng cố định, mà là một tỷ lệ cố định so với mức ban đầu. Mức chênh vừa đủ để nhận ra ấy gọi là **ngưỡng khác biệt** (just-noticeable difference). Cầm vật nặng 100 gram, bạn thấy thêm vài gram; cầm vật nặng 1 ki-lô-gam, thêm vài gram chẳng là gì. Não không đo tuyệt đối, mà đo tương đối.",
+        "Nhà sinh lý học người Đức Ernst Heinrich Weber đo điều này với trọng lượng từ thế kỷ 19; Gustav Fechner sau đó viết thành định luật, theo Britannica. Ví dụ được Bách khoa SAGE về thiết kế nghiên cứu nêu lại: nếu ngưỡng với quả cân 100 gram là 3 gram, thì với quả cân 1.000 gram, ngưỡng tăng lên 30 gram. Năm 1981, Amos Tversky và Daniel Kahneman cho thấy tiền cũng bị cảm nhận theo kiểu đó: 68% người được hỏi sẵn lòng đi thêm 20 phút để tiết kiệm 5 đô trên chiếc máy tính 15 đô, nhưng chỉ 29% chịu đi khi máy tính giá 125 đô.",
+        "Giới hạn cần biết: định luật Weber đúng tốt ở mức kích thích trung bình, kém hơn ở hai đầu rất yếu hoặc rất mạnh. Thí nghiệm của Tversky và Kahneman là câu hỏi giả định, không có cửa hàng thật, và nghiên cứu sau cho thấy chi phí cơ hội của thời gian cũng ảnh hưởng mạnh. Dù vậy, hướng chung khá vững: người ta nghĩ về tiền theo phần trăm, trong khi hóa đơn cuối tháng tính bằng đồng."
+      ],
+      "example": {
+        "title": "Gói “nâng cấp” khi mua xe máy",
+        "text": "Khi bạn đã chốt chiếc xe 40 triệu, nhân viên mời thêm gói phủ gầm 800 nghìn. So với 40 triệu, 800 nghìn chỉ là 2%, nghe nhỏ xíu (số ước tính). Nhưng nếu ai đó bán riêng cho bạn dịch vụ ấy vào một ngày thường, bạn sẽ cân nhắc rất lâu. Đó là lý do món phụ kiện luôn được chào lúc bạn sắp ký món lớn."
+      },
+      "takeaway": "Khi thấy mình nghĩ “thêm chút đỉnh thôi”, hãy đổi nó ra một món cụ thể: 800 nghìn là bao nhiêu ly cà phê. Tiền tiết kiệm không biết nó đứng cạnh món to hay món nhỏ.",
+      "link": "Chính cảm nhận theo tỷ lệ này giúp gói bánh ở bài số 1 nhẹ đi mà bạn không hay biết.",
+      "sources": [
+        { "name": "Britannica — Weber's law", "url": "https://www.britannica.com/science/Webers-law" },
+        { "name": "Britannica — Ernst Heinrich Weber", "url": "https://www.britannica.com/biography/Ernst-Heinrich-Weber" },
+        { "name": "Tversky & Kahneman (1981), The Framing of Decisions and the Psychology of Choice, Science 211", "url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Tversky+Kahneman-framing-1981.pdf" },
+        { "name": "SAGE Encyclopedia of Research Design — Weber–Fechner Law", "url": "https://sk.sagepub.com/ency/edvol/embed/researchdesign/chpt/weberfechner-law" }
+      ]
+    },
+    {
+      "id": "market-for-lemons-adverse-selection",
+      "category": "econ",
+      "kind": "theory",
+      "subcategory": "Lý thuyết nền",
+      "title": "Thị trường “quả chanh”: vì sao chiếc xe cũ tốt nhất lại khó bán đúng giá nhất",
+      "hook": "Bạn giữ chiếc xe máy cũ rất kỹ, bảo dưỡng đúng hẹn, chưa ngã lần nào. Đem ra bán, người mua vẫn trả giá như mọi chiếc xe trôi nổi khác. Bạn bực, rút về. Một năm sau, chợ xe cũ chỉ còn toàn xe mà chủ của nó rất vui khi bán được.",
+      "body": [
+        "Năm 1970, nhà kinh tế George Akerlof mô tả hiện tượng này trong bài “The Market for Lemons”. Ý chính: người bán biết rõ chất lượng xe, người mua thì không. Đó là **thông tin bất cân xứng** (asymmetric information). Vì không phân biệt được xe tốt và xe tồi (người Mỹ gọi là “quả chanh”), người mua chỉ dám trả mức giá trung bình. Giá trung bình thì thấp hơn giá trị của xe tốt, nên chủ xe tốt rút lui. Xe tốt rời chợ khiến chất lượng bình quân giảm, người mua lại hạ giá tiếp. Vòng xoáy này gọi là **lựa chọn bất lợi** (adverse selection).",
+        "Ý tưởng tưởng như đơn giản ấy mang lại cho Akerlof giải Nobel Kinh tế năm 2001, cùng Michael Spence và Joseph Stiglitz, vì các phân tích về thị trường có thông tin bất cân xứng. Econlib ghi nhận Akerlof áp dụng cùng logic cho tín dụng và bảo hiểm y tế: người biết mình hay ốm là người háo hức mua bảo hiểm nhất, khiến phí tăng và người khỏe bỏ đi.",
+        "Thị trường không đứng yên chờ sụp đổ. Bảo hành, dịch vụ kiểm định, lịch sử bảo dưỡng, đánh giá người bán, thương hiệu đều là cách “đem thông tin ra ánh sáng” để xe tốt được trả giá tốt. Và giới kinh tế học vẫn tranh luận chợ xe cũ thực tế có thật sự là chợ chanh hay không, theo các tổng quan được Wikipedia dẫn lại. Lý thuyết đúng nhất ở nơi chất lượng khó kiểm tra và không có ai đứng ra bảo đảm."
+      ],
+      "example": {
+        "title": "Bán xe trên mạng rao vặt",
+        "text": "Giả sử (ước tính) xe tốt đáng 20 triệu, xe tồi đáng 12 triệu, mỗi loại một nửa. Người mua không phân biệt được nên trả khoảng 16 triệu. Chủ xe tốt từ chối, chủ xe tồi mừng rỡ. Nếu bạn có sổ bảo dưỡng ở hãng và cho người mua mang xe đi kiểm tra, bạn đang bán 4 triệu tiền “niềm tin” mà người khác không bán được."
+      },
+      "takeaway": "Nếu bạn bán đồ tốt, đừng chỉ nói nó tốt; hãy đưa bằng chứng người mua tự kiểm được. Nếu bạn mua, món rẻ bất thường thường rẻ vì một lý do người bán biết còn bạn chưa.",
+      "link": "AI cũng có thể đưa bạn câu trả lời “bóng bẩy bên ngoài”. Bài số 4 là cách mở nắp capô nó ra xem.",
+      "sources": [
+        { "name": "NobelPrize.org — George A. Akerlof, The Sveriges Riksbank Prize 2001", "url": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2001/akerlof-article.html" },
+        { "name": "Econlib — Concise Encyclopedia of Economics: George Akerlof", "url": "https://www.econlib.org/library/Enc/bios/Akerlof.html" },
+        { "name": "UC Berkeley News — Akerlof wins Nobel for work on asymmetric markets (2001)", "url": "https://newsarchive.berkeley.edu/news/berkeleyan/2001/10/17_asyme.html" },
+        { "name": "Wikipedia — The Market for Lemons", "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons" }
+      ]
+    },
+    {
+      "id": "chain-of-thought-prompting-step-by-step",
+      "category": "ai",
+      "kind": "tip",
+      "subcategory": "Mẹo dùng AI",
+      "title": "Cách khiến AI làm toán và suy luận đúng hơn: bắt nó viết từng bước trước khi chốt đáp án",
+      "hook": "Bạn hỏi AI một bài tính lãi vay, nó trả lời ngay một con số rất tự tin. Con số sai. Bạn hỏi lại, thêm đúng một câu “hãy suy nghĩ từng bước”, và lần này nó đúng. Câu thần chú này có thật, nhưng nó hoạt động không phải vì phép màu.",
+      "body": [
+        "Vì sao hiệu quả: mô hình ngôn ngữ sinh câu trả lời từng chữ một, và mỗi chữ dựa trên những chữ đã viết trước đó. Nếu phải nhảy thẳng tới đáp án, nó phải “tính nhẩm” trong một bước. Khi được yêu cầu viết ra các bước trung gian, mỗi bước trở thành dữ liệu đầu vào cho bước sau. Kỹ thuật này gọi là **chuỗi suy luận** (chain-of-thought). Nghiên cứu của Kojima và cộng sự năm 2022 cho thấy chỉ thêm câu “Let's think step by step”, độ chính xác của một mô hình InstructGPT trên bộ đề số học MultiArith tăng từ 17,7% lên 78,7%, trên GSM8K từ 10,4% lên 40,7%.",
+        "Các bước: một, nêu rõ dữ kiện và yêu cầu. Hai, yêu cầu AI liệt kê giả định và tính từng bước, ghi rõ phép tính. Ba, chỉ sau đó mới chốt đáp án ở dòng cuối. Bốn, tự kiểm một hai bước quan trọng nhất, hoặc bảo AI giải lại theo cách khác rồi so. Nhóm của Jason Wei tại Google cũng cho thấy đưa vài ví dụ mẫu có lời giải từng bước còn hiệu quả hơn.",
+        "Lỗi thường gặp: tin rằng các bước viết ra chính là cách AI thật sự nghĩ. Nghiên cứu của Anthropic năm 2025 cho thấy mô hình suy luận thường dùng một gợi ý được cài vào câu hỏi nhưng không nhắc tới nó trong phần lập luận, tỷ lệ thừa nhận thường dưới 20%. Nghĩa là **lời giải trình** giúp bạn kiểm tra, không bảo đảm sự trung thực. Ngoài ra, nhiều mô hình mới đã tự suy luận ngầm, nên câu thần chú ít tác dụng với câu hỏi đơn giản."
+      ],
+      "example": {
+        "title": "Tính trả góp điện thoại",
+        "text": "Thay vì hỏi “trả góp 12 tháng điện thoại 24 triệu, lãi 1,5% mỗi tháng thì mỗi tháng trả bao nhiêu?”, hãy viết: “Hãy liệt kê giả định (lãi tính trên dư nợ giảm dần hay dư nợ ban đầu), tính từng bước, rồi mới ghi số tiền mỗi tháng.” Nếu AI chọn giả định khác với hợp đồng của bạn, bạn bắt được lỗi ngay ở bước một, trước khi ký."
+      },
+      "takeaway": "Đừng chỉ hỏi đáp án, hãy đòi xem bài làm. Cũng như với học sinh, bài làm không chứng minh là không quay cóp, nhưng giúp bạn chấm điểm.",
+      "link": "Bài làm của AI giống sổ bảo dưỡng xe ở bài số 3: tín hiệu hữu ích để giảm bất cân xứng thông tin, nhưng không phải bằng chứng tuyệt đối.",
+      "sources": [
+        { "name": "Kojima et al. (2022), Large Language Models are Zero-Shot Reasoners, arXiv:2205.11916", "url": "https://arxiv.org/abs/2205.11916" },
+        { "name": "Wei et al. (2022), Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, arXiv:2201.11903", "url": "https://arxiv.org/abs/2201.11903" },
+        { "name": "Anthropic — Reasoning models don't always say what they think (2025)", "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think" }
+      ]
+    },
+    {
+      "id": "britain-1752-calendar-tax-year-april",
+      "category": "society",
+      "kind": "fact",
+      "subcategory": "Lịch sử",
+      "title": "Năm 1752, nước Anh xóa 11 ngày khỏi lịch, nhưng ngân khố không chịu mất một ngày thuế",
+      "hook": "Người dân Anh đi ngủ tối thứ Tư ngày 2 tháng 9 năm 1752 và thức dậy vào thứ Năm ngày 14 tháng 9. Không ai ngủ 11 ngày cả. Chính phủ chỉ đơn giản xóa chúng đi. Và bạn đoán xem ai là người duy nhất nhất quyết không chịu thiệt?",
+      "body": [
+        "Nguyên nhân là lịch Julius, dùng từ thời La Mã, coi một năm dài đúng 365,25 ngày, dài hơn năm Mặt Trời thực một chút. Sau nhiều thế kỷ, sai số dồn lại thành nhiều ngày, khiến lịch lệch khỏi mùa. Năm 1582, Giáo hoàng Gregory XIII ban hành **lịch Gregory** sửa lỗi này, nhưng nước Anh theo Tin Lành chần chừ gần hai thế kỷ. Đến năm 1752, khoảng cách giữa hai lịch đã là 11 ngày. Đạo luật lịch năm 1750 quy định ngày 2 tháng 9 năm 1752 được nối thẳng sang ngày 14 tháng 9, theo Britannica.",
+        "Còn chuyện dân chúng xuống đường đòi “trả lại 11 ngày” thì sao? Britannica cho biết “cuộc bạo loạn lịch” từng được kể trong nhiều sách uy tín, nhưng bằng chứng rất mỏng. Nhiều sử gia cho rằng có lời phàn nàn thật, còn chuyện bạo loạn là huyền thoại về sau, một phần do người ta đọc sai một bức tranh của họa sĩ William Hogarth.",
+        "Phần có thật và còn sống tới hôm nay là ở ngân khố. Năm tài chính khi đó bắt đầu từ ngày 25 tháng 3. Để không bị hụt 11 ngày thu thuế, ngày bắt đầu được dời 11 ngày, sang 5 tháng 4. Năm 1800, lịch Julius có ngày nhuận còn lịch Gregory thì không, nên ngày này lại dịch thêm một ngày, thành 6 tháng 4. Đến nay, **năm tính thuế** cá nhân của Anh vẫn bắt đầu ngày 6 tháng 4. Giới hạn: một số chi tiết về lý do dời ngày vẫn được các nguồn kể hơi khác nhau."
+      ],
+      "example": {
+        "title": "Hợp đồng thuê nhà tính theo tháng",
+        "text": "Hãy tưởng tượng (ví dụ giả định) bạn thuê nhà 6 triệu một tháng và tháng 9 bỗng chỉ còn 19 ngày. Bạn sẽ đòi giảm tiền, chủ nhà sẽ đòi đủ. Người Anh năm 1752 đối mặt đúng câu hỏi này với tiền thuê và tiền lương, và luật phải quy định thanh toán theo số ngày thực. Chỉ ngân khố là tự lo cho mình trước."
+      },
+      "takeaway": "Lần tới nghe ai đó kể “dân Anh bạo loạn đòi 11 ngày”, bạn có thể sửa: bạo loạn gần như không có, nhưng hóa đơn thuế ngày 6 tháng 4 thì vẫn còn đó.",
+      "link": "Khác với nhà sản xuất ở bài số 1 lặng lẽ bớt hàng, ở đây chính phủ bớt ngày mà nhất quyết không bớt thuế.",
+      "sources": [
+        { "name": "Britannica — Did a Calendar Change Cause Riots in England?", "url": "https://www.britannica.com/story/did-a-calendar-change-cause-riots-in-england" },
+        { "name": "Wikipedia — Old Style and New Style dates", "url": "https://en.wikipedia.org/wiki/Old_Style_and_New_Style_dates" },
+        { "name": "History Today — The Gregorian Calendar Adopted in England", "url": "https://www.historytoday.com/archive/gregorian-calendar-adopted-england" },
+        { "name": "MoneyWeek — 14 September 1752: Britain adopts the Gregorian calendar and “loses” 11 days", "url": "https://moneyweek.com/408067/14-september-1752-britain-adopts-the-gregorian-calendar" }
+      ]
+    }
+  ]
+}
