@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-15",
+      "number": 6,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "razor-and-blades-printer-ink",
+          "title": "Tại sao máy in thì rẻ mà hộp mực thay thế lại đắt gần bằng cả cái máy?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "ikea-effect-labor-valuation",
+          "title": "Hiệu ứng IKEA: vì sao chiếc kệ bạn tự lắp, dù hơi lệch, vẫn đẹp hơn kệ của shop",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "purchasing-power-parity-big-mac-index",
+          "title": "Ngang giá sức mua, và vì sao chiếc Big Mac ở Việt Nam rẻ gần một nửa ở Mỹ",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "llm-sycophancy-rlhf",
+          "title": "Hỏi lại AI “bạn chắc chứ?”, nó thường đổi cả đáp án đúng thành sai",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "tidal-braking-earth-day-length",
+          "title": "Thời khủng long, một ngày trên Trái Đất chỉ dài khoảng 23 giờ rưỡi",
+          "category": "society",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
       "date": "2026-11-14",
       "number": 5,
       "readMinutes": 7,
