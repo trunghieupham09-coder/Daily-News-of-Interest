@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-16",
+      "number": 7,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "braess-paradox-induced-demand",
+          "title": "Nghịch lý Braess: vì sao mở thêm một con đường có thể khiến cả thành phố kẹt hơn",
+          "category": "society",
+          "kind": "theory"
+        },
+        {
+          "id": "tragedy-of-the-commons-ostrom",
+          "title": "Bi kịch của cải chung, và người phụ nữ đầu tiên đoạt Nobel kinh tế nhờ chứng minh nó không bắt buộc",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "planning-fallacy-reference-class",
+          "title": "Ngụy biện kế hoạch: vì sao việc gì bạn cũng tưởng chỉ cần một nửa thời gian",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "two-percent-inflation-target-origin",
+          "title": "Mục tiêu lạm phát 2% toàn cầu bắt nguồn từ một câu nói buột miệng trên tivi New Zealand",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "llm-nondeterminism-sampling-batch-invariance",
+          "title": "Tại sao hỏi AI cùng một câu hai lần, bạn lại nhận hai câu trả lời khác nhau?",
+          "category": "ai",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "number": 6,
       "readMinutes": 7,
