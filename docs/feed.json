@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-17",
+      "number": 8,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "airline-yield-management-price-discrimination",
+          "title": "Tại sao hai người ngồi cạnh nhau trên máy bay có thể trả giá vé chênh nhau gấp ba?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "anchoring-and-adjustment-heuristic",
+          "title": "Hiệu ứng mỏ neo: vì sao con số đầu tiên bạn nghe thấy cứ bám lấy mọi phán đoán sau đó",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "nixon-shock-bretton-woods-gold-window",
+          "title": "Tối Chủ nhật 15/8/1971, Nixon lên tivi và cắt sợi dây nối đồng đô la với vàng",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "ai-prompt-energy-footprint",
+          "title": "Một câu hỏi gửi Gemini tốn điện bằng chưa tới 9 giây xem tivi, theo chính Google",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "duck-curve-solar-net-load",
+          "title": "Tại sao càng nhiều điện mặt trời, giờ 6 giờ tối lại càng căng thẳng với lưới điện?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "number": 7,
       "readMinutes": 8,

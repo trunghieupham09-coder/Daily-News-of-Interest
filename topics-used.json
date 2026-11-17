@@ -1,24 +1,45 @@
 [
   {
-    "date": "2026-11-16",
-    "id": "llm-nondeterminism-sampling-batch-invariance",
-    "category": "ai",
+    "date": "2026-11-17",
+    "id": "duck-curve-solar-net-load",
+    "category": "society",
     "kind": "why",
-    "title": "Tại sao hỏi AI cùng một câu hai lần, bạn lại nhận hai câu trả lời khác nhau?"
+    "title": "Tại sao càng nhiều điện mặt trời, giờ 6 giờ tối lại càng căng thẳng với lưới điện?"
   },
   {
-    "date": "2026-11-16",
-    "id": "two-percent-inflation-target-origin",
+    "date": "2026-11-17",
+    "id": "ai-prompt-energy-footprint",
+    "category": "ai",
+    "kind": "fact",
+    "title": "Một câu hỏi gửi Gemini tốn điện bằng chưa tới 9 giây xem tivi, theo chính Google"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "nixon-shock-bretton-woods-gold-window",
     "category": "econ",
     "kind": "fact",
-    "title": "Mục tiêu lạm phát 2% toàn cầu bắt nguồn từ một câu nói buột miệng trên tivi New Zealand"
+    "title": "Tối Chủ nhật 15/8/1971, Nixon lên tivi và cắt sợi dây nối đồng đô la với vàng"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "anchoring-and-adjustment-heuristic",
+    "category": "psych",
+    "kind": "concept",
+    "title": "Hiệu ứng mỏ neo: vì sao con số đầu tiên bạn nghe thấy cứ bám lấy mọi phán đoán sau đó"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "airline-yield-management-price-discrimination",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao hai người ngồi cạnh nhau trên máy bay có thể trả giá vé chênh nhau gấp ba?"
   },
   {
     "date": "2026-11-16",
-    "id": "planning-fallacy-reference-class",
-    "category": "psych",
-    "kind": "concept",
-    "title": "Ngụy biện kế hoạch: vì sao việc gì bạn cũng tưởng chỉ cần một nửa thời gian"
+    "id": "braess-paradox-induced-demand",
+    "category": "society",
+    "kind": "theory",
+    "title": "Nghịch lý Braess: vì sao mở thêm một con đường có thể khiến cả thành phố kẹt hơn"
   },
   {
     "date": "2026-11-16",
@@ -29,31 +50,31 @@
   },
   {
     "date": "2026-11-16",
-    "id": "braess-paradox-induced-demand",
-    "category": "society",
-    "kind": "theory",
-    "title": "Nghịch lý Braess: vì sao mở thêm một con đường có thể khiến cả thành phố kẹt hơn"
-  },
-  {
-    "date": "2026-11-15",
-    "id": "razor-and-blades-printer-ink",
-    "category": "econ",
-    "kind": "why",
-    "title": "Tại sao máy in thì rẻ mà hộp mực thay thế lại đắt gần bằng cả cái máy?"
-  },
-  {
-    "date": "2026-11-15",
-    "id": "ikea-effect-labor-valuation",
+    "id": "planning-fallacy-reference-class",
     "category": "psych",
     "kind": "concept",
-    "title": "Hiệu ứng IKEA: vì sao chiếc kệ bạn tự lắp, dù hơi lệch, vẫn đẹp hơn kệ của shop"
+    "title": "Ngụy biện kế hoạch: vì sao việc gì bạn cũng tưởng chỉ cần một nửa thời gian"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "two-percent-inflation-target-origin",
+    "category": "econ",
+    "kind": "fact",
+    "title": "Mục tiêu lạm phát 2% toàn cầu bắt nguồn từ một câu nói buột miệng trên tivi New Zealand"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "llm-nondeterminism-sampling-batch-invariance",
+    "category": "ai",
+    "kind": "why",
+    "title": "Tại sao hỏi AI cùng một câu hai lần, bạn lại nhận hai câu trả lời khác nhau?"
   },
   {
     "date": "2026-11-15",
-    "id": "purchasing-power-parity-big-mac-index",
-    "category": "econ",
-    "kind": "theory",
-    "title": "Ngang giá sức mua, và vì sao chiếc Big Mac ở Việt Nam rẻ gần một nửa ở Mỹ"
+    "id": "tidal-braking-earth-day-length",
+    "category": "society",
+    "kind": "fact",
+    "title": "Thời khủng long, một ngày trên Trái Đất chỉ dài khoảng 23 giờ rưỡi"
   },
   {
     "date": "2026-11-15",
@@ -64,31 +85,31 @@
   },
   {
     "date": "2026-11-15",
-    "id": "tidal-braking-earth-day-length",
-    "category": "society",
-    "kind": "fact",
-    "title": "Thời khủng long, một ngày trên Trái Đất chỉ dài khoảng 23 giờ rưỡi"
-  },
-  {
-    "date": "2026-11-14",
-    "id": "britain-1752-calendar-tax-year-april",
-    "category": "society",
-    "kind": "fact",
-    "title": "Năm 1752, nước Anh xóa 11 ngày khỏi lịch, nhưng ngân khố không chịu mất một ngày thuế"
-  },
-  {
-    "date": "2026-11-14",
-    "id": "chain-of-thought-prompting-step-by-step",
-    "category": "ai",
-    "kind": "tip",
-    "title": "Cách khiến AI làm toán và suy luận đúng hơn: bắt nó viết từng bước trước khi chốt đáp án"
-  },
-  {
-    "date": "2026-11-14",
-    "id": "market-for-lemons-adverse-selection",
+    "id": "purchasing-power-parity-big-mac-index",
     "category": "econ",
     "kind": "theory",
-    "title": "Thị trường “quả chanh”: vì sao chiếc xe cũ tốt nhất lại khó bán đúng giá nhất"
+    "title": "Ngang giá sức mua, và vì sao chiếc Big Mac ở Việt Nam rẻ gần một nửa ở Mỹ"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "ikea-effect-labor-valuation",
+    "category": "psych",
+    "kind": "concept",
+    "title": "Hiệu ứng IKEA: vì sao chiếc kệ bạn tự lắp, dù hơi lệch, vẫn đẹp hơn kệ của shop"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "razor-and-blades-printer-ink",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao máy in thì rẻ mà hộp mực thay thế lại đắt gần bằng cả cái máy?"
+  },
+  {
+    "date": "2026-11-14",
+    "id": "shrinkflation-package-downsizing",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao gói bánh snack mỗi năm một nhẹ mà giá vẫn y nguyên?"
   },
   {
     "date": "2026-11-14",
@@ -99,31 +120,31 @@
   },
   {
     "date": "2026-11-14",
-    "id": "shrinkflation-package-downsizing",
-    "category": "econ",
-    "kind": "why",
-    "title": "Tại sao gói bánh snack mỗi năm một nhẹ mà giá vẫn y nguyên?"
-  },
-  {
-    "date": "2026-11-13",
-    "id": "lost-in-the-middle-long-context",
-    "category": "ai",
-    "kind": "fact",
-    "title": "AI đọc tài liệu dài hay bỏ sót đoạn giữa, đôi khi tệ hơn cả không đọc"
-  },
-  {
-    "date": "2026-11-13",
-    "id": "greshams-law-bad-money",
+    "id": "market-for-lemons-adverse-selection",
     "category": "econ",
     "kind": "theory",
-    "title": "Định luật Gresham: vì sao tờ tiền rách luôn được tiêu trước"
+    "title": "Thị trường “quả chanh”: vì sao chiếc xe cũ tốt nhất lại khó bán đúng giá nhất"
+  },
+  {
+    "date": "2026-11-14",
+    "id": "chain-of-thought-prompting-step-by-step",
+    "category": "ai",
+    "kind": "tip",
+    "title": "Cách khiến AI làm toán và suy luận đúng hơn: bắt nó viết từng bước trước khi chốt đáp án"
+  },
+  {
+    "date": "2026-11-14",
+    "id": "britain-1752-calendar-tax-year-april",
+    "category": "society",
+    "kind": "fact",
+    "title": "Năm 1752, nước Anh xóa 11 ngày khỏi lịch, nhưng ngân khố không chịu mất một ngày thuế"
   },
   {
     "date": "2026-11-13",
-    "id": "serial-position-primacy-recency",
-    "category": "psych",
-    "kind": "concept",
-    "title": "Hiệu ứng vị trí nối tiếp: vì sao bạn nhớ đầu và cuối, quên khúc giữa"
+    "id": "urban-heat-island-night",
+    "category": "society",
+    "kind": "why",
+    "title": "Tại sao giữa thành phố, nửa đêm vẫn nóng hơn ngoại ô vài độ?"
   },
   {
     "date": "2026-11-13",
@@ -134,31 +155,31 @@
   },
   {
     "date": "2026-11-13",
-    "id": "urban-heat-island-night",
-    "category": "society",
-    "kind": "why",
-    "title": "Tại sao giữa thành phố, nửa đêm vẫn nóng hơn ngoại ô vài độ?"
-  },
-  {
-    "date": "2026-11-12",
-    "id": "power-nap-sleep-inertia",
-    "category": "society",
-    "kind": "tip",
-    "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn"
-  },
-  {
-    "date": "2026-11-12",
-    "id": "bullwhip-effect-supply-chain",
-    "category": "econ",
+    "id": "serial-position-primacy-recency",
+    "category": "psych",
     "kind": "concept",
-    "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất"
+    "title": "Hiệu ứng vị trí nối tiếp: vì sao bạn nhớ đầu và cuối, quên khúc giữa"
   },
   {
-    "date": "2026-11-12",
-    "id": "tokenizer-language-cost-disparity",
+    "date": "2026-11-13",
+    "id": "greshams-law-bad-money",
+    "category": "econ",
+    "kind": "theory",
+    "title": "Định luật Gresham: vì sao tờ tiền rách luôn được tiêu trước"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "lost-in-the-middle-long-context",
     "category": "ai",
     "kind": "fact",
-    "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh"
+    "title": "AI đọc tài liệu dài hay bỏ sót đoạn giữa, đôi khi tệ hơn cả không đọc"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "survivorship-bias-wald-planes",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?"
   },
   {
     "date": "2026-11-12",
@@ -169,31 +190,31 @@
   },
   {
     "date": "2026-11-12",
-    "id": "survivorship-bias-wald-planes",
-    "category": "psych",
-    "kind": "why",
-    "title": "Tại sao lời khuyên của người thành công thường dẫn bạn đi lạc?"
+    "id": "tokenizer-language-cost-disparity",
+    "category": "ai",
+    "kind": "fact",
+    "title": "Cùng một câu, có ngôn ngữ phải trả AI gấp tới 15 lần tiếng Anh"
   },
   {
-    "date": "2026-11-11",
-    "id": "real-interest-rate-fisher-money-illusion",
+    "date": "2026-11-12",
+    "id": "bullwhip-effect-supply-chain",
     "category": "econ",
     "kind": "concept",
-    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
+    "title": "Hiệu ứng roi da: vì sao khách mua thêm chút ít mà nhà máy phải chạy hết công suất"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "power-nap-sleep-inertia",
+    "category": "society",
+    "kind": "tip",
+    "title": "Cách ngủ trưa 20 phút để tỉnh hơn, thay vì dậy còn mệt hơn"
   },
   {
     "date": "2026-11-11",
-    "id": "prospect-theory-loss-aversion",
-    "category": "psych",
-    "kind": "theory",
-    "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn"
-  },
-  {
-    "date": "2026-11-11",
-    "id": "tulipmania-myth-futures-options",
-    "category": "econ",
-    "kind": "fact",
-    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
+    "id": "jet-lag-eastward-circadian-period",
+    "category": "society",
+    "kind": "why",
+    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
   },
   {
     "date": "2026-11-11",
@@ -204,31 +225,31 @@
   },
   {
     "date": "2026-11-11",
-    "id": "jet-lag-eastward-circadian-period",
-    "category": "society",
-    "kind": "why",
-    "title": "Tại sao bay về phía đông thì lệch múi giờ nặng hơn bay về phía tây?"
+    "id": "tulipmania-myth-futures-options",
+    "category": "econ",
+    "kind": "fact",
+    "title": "Cơn sốt tulip năm 1637 có thật, nhưng làn sóng phá sản thì gần như không"
   },
   {
-    "date": "2026-11-10",
-    "id": "dunbar-number-social-capacity",
+    "date": "2026-11-11",
+    "id": "prospect-theory-loss-aversion",
     "category": "psych",
-    "kind": "why",
-    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
+    "kind": "theory",
+    "title": "Lý thuyết triển vọng: vì sao mất 100 nghìn đau gần gấp đôi nhặt được 100 nghìn"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "real-interest-rate-fisher-money-illusion",
+    "category": "econ",
+    "kind": "concept",
+    "title": "Lãi suất thực: vì sao sổ tiết kiệm tăng số mà ví bạn có thể nhẹ đi"
   },
   {
     "date": "2026-11-10",
-    "id": "llm-hallucination-next-token-and-benchmark-incentives",
-    "category": "ai",
-    "kind": "why",
-    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
-  },
-  {
-    "date": "2026-11-10",
-    "id": "decoy-effect-asymmetric-dominance",
+    "id": "coffee-loss-leader-contribution-margin",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
   },
   {
     "date": "2026-11-10",
@@ -239,9 +260,23 @@
   },
   {
     "date": "2026-11-10",
-    "id": "coffee-loss-leader-contribution-margin",
+    "id": "decoy-effect-asymmetric-dominance",
     "category": "econ",
     "kind": "why",
-    "title": "Tại sao ly cà phê \"bán lỗ\" mà quán vẫn sống khỏe?"
+    "title": "Tại sao trên menu luôn có một lựa chọn chẳng ai mua?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "llm-hallucination-next-token-and-benchmark-incentives",
+    "category": "ai",
+    "kind": "why",
+    "title": "Tại sao AI bịa chuyện rất tự tin, thay vì nói \"tôi không biết\"?"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "dunbar-number-social-capacity",
+    "category": "psych",
+    "kind": "why",
+    "title": "Tại sao con số 150 cứ xuất hiện ở nhà máy, làng cổ và danh bạ của bạn?"
   }
 ]
