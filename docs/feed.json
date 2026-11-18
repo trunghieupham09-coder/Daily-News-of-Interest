@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-18",
+      "number": 9,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "peak-end-rule-duration-neglect",
+          "title": "Quy tắc đỉnh–kết: vì sao một kỳ nghỉ mười ngày được nhớ bằng hai khoảnh khắc",
+          "category": "psych",
+          "kind": "theory"
+        },
+        {
+          "id": "banks-create-money-by-lending",
+          "title": "Ngân hàng không chỉ cho vay tiền gửi của bạn, họ tạo ra tiền mới mỗi khi cho vay",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "mercator-projection-area-distortion",
+          "title": "Tại sao trên bản đồ treo lớp học, Greenland trông to bằng cả châu Phi?",
+          "category": "society",
+          "kind": "why"
+        },
+        {
+          "id": "moral-hazard-insurance-behavior",
+          "title": "Rủi ro đạo đức: vì sao có bảo hiểm rồi, người ta lại bớt cẩn thận",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "ai-quote-first-grounding",
+          "title": "Cách khiến AI bớt bịa khi đọc tài liệu dài: bắt nó trích nguyên văn trước rồi mới trả lời",
+          "category": "ai",
+          "kind": "tip"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "number": 8,
       "readMinutes": 8,
