@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-19",
+      "number": 10,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "goodharts-law-measure-becomes-target",
+          "title": "Định luật Goodhart: khi một con số thành chỉ tiêu, nó thôi đo đúng thứ bạn cần",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "specification-gaming-reward-hacking",
+          "title": "Một AI chơi game đua thuyền ghi điểm cao hơn người 20% mà chưa từng về đích",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "lump-sum-vs-dollar-cost-averaging",
+          "title": "Bỏ tiền đầu tư một lần thắng chia nhỏ mua dần khoảng 2/3 số lần, theo Vanguard",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "regret-aversion-action-inaction",
+          "title": "Né tránh hối tiếc: vì sao ta thà đứng yên còn hơn làm rồi sai",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "vietnamese-lunar-calendar-timezone-tet",
+          "title": "Tại sao có năm Tết Việt Nam đến sớm hơn Tết Trung Quốc một ngày, thậm chí một tháng?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "number": 9,
       "readMinutes": 8,
