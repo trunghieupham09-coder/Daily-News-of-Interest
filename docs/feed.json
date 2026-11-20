@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-20",
+      "number": 11,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "winners-curse-common-value-auction",
+          "title": "Lời nguyền người thắng: vì sao thắng đấu giá thường là tin xấu",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "spotlight-effect-egocentric-salience",
+          "title": "Tại sao bạn tưởng cả phòng đều thấy vết cà phê trên áo mình?",
+          "category": "psych",
+          "kind": "why"
+        },
+        {
+          "id": "paradox-of-thrift-fallacy-of-composition",
+          "title": "Nghịch lý tiết kiệm: khi cả nước cùng thắt lưng buộc bụng, ai cũng nghèo đi",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "prompt-chaining-task-decomposition",
+          "title": "Cách giao việc lớn cho AI: chia thành chuỗi bước nhỏ, đầu ra bước này là đầu vào bước sau",
+          "category": "ai",
+          "kind": "tip"
+        },
+        {
+          "id": "caffeine-adenosine-blocking-sleep",
+          "title": "Cà phê không cho bạn năng lượng, nó chỉ che đi tín hiệu mệt",
+          "category": "society",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "number": 10,
       "readMinutes": 8,
