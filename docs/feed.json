@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-21",
+      "number": 12,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "comparative-advantage-opportunity-cost",
+          "title": "Lợi thế so sánh: vì sao người giỏi nhất cũng nên nhường việc cho người kém hơn",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "jagged-frontier-ai-task-boundary",
+          "title": "Tư vấn viên BCG dùng GPT-4 làm nhanh hơn 25%, nhưng sai nhiều hơn ở đúng loại việc AI kém",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "hungary-1946-hyperinflation-fiscal-collapse",
+          "title": "Tại sao Hungary năm 1946 phải in tờ tiền mệnh giá 100 tỷ tỷ pengő?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "hedonic-adaptation-treadmill",
+          "title": "Máy chạy bộ khoái lạc: vì sao chiếc điện thoại mới chỉ làm bạn vui được vài tuần",
+          "category": "psych",
+          "kind": "theory"
+        },
+        {
+          "id": "traffic-noise-no-physiological-habituation",
+          "title": "Tại sao đã “quen” tiếng xe ngoài cửa sổ mà tiếng ồn vẫn hại tim bạn?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "number": 11,
       "readMinutes": 7,

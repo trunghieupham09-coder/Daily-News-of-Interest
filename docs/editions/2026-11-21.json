@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-21",
+  "number": 12,
+  "intro": "Chào buổi sáng thứ Bảy. Hôm nay là chuyện chia việc và chuyện thích nghi: vì sao người giỏi nhất vẫn nên nhường việc cho người khác, AI giỏi ở đâu và hụt hơi ở đâu, và vì sao bạn quen được với lương mới nhưng tim bạn không bao giờ quen với tiếng còi xe.",
+  "topics": [
+    {
+      "id": "comparative-advantage-opportunity-cost",
+      "category": "econ",
+      "kind": "concept",
+      "subcategory": "Lý thuyết nền",
+      "title": "Lợi thế so sánh: vì sao người giỏi nhất cũng nên nhường việc cho người kém hơn",
+      "hook": "Chị trưởng phòng của bạn gõ bảng tính nhanh hơn cả cậu thực tập sinh, thuyết trình với khách cũng hay hơn. Vậy mà nếu chị tự ngồi nhập số liệu cả buổi chiều, công ty lại thiệt. Người giỏi hơn ở mọi việc, sao lại không nên làm mọi việc?",
+      "body": [
+        "**Lợi thế so sánh** (comparative advantage) nói rằng điều quyết định ai nên làm gì không phải là ai giỏi hơn, mà là ai bỏ lỡ ít hơn khi làm việc đó. Thứ bị bỏ lỡ ấy gọi là **chi phí cơ hội** (opportunity cost). Một giờ chị trưởng phòng nhập liệu là một giờ chị không gặp khách, nên giờ nhập liệu của chị rất đắt. Một giờ nhập liệu của thực tập sinh thì rẻ, vì cậu chưa có hợp đồng nào để đánh mất. Mỗi người làm phần mình hy sinh ít nhất, cả nhóm sẽ làm ra nhiều hơn.",
+        "David Ricardo trình bày ý này năm 1817 qua ví dụ Anh và Bồ Đào Nha. Bồ Đào Nha cần 80 người làm một năm để sản xuất một lượng rượu vang và 90 người cho một lượng vải, trong khi Anh cần 120 và 100. Bồ Đào Nha giỏi hơn ở cả hai thứ, nhưng giỏi rượu hơn nhiều, nên khi Bồ Đào Nha chuyên rượu, Anh chuyên vải rồi đổi cho nhau, cả hai đều có nhiều rượu và vải hơn so với tự làm hết. Đây là nền tảng lý thuyết của thương mại quốc tế suốt hai thế kỷ.",
+        "Giới hạn lớn nhất: lý thuyết hứa rằng tổng thể được lợi, chứ không hứa ai cũng được lợi. Nhóm của David Autor ước tính cạnh tranh hàng nhập khẩu từ Trung Quốc làm nước Mỹ mất ròng 2 đến 2,4 triệu việc làm giai đoạn 1999–2011, dồn vào vài vùng công nghiệp. Người mất việc không tự động chuyển sang ngành có lợi thế. Mô hình cũng giả định chuyển đổi không tốn kém, trong khi ngoài đời học nghề mới mất nhiều năm."
+      ],
+      "example": {
+        "title": "Ông chủ quán phở có nên tự rửa bát?",
+        "text": "Giả sử ông chủ quán vừa nấu nước dùng ngon nhất phố, vừa rửa bát nhanh hơn cậu phụ việc. Mỗi giờ đứng bếp ông tạo ra khoảng 500 nghìn đồng doanh thu, còn thuê người rửa bát tốn khoảng 30 nghìn đồng một giờ (số ước tính). Tự rửa bát, ông tiết kiệm 30 nghìn nhưng bỏ lỡ 500 nghìn. Cậu phụ việc rửa chậm hơn, nhưng chi phí cơ hội thấp hơn hẳn."
+      },
+      "takeaway": "Trước khi tự ôm một việc chỉ vì “mình làm nhanh hơn”, hãy hỏi: một giờ này lẽ ra mình làm được việc gì đáng giá hơn?",
+      "link": "Cùng câu hỏi chia việc ấy, nhưng giữa bạn và AI: xem bài số 2 về “biên giới lởm chởm”.",
+      "sources": [
+        { "name": "Econlib — Benefits of Trade and Comparative Advantage", "url": "https://www.econlib.org/library/Topics/HighSchool/BenefitsofTradeComparativeAdvantage.html" },
+        { "name": "Corporate Finance Institute — Comparative Advantage", "url": "https://corporatefinanceinstitute.com/resources/knowledge/economics/comparative-advantage/" },
+        { "name": "NBER Digest — Import Competition and the Great U.S. Employment Sag", "url": "https://www.nber.org/index%2ephp/digest/dec14/import-competition-and-great-us-employment-sag" },
+        { "name": "Britannica — Comparative advantage", "url": "https://www.britannica.com/print/article/129613" }
+      ]
+    },
+    {
+      "id": "jagged-frontier-ai-task-boundary",
+      "category": "ai",
+      "kind": "fact",
+      "subcategory": "Xu hướng AI",
+      "title": "Tư vấn viên BCG dùng GPT-4 làm nhanh hơn 25%, nhưng sai nhiều hơn ở đúng loại việc AI kém",
+      "hook": "Bạn có một trợ lý viết báo cáo nhanh như chớp, giọng văn tự tin, trình bày đẹp. Rồi một hôm nó đưa ra kết luận sai, cũng tự tin và đẹp y như vậy. Rắc rối không nằm ở chỗ trợ lý sai, mà ở chỗ bạn không phân biệt nổi hôm nào nó đúng, hôm nào nó sai.",
+      "body": [
+        "Năm 2023, các nhà nghiên cứu Harvard, MIT, Wharton cùng Boston Consulting Group làm thí nghiệm ngẫu nhiên với 758 tư vấn viên. Với 18 nhiệm vụ nằm trong khả năng của AI như lên ý tưởng sản phẩm hay viết bản thuyết trình, nhóm dùng GPT-4 hoàn thành nhiều hơn 12,2% số việc, nhanh hơn 25,1%, và được chấm chất lượng cao hơn hơn 40% so với nhóm không dùng. Người vốn làm dưới mức trung bình được lợi nhiều nhất, tăng 43%, so với 17% ở nhóm giỏi.",
+        "Nhưng có một nhiệm vụ được thiết kế để nằm ngoài khả năng của AI: phân tích một bài toán kinh doanh mà đáp án đúng đòi hỏi đối chiếu kỹ số liệu với ghi chép phỏng vấn. Ở việc này, người dùng AI có khả năng ra đáp án đúng thấp hơn 19 điểm phần trăm so với người tự làm. AI đưa ra lập luận trôi chảy nhưng sai, và người dùng tin theo.",
+        "Các tác giả gọi hiện tượng này là **biên giới công nghệ lởm chởm** (jagged technological frontier): năng lực AI không tăng đều theo độ khó, mà lồi lõm khó đoán, có việc trông khó nó làm dễ, có việc trông dễ nó lại hỏng. Giới hạn của nghiên cứu: dùng GPT-4 năm 2023, nên đường biên đã dịch chuyển với mô hình mới, và kết quả từ dân tư vấn chưa chắc áp dụng y nguyên cho nghề khác. Điều còn nguyên giá trị là nguyên tắc: người dùng giỏi là người biết mình đang đứng ở phía nào của đường biên."
+      ],
+      "example": {
+        "title": "Báo cáo doanh số cuối tháng",
+        "text": "Bạn nhờ AI viết phần nhận xét cho báo cáo doanh số: nó viết mượt trong 2 phút thay vì 30 phút, đó là việc nằm trong đường biên. Nhưng nếu bạn nhờ nó kết luận chi nhánh nào đang tụt và vì sao, dựa trên bảng số liệu dài cộng ghi chú cuộc họp, hãy tự kiểm lại vài con số then chốt. Đó là kiểu việc mà thí nghiệm BCG cho thấy AI dễ dẫn bạn đi sai một cách thuyết phục."
+      },
+      "takeaway": "Giao cho AI phần việc nó giỏi để lấy tốc độ, nhưng giữ cho mình phần phán đoán. AI nói càng trôi chảy, càng nên hỏi: bằng chứng ở dòng nào?",
+      "link": "Chia việc giữa người và máy theo chi phí cơ hội chính là lợi thế so sánh ở bài số 1.",
+      "sources": [
+        { "name": "Dell'Acqua và cộng sự (2023), Navigating the Jagged Technological Frontier, HBS Working Paper 24-013 (bản PDF, MIT Sloan)", "url": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf" },
+        { "name": "SSRN — Navigating the Jagged Technological Frontier", "url": "https://papers.ssrn.com/abstract=4573321" },
+        { "name": "MIT Sloan — What is the jagged AI frontier?", "url": "https://mitsloan.mit.edu/ideas-made-to-matter/working-definitions/what-is-jagged-ai-frontier" },
+        { "name": "Harvard Business School Working Knowledge — Humans vs. Machines: Untangling the Tasks AI Can (and Can't) Handle", "url": "https://www.library.hbs.edu/working-knowledge/humans-vs-machines-untangling-the-tasks-ai-can-and-cant-handle" }
+      ]
+    },
+    {
+      "id": "hungary-1946-hyperinflation-fiscal-collapse",
+      "category": "econ",
+      "kind": "why",
+      "subcategory": "Lịch sử kinh tế",
+      "title": "Tại sao Hungary năm 1946 phải in tờ tiền mệnh giá 100 tỷ tỷ pengő?",
+      "hook": "Tháng 7/1946 ở Budapest, bạn nhận lương buổi sáng và phải chạy ra chợ trước giờ trưa, vì tới tối giá bánh mì có thể đã gấp đôi. Ngân hàng trung ương vừa phát hành tờ tiền in số 1 theo sau là 20 số 0. Một quốc gia châu Âu đã đi tới đó bằng cách nào?",
+      "body": [
+        "Sau Thế chiến II, Hungary mất phần lớn năng lực sản xuất: cầu đường, nhà máy bị phá, lại phải trả bồi thường chiến tranh. Chính phủ cần chi rất nhiều mà thu thuế không đủ, nên bù thiếu hụt bằng cách in tiền. Lượng tiền tăng nhanh hơn hàng hóa thì giá tăng. Khi dân thấy giá tăng, họ tiêu tiền ngay khi cầm được, khiến đồng tiền quay vòng nhanh hơn và giá còn tăng nhanh hơn nữa.",
+        "Một cơ chế làm vòng xoáy tự tăng tốc là **hiệu ứng Olivera–Tanzi** (Olivera–Tanzi effect): thuế thường được nộp sau vài tuần hoặc vài tháng, nên khi tiền tới kho bạc, sức mua của nó đã bốc hơi. Thu thuế thực giảm, chính phủ lại phải in thêm. Theo bảng tổng hợp của Steve Hanke và Nicholas Krus, lạm phát Hungary tháng 7/1946 đạt 4,19 × 10^16 phần trăm một tháng, tức giá cả tăng gấp đôi sau khoảng 15 giờ, kỷ lục thế giới tới nay.",
+        "Ngày 1/8/1946, Hungary đổi sang đồng forint, mỗi forint đổi 4 × 10^29 pengő. Đổi tiền tự nó không dừng được lạm phát, vì mệnh giá chỉ là nhãn dán. Điều quyết định là chính phủ cắt chi tiêu, thu thuế lại được và cam kết không in tiền bù ngân sách. Phản biện cần nhớ: siêu lạm phát hiếm khi chỉ do in tiền thuần túy, mà thường đi kèm sản xuất sụp đổ, chiến tranh và mất niềm tin vào nhà nước."
+      ],
+      "example": {
+        "title": "Nếu thuế nộp chậm một tháng",
+        "text": "Một chủ cửa hàng nợ thuế 1 triệu đồng, nộp sau một tháng. Nếu lạm phát mỗi tháng là 3%, kho bạc mất khoảng 3% sức mua, gần như không đáng kể. Nếu lạm phát mỗi tháng là 100%, khoản 1 triệu đó lúc tới nơi chỉ còn mua được hàng của 500 nghìn hôm trước (số ước tính để minh họa). Đó là lý do ngân sách thời siêu lạm phát rỗng nhanh như thùng thủng."
+      },
+      "takeaway": "Một tờ tiền có nhiều số 0 không phải dấu hiệu nhà nước in quá tay một lần, mà là dấu hiệu nhà nước đã mất khả năng thu thuế từ lâu.",
+      "link": "Siêu lạm phát là cú sốc ai cũng thấy. Bài số 4 kể về những thay đổi mà ta quen nhanh tới mức thôi không còn thấy.",
+      "sources": [
+        { "name": "Steve Hanke & Nicholas Krus (2012), World Hyperinflations, Cato Institute Working Paper No. 8", "url": "https://www.cato.org/working-paper/world-hyperinflations" },
+        { "name": "Bảng tổng hợp Hanke–Krus World Hyperinflations (PDF)", "url": "https://www.bcci.bg/resources/files/hanke-krus-hyperinflation-table.pdf" },
+        { "name": "IMF Working Paper — Collection Lags, Fiscal Revenue and Inflationary Financing", "url": "https://www.imf.org/en/Publications/WP/Issues/2016/12/30/Collection-Lags-Fiscal-Revenue-and-Inflationary-Financing-Empirical-Evidence-and-Analysis-918" },
+        { "name": "Wikipedia — Hungarian pengő (nguồn thứ hai)", "url": "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91" }
+      ]
+    },
+    {
+      "id": "hedonic-adaptation-treadmill",
+      "category": "psych",
+      "kind": "theory",
+      "subcategory": "Động lực & hạnh phúc",
+      "title": "Máy chạy bộ khoái lạc: vì sao chiếc điện thoại mới chỉ làm bạn vui được vài tuần",
+      "hook": "Tuần đầu cầm chiếc điện thoại mới, bạn vuốt màn hình như vuốt mèo. Tháng thứ ba, nó chỉ còn là cái máy hay hết pin. Không phải chiếc điện thoại tệ đi, mà là bạn đã đổi cái thước đo trong đầu mình.",
+      "body": [
+        "**Thích nghi khoái lạc** (hedonic adaptation) là xu hướng cảm xúc của ta quay về mức nền sau một thay đổi tốt hoặc xấu. Não phản ứng mạnh với cái mới và cái khác biệt, chứ không phải với trạng thái đã ổn định. Khi lương tăng hay nhà rộng hơn trở thành bình thường, nó thôi tạo ra niềm vui và trở thành mốc so sánh mới. Brickman và Campbell gọi đây là “máy chạy bộ khoái lạc” năm 1971: bạn chạy mãi để có thêm, nhưng cảm giác vẫn đứng yên.",
+        "Năm 1978, Brickman, Coates và Janoff-Bulman phỏng vấn 22 người trúng xổ số lớn, 22 người bình thường và 29 người bị liệt sau tai nạn. Trên thang 5 điểm, người trúng số tự chấm hạnh phúc 4,00, gần như ngang nhóm bình thường 3,82, và họ lại thấy ít vui hơn với những niềm vui nhỏ hằng ngày. Người bị tai nạn chấm 2,96, thấp hơn nhưng không thấp như nhiều người tưởng.",
+        "Lý thuyết này từng bị hiểu quá đà thành “ai rồi cũng về mức cũ”. Richard Lucas phân tích dữ liệu theo dõi hàng nghìn người Đức qua nhiều năm và thấy thất nghiệp, ly hôn hay khuyết tật lâu dài để lại vết giảm hài lòng kéo dài, kể cả khi người thất nghiệp đã có việc mới. Mẫu nghiên cứu năm 1978 cũng nhỏ và tỉ lệ từ chối trả lời cao. Thích nghi là có thật, nhưng không phải lúc nào cũng trọn vẹn."
+      ],
+      "example": {
+        "title": "Khoản tăng lương 3 triệu",
+        "text": "Bạn được tăng lương từ 15 lên 18 triệu một tháng. Tháng đầu, bạn đổi sang cà phê đắt hơn, gọi đồ ăn nhiều hơn. Sáu tháng sau, 18 triệu đã thành “bình thường” và bạn lại thấy thiếu (tình huống minh họa). Nếu ngay tháng đầu bạn trích tự động 2 triệu vào tài khoản tiết kiệm, phần thích nghi chỉ xảy ra với 1 triệu còn lại."
+      },
+      "takeaway": "Tiền mua đồ thì niềm vui hết hạn nhanh. Muốn khoản tăng lương còn có ý nghĩa sau một năm, hãy giấu bớt nó khỏi mắt mình ngay từ tháng đầu.",
+      "link": "Nhưng có những thứ cơ thể không bao giờ thích nghi, dù tâm trí đã quen: xem bài số 5 về tiếng ồn giao thông.",
+      "sources": [
+        { "name": "Brickman, Coates & Janoff-Bulman (1978), Lottery winners and accident victims: is happiness relative?, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/690806/" },
+        { "name": "Association for Psychological Science — Life's Ups and Downs May Stick", "url": "https://www.psychologicalscience.org/observer/lifes-ups-and-downs-may-stick" },
+        { "name": "Anusic, Yap & Lucas (2014), Testing set-point theory in a Swiss national sample, PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4235657" },
+        { "name": "Wikipedia — Hedonic treadmill (nguồn thứ hai)", "url": "https://en.wikipedia.org/wiki/Hedonic_treadmill" }
+      ]
+    },
+    {
+      "id": "traffic-noise-no-physiological-habituation",
+      "category": "society",
+      "kind": "why",
+      "subcategory": "Sức khỏe & đô thị",
+      "title": "Tại sao đã “quen” tiếng xe ngoài cửa sổ mà tiếng ồn vẫn hại tim bạn?",
+      "hook": "Bạn sống cạnh đường lớn ba năm và tự hào là giờ ngủ ngon bất chấp còi xe. Khách về quê chơi thì thức trắng, bạn cười họ “chưa quen”. Nhưng trong lúc bạn ngủ say, tim và mạch máu của bạn vẫn đang phản ứng với từng chiếc xe tải đi qua.",
+      "body": [
+        "Cảm giác “quen” là sự thích nghi của tâm trí: bạn thôi bực, thôi để ý. Nhưng hệ thần kinh tự chủ vẫn coi tiếng ồn là tín hiệu báo động. Mỗi tiếng động lớn kích hoạt phản ứng căng thẳng, tiết hormone stress, co mạch và tăng huyết áp, kể cả trong lúc ngủ, khi bạn không hề tỉnh dậy. Lặp lại hàng trăm lần mỗi đêm trong nhiều năm, các phản ứng nhỏ này góp phần gây **viêm và tổn thương thành mạch**, nền móng của bệnh tim.",
+        "Năm 2018, Tổ chức Y tế Thế giới khuyến nghị tiếng ồn giao thông đường bộ nên dưới 53 dB tính trung bình cả ngày, và dưới 45 dB ban đêm. Bản công bố tháng 6/2025 của Cơ quan Môi trường châu Âu ước tính tiếng ồn giao thông kéo dài góp phần gây khoảng 66.000 ca tử vong sớm mỗi năm ở châu Âu. Ở Việt Nam, một nghiên cứu của Viện Sức khỏe Nghề nghiệp và Môi trường đo tiếng ồn ban ngày trên các trục phố lớn Hà Nội khoảng 78 dB.",
+        "Giới hạn cần biết: phần lớn bằng chứng đến từ nghiên cứu quan sát, mà người sống sát đường lớn thường cũng chịu bụi mịn nhiều hơn và thu nhập thấp hơn, nên khó tách riêng tác động của tiếng ồn. Các nghiên cứu tốt cố gắng điều chỉnh những yếu tố này. Tháng 3/2026, cơ quan này cũng đã sửa một số ước tính sức khỏe trong báo cáo, nên con số cụ thể nên coi là bậc độ lớn hơn là chính xác tới hàng đơn vị."
+      ],
+      "example": {
+        "title": "Căn phòng ngủ quay ra mặt phố",
+        "text": "Nhiều căn hộ ở Hà Nội và TP.HCM có phòng ngủ quay thẳng ra đường. Cách rẻ nhất là đổi chỗ: ngủ ở phòng quay vào trong, dù nhỏ hơn. Cửa kính hai lớp, rèm dày và nút tai cũng giúp giảm đáng kể độ ồn trong phòng. Thứ cần bảo vệ nhất là giấc ngủ, vì ban đêm là lúc tim mạch phản ứng rõ với tiếng ồn."
+      },
+      "takeaway": "Bạn quen tiếng ồn, nhưng mạch máu của bạn thì không. Nếu phải chọn, hãy đổi phòng ngủ trước khi đổi sofa.",
+      "link": "Đây là giới hạn rõ nhất của thích nghi khoái lạc ở bài số 4: tâm trí về lại mức nền, cơ thể thì không.",
+      "sources": [
+        { "name": "WHO Europe — Biological mechanisms related to cardiovascular and metabolic effects by environmental noise", "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2018-3009-42767-59666" },
+        { "name": "European Environment Agency — Environmental noise in Europe 2025", "url": "https://www.eea.europa.eu/en/analysis/publications/environmental-noise-in-europe-2025" },
+        { "name": "Münzel và cộng sự, Adverse Cardiovascular Effects of Traffic Noise with a Focus on Nighttime Noise and the New WHO Noise Guidelines, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/31922930/" },
+        { "name": "VnExpress International — 15 million people being drowned out by noise pollution in Vietnam", "url": "https://e.vnexpress.net/news/news/15-million-people-being-drowned-out-by-noise-pollution-in-vietnam-study-3616666.html" }
+      ]
+    }
+  ]
+}
