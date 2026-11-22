@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-22",
+      "number": 13,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "newton-south-sea-bubble-reentry",
+          "title": "Năm 1720, Isaac Newton bán cổ phiếu South Sea lãi đậm, rồi mua lại với giá gấp đôi lúc bán",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "social-proof-informational-influence",
+          "title": "Tại sao bạn chọn quán đông khách dù chưa biết món ở đó ngon hay dở?",
+          "category": "psych",
+          "kind": "why"
+        },
+        {
+          "id": "network-effects-two-sided-platforms",
+          "title": "Hiệu ứng mạng lưới: vì sao ứng dụng gọi xe sẵn sàng đốt tiền để có bạn",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "dancing-plague-1518-mass-psychogenic-illness",
+          "title": "Mùa hè 1518, hàng trăm người Strasbourg nhảy múa không ngừng suốt nhiều tuần, và chính quyền còn thuê nhạc công",
+          "category": "society",
+          "kind": "fact"
+        },
+        {
+          "id": "neural-scaling-laws-compute-optimal",
+          "title": "Định luật mở rộng: vì sao các công ty AI đổ hàng chục tỷ đô la vào máy chủ",
+          "category": "ai",
+          "kind": "theory"
+        }
+      ]
+    },
+    {
       "date": "2026-11-21",
       "number": 12,
       "readMinutes": 7,
