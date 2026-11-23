@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-23",
+      "number": 14,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "bank-run-self-fulfilling-diamond-dybvig",
+          "title": "Tại sao một lời đồn có thể đánh sập cả một ngân hàng đang hoạt động bình thường?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "sunk-cost-fallacy-arkes-blumer",
+          "title": "Chi phí chìm: vì sao bạn cố ngồi hết bộ phim dở chỉ vì đã lỡ mua vé",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "investment-fee-drag-compounding",
+          "title": "Cách tính xem khoản phí quỹ “chỉ 1–2% mỗi năm” thực sự lấy của bạn bao nhiêu",
+          "category": "econ",
+          "kind": "tip"
+        },
+        {
+          "id": "semmelweis-handwashing-puerperal-fever",
+          "title": "Năm 1847, rửa tay bằng nước clo giảm mạnh tử vong sản phụ, nhưng giới bác sĩ gạt đi",
+          "category": "society",
+          "kind": "fact"
+        },
+        {
+          "id": "word-embeddings-vector-semantics",
+          "title": "Embedding: cách AI biến mỗi chữ thành một tọa độ, để biết “vua” đứng gần “nữ hoàng”",
+          "category": "ai",
+          "kind": "concept"
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "number": 13,
       "readMinutes": 8,
