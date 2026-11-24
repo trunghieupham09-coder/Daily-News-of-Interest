@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-24",
+      "number": 15,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "job-market-signaling-spence",
+          "title": "Lý thuyết phát tín hiệu: vì sao tấm bằng đáng tiền dù bạn quên gần hết bài vở",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "choice-overload-jam-study-replication",
+          "title": "Quầy 24 vị mứt hút nhiều khách hơn quầy 6 vị, nhưng bán được ít hơn hẳn",
+          "category": "psych",
+          "kind": "fact"
+        },
+        {
+          "id": "retrieval-augmented-generation-rag",
+          "title": "RAG: cách chatbot của công ty trả lời đúng nội quy dù chưa từng được dạy nội quy",
+          "category": "ai",
+          "kind": "concept"
+        },
+        {
+          "id": "phillips-curve-expectations-natural-rate",
+          "title": "Tại sao thất nghiệp xuống quá thấp lại khiến ngân hàng trung ương lo lạm phát?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "rayleigh-scattering-blue-sky-red-sunset",
+          "title": "Tại sao bầu trời màu xanh, còn hoàng hôn lại đỏ cam?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "number": 14,
       "readMinutes": 8,

@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-24",
+  "number": 15,
+  "intro": "Chào buổi sáng thứ Ba. Hôm nay là chuyện tín hiệu và nhiễu: tấm bằng nói hộ bạn điều nhà tuyển dụng không nhìn thấy, quầy mứt quá nhiều vị làm người ta bỏ đi tay không, AI phải lọc tài liệu trước khi trả lời, ngân hàng trung ương đọc nhầm một đường cong, và bầu trời lọc ánh nắng thành màu xanh.",
+  "topics": [
+    {
+      "id": "job-market-signaling-spence",
+      "category": "econ",
+      "kind": "theory",
+      "subcategory": "Lý thuyết nền",
+      "title": "Lý thuyết phát tín hiệu: vì sao tấm bằng đáng tiền dù bạn quên gần hết bài vở",
+      "hook": "Bạn tốt nghiệp được ba năm, công thức tích phân đã bay đi đâu mất, môn triết thì chỉ nhớ mỗi tên thầy. Vậy mà mỗi lần nộp hồ sơ, dòng “cử nhân” vẫn là thứ đầu tiên nhà tuyển dụng tìm. Nếu kiến thức đã rơi rụng, tấm bằng đang bán cho họ thứ gì?",
+      "body": [
+        "Ý tưởng cốt lõi của **lý thuyết phát tín hiệu** (signaling theory) là: khi một bên biết rõ hơn bên kia về chính mình, họ có thể làm một việc tốn kém để chứng minh điều đó. Nhà tuyển dụng không nhìn thấy được sự chăm chỉ, khả năng học nhanh hay tính kỷ luật của bạn. Họ chỉ thấy hồ sơ. Một tấm bằng đại học, theo cách nhìn này, không chỉ là bằng chứng bạn đã học gì, mà là bằng chứng bạn đã chịu được bốn năm deadline, thi cử và thức khuya.",
+        "Michael Spence đưa ý tưởng này vào bài “Job Market Signaling” năm 1973, viết từ luận án tiến sĩ của ông. Năm 2001, ông cùng George Akerlof và Joseph Stiglitz nhận Nobel kinh tế cho các phân tích về **thông tin bất cân xứng** (asymmetric information). Tài liệu phổ biến của Ủy ban Nobel nhấn mạnh điều kiện then chốt: tín hiệu chỉ có tác dụng nếu chi phí phát tín hiệu khác nhau đủ nhiều giữa người giỏi và người kém. Nếu ai cũng lấy bằng dễ như nhau, tấm bằng không còn phân biệt được ai.",
+        "Bằng chứng gián tiếp là **hiệu ứng tấm da cừu** (sheepskin effect): năm 1987, Hungerford và Solon thấy thu nhập nhảy lên rõ rệt đúng ở năm nhận bằng, không tăng đều theo từng năm học. Nhưng chính hai tác giả cảnh báo kết quả có thể bị lệch vì không đo được năng lực bẩm sinh, và nhiều nhà kinh tế cho rằng năm cuối đại học vẫn dạy kỹ năng thật. Lý thuyết này cũng không nói học vô ích; nó nói giá trị tấm bằng là hỗn hợp giữa kỹ năng và tín hiệu, với tỷ lệ còn đang tranh cãi."
+      ],
+      "example": {
+        "title": "Chứng chỉ IELTS và bài kiểm tra tại chỗ",
+        "text": "Hai ứng viên cùng nói tiếng Anh tốt, nhưng chỉ một người có tờ IELTS. Với nhà tuyển dụng phải lọc vài trăm hồ sơ, tờ giấy đó rẻ hơn nhiều so với việc phỏng vấn thử từng người. Ngược lại, khi công ty tự cho làm bài test thực tế ngay vòng đầu, sức nặng của chứng chỉ giảm hẳn: họ đã có cách khác để nhìn thấy thứ trước đây bị che khuất."
+      },
+      "takeaway": "Tấm bằng là lời nói “tôi chịu được việc khó”, được in ra giấy. Muốn bớt phụ thuộc vào nó, hãy tạo một tín hiệu khó làm giả khác: sản phẩm thật, đường link xem được, người giới thiệu dám chịu trách nhiệm.",
+      "link": "Tín hiệu quý nhất khi người nhận bị ngập trong lựa chọn, đúng như quầy mứt hai mươi bốn vị ở bài số 2.",
+      "sources": [
+        { "name": "Nobel Prize — Popular information: The Prize in Economic Sciences 2001", "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/" },
+        { "name": "Nobel Prize — Press release: The Prize in Economic Sciences 2001", "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/press-release/" },
+        { "name": "Wikipedia — Sheepskin effect", "url": "https://en.wikipedia.org/wiki/Sheepskin_effect" }
+      ]
+    },
+    {
+      "id": "choice-overload-jam-study-replication",
+      "category": "psych",
+      "kind": "fact",
+      "subcategory": "Hành vi tiêu dùng",
+      "title": "Quầy 24 vị mứt hút nhiều khách hơn quầy 6 vị, nhưng bán được ít hơn hẳn",
+      "hook": "Bạn mở ứng dụng đặt đồ ăn lúc 12 giờ trưa, lướt qua bún, cơm tấm, poke, lẩu một người. Hai mươi phút sau, bạn vẫn đang lướt, và cuối cùng ăn mì gói. Năm 2000, hai nhà tâm lý học đã thử đúng tình huống này ở một siêu thị, với hũ mứt thay cho cơm tấm.",
+      "body": [
+        "Sheena Iyengar và Mark Lepper dựng một quầy nếm thử mứt trong siêu thị ở California, lúc bày 24 vị, lúc bày 6 vị. Quầy 24 vị thu hút khoảng 60% khách đi ngang dừng lại, quầy 6 vị khoảng 40%. Nhưng trong số người đã dừng, khoảng 30% khách ở quầy 6 vị mua một hũ, so với chỉ khoảng 3% ở quầy 24 vị. Kết quả đăng trên Journal of Personality and Social Psychology và trở thành ví dụ kinh điển của **quá tải lựa chọn** (choice overload).",
+        "Cơ chế được đề xuất có hai tầng. Thứ nhất, so sánh nhiều phương án tốn sức, nên não chọn cách dễ nhất: hoãn lại, không chọn. Thứ hai, càng nhiều lựa chọn, bạn càng dễ tưởng tượng mình đã bỏ lỡ một vị ngon hơn, nên **chi phí hối tiếc** dự kiến tăng. Hiệu ứng mạnh hơn khi các phương án khó so sánh với nhau, khi bạn chưa có sở thích rõ ràng, và khi không có gì sắp xếp sẵn để giúp bạn lọc.",
+        "Điều ít người kể tiếp: năm 2010, Benjamin Scheibehenne và cộng sự gộp 50 thí nghiệm với 63 điều kiện và 5.036 người tham gia, và thấy hiệu ứng trung bình gần như bằng không, dù chênh lệch giữa các nghiên cứu rất lớn. Nghĩa là quá tải lựa chọn có thật, nhưng chỉ xuất hiện trong điều kiện nhất định, không phải định luật. Người có chuyên môn, hoặc có bộ lọc tốt, thường không bị ngợp bởi nhiều lựa chọn mà còn thích có nhiều hơn."
+      ],
+      "example": {
+        "title": "Thực đơn quán phở và thực đơn quán “có tất cả”",
+        "text": "Một quán phở chỉ có tái, chín, nạm, gầu: bạn gọi trong năm giây. Một quán bán cả phở, cơm, lẩu, mì Ý trên tám trang thực đơn: bạn lật qua lật lại, rồi gọi món quen. Bạn không cần ít lựa chọn hơn, mà cần một cách lọc: mục “món được gọi nhiều nhất”, hay một câu hỏi “hôm nay muốn nước hay khô”."
+      },
+      "takeaway": "Khi bị ngợp, đừng cố so sánh cả hai mươi bốn vị. Tự đặt hai tiêu chí, gạch ngay những thứ không qua, rồi chọn trong ba phương án còn lại.",
+      "link": "AI cũng có quầy mứt của riêng nó: đổ quá nhiều tài liệu vào là nó trả lời tệ hơn, nên bài số 3 kể cách nó lọc trước khi đọc.",
+      "sources": [
+        { "name": "American Psychological Association — Too many choices? (Monitor on Psychology, 6/2004)", "url": "https://www.apa.org/monitor/jun04/toomany" },
+        { "name": "Iyengar & Lepper (2000) — When Choice is Demotivating, Journal of Personality and Social Psychology", "url": "https://faculty.washington.edu/jdb/345/345%20Articles/Iyengar%20&%20Lepper%20(2000).pdf" },
+        { "name": "Scheibehenne, Greifeneder & Todd (2010) — Can There Ever Be Too Many Options?, Journal of Consumer Research", "url": "https://ideas.repec.org/a/oup/jconrs/v37y2010i3p409-425.html" }
+      ]
+    },
+    {
+      "id": "retrieval-augmented-generation-rag",
+      "category": "ai",
+      "kind": "concept",
+      "subcategory": "Cách mô hình hoạt động",
+      "title": "RAG: cách chatbot của công ty trả lời đúng nội quy dù chưa từng được dạy nội quy",
+      "hook": "Công ty bạn vừa ra mắt chatbot nội bộ. Bạn hỏi “nghỉ phép năm còn bao nhiêu ngày thì được cộng dồn sang năm sau”, và nó trích đúng điều 12 của sổ tay nhân sự ban hành tuần trước. Mô hình AI kia được huấn luyện từ trước khi cuốn sổ tay ra đời. Vậy nó biết từ đâu?",
+      "body": [
+        "Câu trả lời thường là **RAG** (retrieval-augmented generation, sinh câu trả lời có tra cứu). Thay vì bắt mô hình nhớ mọi thứ, hệ thống chia tài liệu thành từng đoạn nhỏ và lưu dưới dạng tọa độ số để tìm theo nghĩa. Khi bạn hỏi, nó tìm vài đoạn gần nhất với câu hỏi, dán chúng vào ngay trước câu hỏi, rồi mới để mô hình viết câu trả lời. Mô hình giống một người viết giỏi được đưa sẵn vài trang tài liệu đúng chỗ, chứ không phải người thuộc lòng cả thư viện.",
+        "Tên gọi RAG đến từ bài báo năm 2020 của Patrick Lewis và cộng sự tại Facebook AI Research, UCL và NYU. Họ ghép một mô hình ngôn ngữ với một chỉ mục tra cứu Wikipedia, và thấy câu trả lời cụ thể, đa dạng và đúng sự thật hơn so với mô hình chỉ dựa vào trí nhớ. Ưu điểm lớn: muốn cập nhật kiến thức, bạn chỉ cần thay tài liệu, không phải huấn luyện lại mô hình, và có thể chỉ ra câu trả lời lấy từ đoạn nào.",
+        "Điểm yếu nằm ở khâu tìm. Nếu bước tra cứu bốc nhầm đoạn, mô hình sẽ trả lời rất tự tin dựa trên tài liệu sai. Anthropic báo cáo rằng trong thử nghiệm của họ, tỷ lệ không tìm được đoạn đúng trong 20 đoạn đầu là 5,7% với cách làm thông thường, và giảm còn 1,9% khi thêm ngữ cảnh cho từng đoạn và xếp hạng lại kết quả. Họ cũng lưu ý: nếu toàn bộ tài liệu dưới khoảng 200.000 **token**, tương đương 500 trang, có khi bỏ hẳn RAG và đưa nguyên văn vào là đơn giản hơn."
+      ],
+      "example": {
+        "title": "Hỏi chatbot về hợp đồng thuê nhà",
+        "text": "Bạn tải lên hợp đồng thuê nhà 12 trang và hỏi “trả nhà trước hạn có mất cọc không”. Một công cụ có RAG sẽ tìm đoạn về đặt cọc và chấm dứt hợp đồng, rồi trả lời kèm trích dẫn. Hãy luôn bấm vào trích dẫn đó: nếu đoạn được trích nói về tiền điện thay vì tiền cọc, khâu tìm đã hỏng, và câu trả lời trơn tru kia không đáng tin."
+      },
+      "takeaway": "RAG biến AI từ học sinh trả bài thuộc lòng thành học sinh được mở sách. Mở sách đúng trang thì điểm cao; mở nhầm trang thì sai rất tự tin. Luôn kiểm tra trang nó mở.",
+      "sources": [
+        { "name": "Lewis et al. (2020) — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, arXiv", "url": "https://arxiv.org/abs/2005.11401" },
+        { "name": "Anthropic — Introducing Contextual Retrieval", "url": "https://www.anthropic.com/news/contextual-retrieval" }
+      ]
+    },
+    {
+      "id": "phillips-curve-expectations-natural-rate",
+      "category": "econ",
+      "kind": "why",
+      "subcategory": "Kinh tế vĩ mô & tiền tệ",
+      "title": "Tại sao thất nghiệp xuống quá thấp lại khiến ngân hàng trung ương lo lạm phát?",
+      "hook": "Tin vui: thất nghiệp xuống thấp nhất nhiều năm, công ty nào cũng than khó tuyển. Bạn tưởng ngân hàng trung ương sẽ mở tiệc. Thay vào đó, họ họp kín và bàn chuyện nâng lãi suất. Nghe như bố mẹ thấy con được điểm cao thì lo con học quá sức, nhưng lần này họ có lý do kỹ thuật hẳn hoi.",
+      "body": [
+        "Cơ chế bắt đầu ở thị trường lao động. Khi gần như ai muốn làm cũng có việc, doanh nghiệp phải tăng lương để giữ người và giành người. Lương tăng làm chi phí tăng, doanh nghiệp đẩy một phần sang giá bán. Người lao động thấy giá tăng lại đòi lương cao hơn. Mối liên hệ nghịch giữa thất nghiệp và tốc độ tăng lương, rồi tăng giá, được gọi là **đường cong Phillips** (Phillips curve).",
+        "Năm 1958, nhà kinh tế người New Zealand Bill Phillips công bố bài viết về dữ liệu Anh giai đoạn 1861–1957: năm nào thất nghiệp thấp thì lương danh nghĩa tăng nhanh, và ngược lại. Nhiều nhà kinh tế sau đó tin rằng đây là một thực đơn ổn định: chấp nhận thêm chút lạm phát để đổi lấy ít thất nghiệp hơn. Cuối thập niên 1960, Milton Friedman và Edmund Phelps phản bác: khi mọi người bắt đầu chờ đợi lạm phát cao hơn, họ đòi lương cao hơn từ trước, và sự đánh đổi chỉ tồn tại ngắn hạn. Thập niên 1970, Mỹ và Anh gặp cả lạm phát lẫn thất nghiệp cùng cao, và thực đơn kia sụp đổ.",
+        "Bài học rút ra là **kỳ vọng lạm phát** quyết định nhiều thứ. Nếu người dân tin ngân hàng trung ương sẽ giữ giá ổn định, một đợt thất nghiệp thấp ít khi biến thành vòng xoáy lương và giá. Vì vậy ngân hàng trung ương nâng lãi suất sớm, một phần để giữ niềm tin đó. Nhưng giới hạn cũng rõ: đường cong này lúc phẳng lúc dốc. IMF ghi nhận trong đợt lạm phát 2021–2023, đường cong giá dốc lên, còn trước đó nhiều năm thất nghiệp rất thấp mà lạm phát gần như không nhúc nhích."
+      ],
+      "example": {
+        "title": "Khu công nghiệp thiếu công nhân sau Tết",
+        "text": "Sau Tết, nhiều nhà máy tranh nhau tuyển công nhân, treo băng rôn tăng lương, thêm thưởng chuyên cần. Giả sử (số ước tính) một xưởng tăng lương 8% để đủ người, và lương chiếm một phần lớn giá thành. Nếu cả vùng cùng làm vậy, giá hàng, giá cơm bụi quanh khu công nghiệp cũng nhích theo. Đó là đường cong Phillips thu nhỏ trong một con phố."
+      },
+      "takeaway": "Ngân hàng trung ương không ghét bạn có việc làm. Họ sợ mọi người tin rằng giá sẽ còn tăng, vì một khi ai cũng tin thế, giá sẽ tăng thật.",
+      "link": "Khi thị trường lao động căng và công ty tuyển vội, họ dựa vào tín hiệu nhanh như bằng cấp và chứng chỉ, thứ bài số 1 giải thích.",
+      "sources": [
+        { "name": "Britannica Money — Phillips curve", "url": "https://www.britannica.com/money/Phillips-curve" },
+        { "name": "Wikipedia — Phillips curve", "url": "https://en.wikipedia.org/wiki/Phillips_curve" },
+        { "name": "IMF — World Economic Outlook, October 2024, Chapter 2: The Great Tightening", "url": "https://www.imf.org/-/media/Files/Publications/WEO/2024/October/English/ch2.ashx" }
+      ]
+    },
+    {
+      "id": "rayleigh-scattering-blue-sky-red-sunset",
+      "category": "society",
+      "kind": "why",
+      "subcategory": "Khoa học",
+      "title": "Tại sao bầu trời màu xanh, còn hoàng hôn lại đỏ cam?",
+      "hook": "Đứa cháu năm tuổi hỏi bạn “sao trời màu xanh”, và bạn trả lời “vì nó phản chiếu biển”. Câu trả lời nghe rất hợp lý, cho tới khi bạn nhớ ra Hà Nội cách biển hơn trăm cây số mà trời vẫn xanh. Đến lúc tìm hiểu thật, hóa ra câu trả lời nằm ở việc ánh nắng va vào không khí.",
+      "body": [
+        "Ánh nắng trông trắng nhưng là hỗn hợp mọi màu, mỗi màu có bước sóng khác nhau: đỏ dài, xanh lam và tím ngắn. Khi đi qua khí quyển, ánh sáng va vào các phân tử khí rất nhỏ như nitơ và oxy, và bị bật đi theo mọi hướng. Hiện tượng này gọi là **tán xạ Rayleigh** (Rayleigh scattering), theo tên nhà vật lý Lord Rayleigh mô tả nó từ thế kỷ 19. Điểm mấu chốt: bước sóng càng ngắn, ánh sáng càng bị tán xạ mạnh.",
+        "Theo một nhà khoa học của NASA Goddard viết trên Scientific American, ánh sáng xanh lam bị tán xạ mạnh gần gấp 10 lần ánh sáng đỏ. Ánh xanh bị bật khắp nơi, nên nhìn về hướng nào bạn cũng nhận được ánh xanh, và cả bầu trời có màu đó. Vì sao không phải màu tím, dù tím tán xạ mạnh hơn nữa? Vì trong ánh nắng có ít ánh tím hơn ánh xanh lam, và mắt người kém nhạy với màu tím.",
+        "Lúc hoàng hôn, ánh nắng chiếu xiên và phải đi qua lớp không khí dày hơn nhiều trước khi tới mắt bạn. Trên quãng đường dài ấy, phần lớn ánh xanh đã bị tán xạ đi mất, chỉ còn đỏ và vàng đi thẳng tới. Bụi, khói và hơi nước có thể làm màu đỏ đậm hơn, theo NOAA. Giới hạn của giải thích này: những hạt lớn như giọt nước trong mây tán xạ mọi màu gần như đều nhau, nên mây có màu trắng hoặc xám chứ không xanh."
+      ],
+      "example": {
+        "title": "Hoàng hôn đỏ rực ngày khói bụi",
+        "text": "Những chiều thành phố nhiều khói bụi, bạn có thể thấy Mặt Trời như một quả cầu cam đỏ, nhìn thẳng mà ít chói. Lớp hạt lơ lửng dày hơn đã lọc bớt ánh xanh và làm yếu ánh sáng. Cảnh đẹp, nhưng chính là dấu hiệu không khí hôm đó nhiều hạt hơn bình thường, nên đáng mở ứng dụng xem chỉ số chất lượng không khí."
+      },
+      "takeaway": "Trời xanh vì không khí chọn giữ lại ánh xanh và tung nó khắp nơi. Lần tới đứa cháu hỏi, bạn đã có câu trả lời đúng, và một câu hỏi ngược lại: “thế sao mây lại trắng?”",
+      "sources": [
+        { "name": "NASA Space Place — Why Is the Sky Blue?", "url": "https://spaceplace.nasa.gov/blue-sky/" },
+        { "name": "Scientific American — Why is the sky blue?", "url": "https://www.scientificamerican.com/article/why-is-the-sky-blue/" },
+        { "name": "NOAA SciJinks — Why Is the Sky Blue?", "url": "https://scijinks.gov/blue-sky/" }
+      ]
+    }
+  ]
+}
