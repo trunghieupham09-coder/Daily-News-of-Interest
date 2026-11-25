@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-25",
+      "number": 16,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "mental-accounting-fungibility",
+          "title": "Tài khoản tâm lý: vì sao tiền thưởng Tết bay nhanh hơn tiền lương",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "hotelling-law-minimum-differentiation",
+          "title": "Định luật Hotelling: vì sao các tiệm vàng, tiệm điện thoại cứ mọc sát vách nhau",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "mixture-of-experts-sparse-activation",
+          "title": "DeepSeek-V3 có 671 tỷ tham số, nhưng mỗi chữ nó viết chỉ dùng 37 tỷ",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "japan-public-debt-sustainability",
+          "title": "Tại sao Nhật Bản nợ công hơn 200% GDP mà vẫn chưa vỡ nợ?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "ocean-salinity-weathering-evaporation",
+          "title": "Tại sao nước biển mặn, trong khi nước sông đổ ra biển lại ngọt?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "number": 15,
       "readMinutes": 7,

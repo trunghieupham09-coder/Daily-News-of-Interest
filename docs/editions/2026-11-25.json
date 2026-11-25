@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-25",
+  "number": 16,
+  "intro": "Chào buổi sáng thứ Tư. Hôm nay là chuyện chia ngăn và dồn cục: bạn chia tiền vào các ngăn kéo tưởng tượng, các tiệm vàng dồn về một con phố, AI chia bộ não thành nhiều chuyên gia, nước Nhật nợ chồng chất mà chưa vỡ, và đại dương gom muối suốt hàng tỷ năm.",
+  "topics": [
+    {
+      "id": "mental-accounting-fungibility",
+      "category": "psych",
+      "kind": "concept",
+      "subcategory": "Ra quyết định",
+      "title": "Tài khoản tâm lý: vì sao tiền thưởng Tết bay nhanh hơn tiền lương",
+      "hook": "Lương tháng về, bạn tính từng đồng tiền nhà, tiền xăng. Thưởng cuối năm về, bạn mở app đặt vé du lịch trong mười lăm phút. Cùng là tiền Việt Nam, cùng mệnh giá, vậy mà một khoản được canh như vàng, khoản kia tiêu như tiền trúng số. Ngân hàng không phân biệt hai khoản này, chỉ có đầu bạn phân biệt.",
+      "body": [
+        "**Tài khoản tâm lý** (mental accounting) là thói quen chia tiền vào các “ngăn kéo” tưởng tượng theo nguồn gốc hoặc mục đích: tiền ăn, tiền chơi, tiền trời cho. Về lý thuyết, tiền có **tính thay thế hoàn toàn** (fungibility): một trăm nghìn trong ngăn nào cũng mua được đúng một trăm nghìn hàng hóa. Nhưng khi đã gắn nhãn, ta áp cho mỗi ngăn một ngân sách và một mức độ dễ dãi riêng. Cơ chế này giúp não đơn giản hóa hàng trăm quyết định chi tiêu, đổi lại là những lựa chọn không nhất quán.",
+        "Bằng chứng kinh điển đến từ Amos Tversky và Daniel Kahneman năm 1981. Một nhóm được hỏi: bạn đến rạp và phát hiện mất tờ 10 đô, bạn có mua vé không? 88% nói có. Nhóm khác: bạn đã mua vé 10 đô và làm mất vé, có mua vé mới không? Chỉ 46% nói có. Thiệt hại như nhau, nhưng tấm vé mất bị tính vào “ngăn giải trí”, khiến buổi xem phim giờ như tốn 20 đô. Richard Thaler phát triển khái niệm này thành lý thuyết hoàn chỉnh và nhận Nobel kinh tế năm 2017, trong đó Ủy ban Nobel nêu rõ tài khoản tâm lý là một đóng góp chính.",
+        "Ngăn kéo tâm lý không phải lúc nào cũng xấu. Một khoản “quỹ khẩn cấp” có nhãn rõ ràng giúp bạn không rút ra mua điện thoại, tức là cái nhãn hoạt động như một kỷ luật tự đặt. Vấn đề xuất hiện khi ngăn kéo chống lại số học: vừa gửi tiết kiệm lãi thấp vừa nợ thẻ tín dụng lãi cao, chỉ vì không nỡ “đụng vào sổ”. Giới hạn của khái niệm là nó mô tả tốt hơn dự đoán: rất khó biết trước một người sẽ vạch ngăn theo cách nào."
+      ],
+      "example": {
+        "title": "Mười triệu thưởng Tết và khoản nợ thẻ",
+        "text": "Giả sử bạn đang nợ thẻ tín dụng 10 triệu với lãi khoảng 30% một năm, đồng thời nhận 10 triệu thưởng Tết (số liệu ước tính). Nếu để thưởng trong ngăn “tiền đi chơi” và cứ trả nợ dần bằng lương, chỉ riêng tiền lãi một năm có thể lên tới khoảng 3 triệu. Gộp hai ngăn lại, trả nợ ngay, bạn “kiếm” được 3 triệu đó mà không cần làm thêm giờ nào."
+      },
+      "takeaway": "Trước khi tiêu một khoản “trời cho”, hãy tự hỏi: nếu đây là tiền lương, mình có tiêu như vậy không? Tiền không có nhãn, chỉ có ví của bạn là dán nhãn.",
+      "link": "Nhìn từng ngăn riêng lẻ hay gộp cả cuốn sổ cũng là cách hiểu vì sao Nhật Bản nợ nhiều mà chưa vỡ, ở bài số 4.",
+      "sources": [
+        { "name": "Nobel Prize — Popular information: The Prize in Economic Sciences 2017", "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/" },
+        { "name": "Kahneman & Tversky (1984), Choices, Values, and Frames — American Psychologist", "url": "https://www.psy.miami.edu/_assets/pdf/rpo-articles/kahneman-and-tversky-1984.pdf" },
+        { "name": "Royal Swedish Academy of Sciences — The Prize in Economic Sciences 2017", "url": "https://www.kva.se/en/news/ekonomipriset-2017-2/" }
+      ]
+    },
+    {
+      "id": "hotelling-law-minimum-differentiation",
+      "category": "econ",
+      "kind": "theory",
+      "subcategory": "Thị trường & doanh nghiệp",
+      "title": "Định luật Hotelling: vì sao các tiệm vàng, tiệm điện thoại cứ mọc sát vách nhau",
+      "hook": "Một bãi biển dài, hai xe kem, khách nằm rải đều từ đầu này đến đầu kia. Đứng cách xa nhau thì mỗi xe phục vụ một nửa bãi, khách nào cũng đi bộ không xa. Nhưng sáng hôm sau, bạn thấy hai xe kem đứng dính vào nhau ngay giữa bãi, và khách ở hai đầu phải lội cát xa gấp đôi. Không ai thông đồng, vậy chuyện gì đã xảy ra?",
+      "body": [
+        "Năm 1929, nhà kinh tế Harold Hotelling viết bài “Stability in Competition” với một mô hình đơn giản: hai người bán cùng một món hàng trên một con đường thẳng, khách mua của người gần mình nhất. Mỗi người bán đều có lợi khi nhích về phía đối thủ, vì làm thế giành thêm khách ở khoảng giữa mà không mất khách phía sau lưng. Cứ nhích mãi, cả hai gặp nhau ở chính giữa. Ý tưởng này về sau được gọi là **nguyên lý khác biệt tối thiểu** (principle of minimum differentiation): cạnh tranh đẩy các đối thủ trở nên giống nhau.",
+        "Hotelling và những người kế tục mở rộng ý tưởng sang sản phẩm và chính trị. Anthony Downs dùng cùng logic để giải thích vì sao hai đảng lớn hay tranh nhau vị trí của **cử tri trung vị** (median voter), người đứng chính giữa phổ quan điểm. Bạn cũng thấy nó ở các hãng điện thoại có thiết kế na ná nhau, hay các kênh truyền hình cùng chiếu một kiểu chương trình vào giờ vàng.",
+        "Nhưng định luật này mong manh hơn tên gọi. Năm 1979, d’Aspremont, Gabszewicz và Thisse chỉ ra trên tạp chí Econometrica rằng khi người bán được cạnh tranh cả bằng giá, họ lại có động cơ đứng **xa** nhau để tránh chiến tranh giá. Việc các tiệm cùng loại tụ về một phố còn có lời giải khác: khách muốn so sánh nhiều tiệm một lúc, nên một con phố chuyên doanh hút khách hơn từng tiệm lẻ. Nói cách khác, Hotelling đúng khi giá khó thay đổi và khách chỉ quan tâm khoảng cách."
+      ],
+      "example": {
+        "title": "Phố Hàng Bạc và dãy tiệm điện thoại",
+        "text": "Phố Hàng Bạc ở Hà Nội mang tên nghề vàng bạc, và đến nay vẫn dày đặc tiệm kim hoàn. Ở nhiều thành phố, các cửa hàng điện thoại cũng đứng thành dãy trên một trục đường. Với khách, lợi ích là đi một chuyến so được giá năm tiệm. Với chủ tiệm, đứng lẻ ở một con hẻm vắng có thể đỡ cạnh tranh, nhưng cũng đỡ luôn khách."
+      },
+      "takeaway": "Lần tới thấy hai tiệm giống hệt nhau đứng sát vách, đừng nghĩ họ thiếu sáng tạo. Họ đang chơi đúng trò chơi xe kem trên bãi biển, chỉ có điều bạn là người phải lội cát.",
+      "link": "AI cũng gặp đúng bài toán “mọi người dồn về một chỗ” khi chia việc cho các chuyên gia bên trong nó, ở bài số 3.",
+      "sources": [
+        { "name": "Wikipedia — Hotelling's law", "url": "https://en.wikipedia.org/wiki/Hotelling%27s_law" },
+        { "name": "Econometrica (1979) — d'Aspremont, Gabszewicz & Thisse, On Hotelling's “Stability in Competition”", "url": "https://econometricsociety.org/publications/econometrica/1979/09/01/hotellings-stability-competition" },
+        { "name": "San José State University — Thayer Watkins, Anthony Downs and the median voter", "url": "https://www.sjsu.edu/faculty/watkins/downs.htm" }
+      ]
+    },
+    {
+      "id": "mixture-of-experts-sparse-activation",
+      "category": "ai",
+      "kind": "fact",
+      "subcategory": "Cách mô hình hoạt động",
+      "title": "DeepSeek-V3 có 671 tỷ tham số, nhưng mỗi chữ nó viết chỉ dùng 37 tỷ",
+      "hook": "Hãy tưởng tượng một bệnh viện có hàng trăm bác sĩ, nhưng mỗi bệnh nhân chỉ gặp đúng vài người phù hợp nhất, những người còn lại vẫn ngồi phòng mình. Bệnh viện vẫn “biết” rất nhiều, mà mỗi lượt khám lại tốn ít công. Một số mô hình AI lớn nhất hiện nay được thiết kế đúng theo kiểu đó.",
+      "body": [
+        "Kiến trúc này gọi là **hỗn hợp chuyên gia** (mixture of experts, MoE). Thay vì một khối mạng nơ-ron khổng lồ mà mọi chữ đều phải đi qua toàn bộ, mỗi lớp được chia thành nhiều khối con gọi là “chuyên gia”. Một mạng nhỏ gọi là **bộ định tuyến** (router) nhìn từng chữ và chọn vài chuyên gia phù hợp để xử lý nó. Kết quả là mô hình có tổng kiến thức rất lớn, nhưng chi phí tính toán cho mỗi chữ chỉ bằng một phần nhỏ.",
+        "Báo cáo kỹ thuật của DeepSeek-V3 công bố mô hình có 671 tỷ tham số tổng cộng, nhưng chỉ 37 tỷ được kích hoạt cho mỗi chữ, tức khoảng một phần mười tám. Mixtral 8x7B của Mistral có 8 chuyên gia ở mỗi lớp và bộ định tuyến chọn 2 trong 8 cho từng chữ. Ý tưởng không mới: năm 2017, nhóm của Noam Shazeer ở Google đã đưa lớp MoE thưa vào mạng nơ-ron với hàng nghìn chuyên gia.",
+        "Cái giá phải trả nằm ở hai chỗ. Thứ nhất, tiết kiệm tính toán không có nghĩa là tiết kiệm bộ nhớ: toàn bộ 671 tỷ tham số vẫn phải nằm sẵn trên máy chủ. Thứ hai, bộ định tuyến có xu hướng dồn việc cho vài chuyên gia “nổi tiếng”. Trong thí nghiệm của Shazeer, khi không có cơ chế cân bằng, chuyên gia bận nhất phải gánh gấp gần 18 lần mức trung bình. Các nhóm phải thêm một khoản phạt khi phân việc lệch, gọi là hàm mất mát cân bằng tải, để ép việc chia đều hơn."
+      ],
+      "example": {
+        "title": "Vì sao bạn thấy chữ “MoE” trong bảng giá API",
+        "text": "Khi so hai mô hình có cùng “cỡ” trên giấy, mô hình MoE thường trả lời nhanh và rẻ hơn tính theo mỗi chữ, vì mỗi lượt chỉ chạy một phần nhỏ. Nhưng nếu bạn muốn tự chạy mô hình trên máy riêng, con số cần nhìn là tổng tham số: một mô hình 671 tỷ tham số vẫn cần lượng bộ nhớ của 671 tỷ, dù mỗi chữ chỉ dùng 37 tỷ."
+      },
+      "takeaway": "Mô hình MoE giống một tòa soạn nhiều phóng viên: báo dày nhưng mỗi bài chỉ một hai người viết. Khi đọc thông số AI, hãy hỏi cả hai câu: tổng bao nhiêu, và mỗi lần dùng bao nhiêu.",
+      "link": "Router dồn việc cho chuyên gia đông khách cũng là chuyện hai xe kem dồn về giữa bãi ở bài số 2.",
+      "sources": [
+        { "name": "arXiv — DeepSeek-AI, DeepSeek-V3 Technical Report (2412.19437)", "url": "https://arxiv.org/abs/2412.19437" },
+        { "name": "arXiv — Jiang et al., Mixtral of Experts (2401.04088)", "url": "https://arxiv.org/abs/2401.04088" },
+        { "name": "arXiv — Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer (1701.06538)", "url": "https://arxiv.org/abs/1701.06538" }
+      ]
+    },
+    {
+      "id": "japan-public-debt-sustainability",
+      "category": "econ",
+      "kind": "why",
+      "subcategory": "Kinh tế vĩ mô & tiền tệ",
+      "title": "Tại sao Nhật Bản nợ công hơn 200% GDP mà vẫn chưa vỡ nợ?",
+      "hook": "Nếu một người thu nhập 100 triệu một năm mà nợ hơn 200 triệu, ngân hàng sẽ gọi điện liên tục. Chính phủ Nhật nợ ở mức đó từ lâu, vậy mà nhiều năm liền vẫn vay được với lãi suất gần như bằng không. Hy Lạp nợ ít hơn mà suýt sụp năm 2010. Nhật Bản có phép màu gì?",
+      "body": [
+        "Câu trả lời đầu tiên là **nợ bằng nội tệ, do người trong nhà nắm giữ**. Theo nghiên cứu của Takeo Hoshi và Takatoshi Ito trên NBER, trái phiếu chính phủ Nhật chủ yếu do nhà đầu tư trong nước mua, nhờ tỷ lệ tiết kiệm hộ gia đình cao và thói quen chuộng tài sản bằng yên. Nợ bằng chính đồng tiền mình phát hành nghĩa là Nhật không thể bị “hết đô la” để trả như các nước nợ bằng ngoại tệ. Còn chủ nợ trong nước ít khi tháo chạy đồng loạt như dòng vốn ngoại.",
+        "Lý do thứ hai là con số tổng đang phóng đại. Bài phân tích trên tạp chí Finance & Development của IMF năm 2026 chỉ ra nợ công gộp của Nhật vượt 200% GDP, nhưng chính phủ cũng nắm một khối tài sản tài chính lớn. Trừ tài sản đi, **nợ ròng** (net debt) thấp hơn nhiều, tùy cách tính. Thêm vào đó, Ngân hàng Trung ương Nhật đã mua một lượng lớn trái phiếu trong nhiều năm, giữ lãi suất dài hạn ở mức rất thấp, nên chi phí trả lãi trong ngân sách vẫn chịu được.",
+        "Nhưng “chưa vỡ” không có nghĩa là “không bao giờ vỡ”. Toàn bộ cấu trúc dựa vào lãi suất thấp. Các nhà kinh tế ở Fed St. Louis cảnh báo rằng khi ngân hàng trung ương Nhật nâng lãi suất, cả chính phủ lẫn ngân hàng trung ương đều có thể chịu lỗ lớn, vì nợ phải đảo hạn ở lãi cao hơn. Dân số già đi cũng nghĩa là khoản tiết kiệm từng mua trái phiếu sẽ dần bị rút ra để tiêu dùng khi nghỉ hưu. Bài học của Nhật không phải là “nợ bao nhiêu cũng được”, mà là ai cho vay và bằng đồng tiền gì quan trọng ngang con số."
+      ],
+      "example": {
+        "title": "Vay người nhà và vay tín dụng đen",
+        "text": "Hai người cùng nợ 500 triệu. Người thứ nhất vay bố mẹ, trả bằng tiền Việt, bố mẹ chẳng đòi gấp. Người thứ hai vay bằng đô la từ một nơi có thể đòi ngay khi tin đồn nổi lên. Cùng một con số, rủi ro khác hẳn nhau. Nhật giống người thứ nhất. Nhưng nếu bố mẹ già đi và cần tiền dưỡng già, người thứ nhất cũng phải tính lại."
+      },
+      "takeaway": "Khi nghe “nợ hơn 200% GDP”, hãy hỏi thêm ba câu: nợ ai, bằng tiền gì, lãi bao nhiêu. Ba câu đó cho biết nhiều hơn con số kia, kể cả với khoản vay của chính bạn.",
+      "link": "Nợ tích lại vì vay vào nhiều hơn trả ra, giống cách đại dương gom muối từ sông suốt hàng tỷ năm ở bài số 5.",
+      "sources": [
+        { "name": "IMF Finance & Development (2026) — Japan's Debt Beyond the Headlines", "url": "https://www.imf.org/en/publications/fandd/issues/2026/09/japans-debt-beyond-the-headlines-anand" },
+        { "name": "NBER — Hoshi & Ito, Why Has Japan's Massive Government Debt Not Wreaked Havoc (Yet)?", "url": "https://www.nber.org/papers/w19596" },
+        { "name": "Federal Reserve Bank of St. Louis — Japan's Consolidated Balance Sheet and Challenges for Monetary Policy", "url": "https://www.stlouisfed.org/on-the-economy/2024/oct/japans-consolidated-balance-sheet-challenges-monetary-policy" }
+      ]
+    },
+    {
+      "id": "ocean-salinity-weathering-evaporation",
+      "category": "society",
+      "kind": "why",
+      "subcategory": "Khoa học",
+      "title": "Tại sao nước biển mặn, trong khi nước sông đổ ra biển lại ngọt?",
+      "hook": "Sông Hồng, sông Cửu Long ngày đêm đổ nước ngọt ra biển. Theo lẽ thường, biển phải nhạt dần đi mới phải. Vậy mà một ly nước biển vẫn mặn chát, đủ để ngày xưa diêm dân chỉ cần phơi nắng là có muối. Hóa ra thủ phạm làm biển mặn lại chính là những dòng sông ngọt ấy.",
+      "body": [
+        "Mọi chuyện bắt đầu từ mưa. Theo Cục Khảo sát Địa chất Mỹ (USGS), nước mưa hòa tan một ít khí CO₂ nên hơi có tính axit. Khi rơi xuống đất, nó bào mòn đá và hòa tan khoáng chất thành các ion, rồi chảy theo suối, sông ra biển. Lượng khoáng trong nước sông rất nhỏ nên bạn không nếm thấy mặn. Điểm then chốt là **bay hơi**: ở biển, nắng chỉ lấy đi nước tinh khiết, còn muối ở lại. Nước bay lên thành mây, mưa xuống, lại mang thêm khoáng ra biển. Vòng này lặp lại hàng trăm triệu năm.",
+        "Theo Cơ quan Khí quyển và Đại dương Mỹ (NOAA), độ mặn trung bình của đại dương khoảng 35 phần nghìn, tức khoảng 3,5% khối lượng nước biển là muối hòa tan. Hai ion clorua và natri chiếm khoảng 85% các ion hòa tan, chính là thành phần của muối ăn. Ngoài sông, muối còn đến từ các miệng phun thủy nhiệt dưới đáy biển và núi lửa ngầm.",
+        "Vậy biển có mặn mãi lên không? NOAA cho rằng hiện nay lượng muối vào và ra đại dương đã gần cân bằng, nên biển không còn mặn thêm đáng kể. Muối bị lấy ra khỏi nước khi sinh vật dùng khoáng để xây vỏ, và khi một phần ion phản ứng với đá đáy biển rồi lắng xuống. Độ mặn cũng khác nhau theo vùng: nơi nắng gắt, ít mưa thì mặn hơn; nơi sông lớn đổ ra hay băng tan thì nhạt hơn."
+      ],
+      "example": {
+        "title": "Nồi canh để lửa riu riu",
+        "text": "Bạn nấu nồi canh, cứ cạn bớt lại châm thêm nước lã có pha chút xíu muối. Mỗi lần châm, muối gần như không đáng kể. Nhưng nước bốc hơi mà muối thì ở lại, nên sau nhiều lần, nồi canh mặn hẳn. Đại dương là nồi canh đó, chỉ có điều bếp đã đỏ lửa suốt hàng tỷ năm."
+      },
+      "takeaway": "Biển mặn không phải vì có ai đổ muối vào, mà vì nước thì đi, muối thì ở. Thứ gì chỉ vào mà không ra, dù nhỏ giọt, cuối cùng cũng thành một biển.",
+      "link": "Cùng một logic “vào nhiều hơn ra thì tích tụ”, bạn có thể đọc lại câu chuyện nợ công của Nhật ở bài số 4.",
+      "sources": [
+        { "name": "USGS Water Science School — Why is the ocean salty?", "url": "https://www.usgs.gov/water-science-school/science/why-ocean-salty" },
+        { "name": "NOAA Ocean Service — Why is the ocean salty?", "url": "https://oceanservice.noaa.gov/facts/whysalty.html" },
+        { "name": "NOAA Ocean Service — Why are rivers not salty?", "url": "https://oceanservice.noaa.gov/facts/riversnotsalty.html" }
+      ]
+    }
+  ]
+}
