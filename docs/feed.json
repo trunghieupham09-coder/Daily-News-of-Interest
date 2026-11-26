@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-26",
+      "number": 17,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "yap-rai-stones-ledger-money",
+          "title": "Trên đảo Yap, một hòn đá nằm dưới đáy biển suốt nhiều đời vẫn được tính là tiền",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "present-bias-hyperbolic-discounting",
+          "title": "Thiên lệch hiện tại: vì sao bạn của tuần sau luôn chăm chỉ hơn bạn của hôm nay",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "insurance-risk-aversion-pooling",
+          "title": "Tại sao mua bảo hiểm gần như chắc chắn “lỗ”, mà vẫn là quyết định khôn ngoan?",
+          "category": "econ",
+          "kind": "why"
+        },
+        {
+          "id": "xml-tags-prompt-structure",
+          "title": "Cách dùng thẻ XML để AI không nhầm tài liệu bạn dán vào với yêu cầu của bạn",
+          "category": "ai",
+          "kind": "tip"
+        },
+        {
+          "id": "hygiene-hypothesis-old-friends",
+          "title": "Giả thuyết vệ sinh, và vì sao trẻ em Amish hiếm khi bị hen suyễn",
+          "category": "society",
+          "kind": "theory"
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "number": 16,
       "readMinutes": 8,

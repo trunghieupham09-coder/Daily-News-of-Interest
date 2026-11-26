@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-11-26",
+    "id": "hygiene-hypothesis-old-friends",
+    "category": "society",
+    "kind": "theory",
+    "title": "Giả thuyết vệ sinh, và vì sao trẻ em Amish hiếm khi bị hen suyễn"
+  },
+  {
+    "date": "2026-11-26",
+    "id": "xml-tags-prompt-structure",
+    "category": "ai",
+    "kind": "tip",
+    "title": "Cách dùng thẻ XML để AI không nhầm tài liệu bạn dán vào với yêu cầu của bạn"
+  },
+  {
+    "date": "2026-11-26",
+    "id": "insurance-risk-aversion-pooling",
+    "category": "econ",
+    "kind": "why",
+    "title": "Tại sao mua bảo hiểm gần như chắc chắn “lỗ”, mà vẫn là quyết định khôn ngoan?"
+  },
+  {
+    "date": "2026-11-26",
+    "id": "present-bias-hyperbolic-discounting",
+    "category": "psych",
+    "kind": "concept",
+    "title": "Thiên lệch hiện tại: vì sao bạn của tuần sau luôn chăm chỉ hơn bạn của hôm nay"
+  },
+  {
+    "date": "2026-11-26",
+    "id": "yap-rai-stones-ledger-money",
+    "category": "econ",
+    "kind": "fact",
+    "title": "Trên đảo Yap, một hòn đá nằm dưới đáy biển suốt nhiều đời vẫn được tính là tiền"
+  },
+  {
     "date": "2026-11-25",
     "id": "ocean-salinity-weathering-evaporation",
     "category": "society",
