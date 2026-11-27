@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-27",
+      "number": 18,
+      "readMinutes": 7,
+      "topics": [
+        {
+          "id": "veblen-goods-conspicuous-consumption",
+          "title": "Hàng Veblen: vì sao có những món càng tăng giá lại càng có người xếp hàng mua",
+          "category": "econ",
+          "kind": "concept"
+        },
+        {
+          "id": "zeigarnik-effect-unfinished-tasks",
+          "title": "Tại sao việc còn dở dang cứ lởn vởn trong đầu, còn việc đã xong thì quên ngay?",
+          "category": "psych",
+          "kind": "why"
+        },
+        {
+          "id": "dutch-disease-resource-curse",
+          "title": "“Căn bệnh Hà Lan”: vì sao trúng mỏ khí đốt lớn có thể làm nền kinh tế yếu đi",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "ai-premortem-critic-prompt",
+          "title": "Cách nhờ AI “khám nghiệm” kế hoạch của bạn trước khi nó thất bại",
+          "category": "ai",
+          "kind": "tip"
+        },
+        {
+          "id": "venus-retrograde-day-longer-than-year",
+          "title": "Trên sao Kim, một ngày dài hơn một năm, và mặt trời mọc đằng tây",
+          "category": "society",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "number": 17,
       "readMinutes": 8,
