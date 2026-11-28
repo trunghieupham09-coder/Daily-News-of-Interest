@@ -3,6 +3,43 @@
   "tagline": "Năm chuyện đáng biết, mỗi sáng 10 giờ",
   "editions": [
     {
+      "date": "2026-11-28",
+      "number": 19,
+      "readMinutes": 8,
+      "topics": [
+        {
+          "id": "nickel-coke-nominal-price-rigidity",
+          "title": "Một chai Coca-Cola giữ nguyên giá 5 xu suốt hơn 70 năm, từ 1886 đến 1959",
+          "category": "econ",
+          "kind": "fact"
+        },
+        {
+          "id": "left-digit-bias-charm-pricing",
+          "title": "Thiên lệch chữ số bên trái: vì sao 99 nghìn trông rẻ hơn hẳn 100 nghìn",
+          "category": "psych",
+          "kind": "concept"
+        },
+        {
+          "id": "impossible-trinity-mundell-fleming-trilemma",
+          "title": "Bộ ba bất khả thi: vì sao không quốc gia nào có cùng lúc ba điều ước về tiền tệ",
+          "category": "econ",
+          "kind": "theory"
+        },
+        {
+          "id": "model-collapse-recursive-synthetic-data",
+          "title": "Cho AI học từ chữ do AI viết, sau vài thế hệ nó bắt đầu nói nhảm",
+          "category": "ai",
+          "kind": "fact"
+        },
+        {
+          "id": "cavendish-banana-clonal-monoculture",
+          "title": "Tại sao chuối bán khắp thế giới gần như đều là bản sao của cùng một cây?",
+          "category": "society",
+          "kind": "why"
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
       "number": 18,
       "readMinutes": 7,

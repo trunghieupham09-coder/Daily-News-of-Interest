@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-28",
+  "number": 19,
+  "intro": "Chào buổi sáng thứ Bảy. Hôm nay là chuyện những con số bị “đóng băng” và những thứ bị sao chép quá nhiều: chai nước ngọt giữ giá suốt bảy thập kỷ, con số 99 lừa bộ não, ba điều ước tiền tệ không thể có cùng lúc, AI học lại chữ của chính nó, và cây chuối được nhân bản khắp hành tinh.",
+  "topics": [
+    {
+      "id": "nickel-coke-nominal-price-rigidity",
+      "category": "econ",
+      "kind": "fact",
+      "subcategory": "Lịch sử kinh tế",
+      "title": "Một chai Coca-Cola giữ nguyên giá 5 xu suốt hơn 70 năm, từ 1886 đến 1959",
+      "hook": "Năm 1886, một chai Coca-Cola nhỏ giá 5 xu. Sau đó nước Mỹ đi qua hai cuộc thế chiến, một cuộc Đại suy thoái và vài đợt lạm phát mạnh. Đến năm 1950, chai Coca vẫn 5 xu. Không phải vì hãng quá tốt bụng, mà vì họ bị trói tay bởi chính những quyết định thông minh nhất của mình.",
+      "body": [
+        "Hai nhà kinh tế Daniel Levy và Andrew Young đã nghiên cứu kỹ hiện tượng này và gọi đây là một trong những ca **giá danh nghĩa cứng nhắc** (nominal price rigidity) dài nhất từng được ghi nhận: chai 6,5 ounce giữ giá 5 xu từ 1886 tới 1959. Họ chỉ ra ba sợi dây trói. Thứ nhất là hợp đồng. Năm 1899, hãng bán quyền đóng chai cho hai luật sư ở Chattanooga với giá siro cố định, không có ngày hết hạn. Nếu người đóng chai hay tiệm tạp hóa tăng giá bán lẻ, Coca-Cola không thu thêm được đồng nào, nên hãng có động cơ giữ giá thấp để bán thật nhiều siro.",
+        "Sợi dây thứ hai là máy bán hàng tự động. Những chiếc máy Coca-Cola thời đó được chế tạo để nhận đúng một đồng xu, đồng 5 xu. Muốn tăng lên 6 xu thì phải thay hoặc sửa cả một mạng lưới máy đã lắp khắp nước Mỹ, và khách phải mang theo hai đồng xu. Sợi dây thứ ba là tiền: Mỹ không có đồng xu nào nằm giữa 5 và 10 xu, nên tăng giá nghĩa là tăng gấp đôi. Chủ tịch Robert Woodruff từng tính chuyện vận động in đồng 7,5 xu, nhưng kế hoạch không thành.",
+        "Levy và Young nhấn mạnh rằng đây không phải **chi phí thực đơn** (menu cost) thông thường, tức chi phí in lại bảng giá. Rào cản nằm ở công nghệ thanh toán và hợp đồng. Giới hạn của câu chuyện cũng rõ: sợi dây không giữ được mãi. Hãng đàm phán lại hợp đồng đóng chai từ năm 1921, lạm phát sau Thế chiến II đẩy chi phí lên, và từ cuối thập niên 1940 đã có nơi bán 6 hay 7 xu. Đến năm 1959, chai Coca 5 xu cuối cùng biến mất. Bài học kinh tế học ở đây là giá có thể đứng yên rất lâu, nhưng áp lực bên dưới vẫn tích tụ."
+      ],
+      "example": {
+        "title": "Tờ 10 nghìn và ly trà đá",
+        "text": "Một quán cóc bán trà đá 3 nghìn, sau vài năm chi phí tăng nhưng chủ quán ngại đổi giá vì khách quen đưa tờ 5 nghìn và chờ thối 2 nghìn lẻ (ước tính). Khi cuối cùng tăng giá, quán thường nhảy thẳng lên 5 nghìn, một con số tròn khớp với tờ tiền, chứ hiếm khi lên 4 nghìn. Đó là phiên bản đời thường của đồng 5 xu: mệnh giá tiền định hình cả bước nhảy của giá."
+      },
+      "takeaway": "Lần tới thấy một món giá mãi không đổi, hãy hỏi thứ gì đang giữ nó lại. Thường thì giá không đứng yên, nó chỉ đang chờ một bước nhảy lớn.",
+      "link": "Coca-Cola bị trói vào con số tròn 5 xu, còn bài số 2 cho thấy vì sao người bán ngày nay lại cố né con số tròn bằng đuôi 99.",
+      "sources": [
+        { "name": "Levy & Young — “The Real Thing”: Nominal Price Rigidity of the Nickel Coke, 1886–1959 (Journal of Money, Credit and Banking, 2004)", "url": "https://ideas.repec.org/p/pra/mprapa/1046.html" },
+        { "name": "NPR Planet Money — Why Coke Cost A Nickel For 70 Years (2012)", "url": "https://www.npr.org/sections/money/2012/11/15/165143816/why-coke-cost-a-nickel-for-70-years" },
+        { "name": "Emory Report — nghiên cứu của Daniel Levy về giá Coca-Cola (2001)", "url": "https://www.emory.edu/EMORY_REPORT/erarchive/2001/July/erJuly.23/7_23_01coke.html" },
+        { "name": "Wikipedia — Fixed price of Coca-Cola from 1886 to 1959", "url": "https://en.wikipedia.org/wiki/Fixed_price_of_Coca-Cola_from_1886_to_1959" }
+      ]
+    },
+    {
+      "id": "left-digit-bias-charm-pricing",
+      "category": "psych",
+      "kind": "concept",
+      "subcategory": "Tâm lý khách hàng",
+      "title": "Thiên lệch chữ số bên trái: vì sao 99 nghìn trông rẻ hơn hẳn 100 nghìn",
+      "hook": "Bạn lướt sàn thương mại điện tử, thấy chiếc áo 199 nghìn và nghĩ “ừ, khoảng trăm mấy”. Chiếc bên cạnh 200 nghìn thì lại nghe như “tận hai trăm”. Chênh nhau đúng một nghìn đồng, ít hơn tiền gửi xe, nhưng cảm giác thì như hai tầng giá khác nhau. Bộ não bạn vừa đọc một con số mà chỉ nhìn kỹ chữ số đầu tiên.",
+      "body": [
+        "**Thiên lệch chữ số bên trái** (left-digit bias) là xu hướng đánh giá một con số nhiều chữ số chủ yếu dựa vào chữ số ngoài cùng bên trái. Ta đọc từ trái sang phải, và não tiết kiệm công sức bằng cách “chốt” ấn tượng ngay ở chữ số đầu, các chữ số sau bị chú ý ít hơn. Vì vậy 1,99 bị xếp vào nhóm “một chấm gì đó”, còn 2,00 vào nhóm “hai”. Đây là một dạng **chú ý có giới hạn** (limited attention): thông tin vẫn ở đó, nhưng ta không xử lý hết.",
+        "Bằng chứng mạnh nhất không đến từ phòng thí nghiệm mà từ chợ xe cũ. Nicola Lacetera, Devin Pope và Justin Sydnor phân tích hơn 22 triệu giao dịch bán buôn xe đã qua sử dụng ở Mỹ. Xe có số công-tơ-mét từ 79.900 đến 79.999 dặm bán đắt hơn khoảng 210 đô so với xe từ 80.000 đến 80.100 dặm, nhưng chỉ đắt hơn 10 đô so với xe từ 79.800 đến 79.899. Giá rơi thành “bậc thang” ở mỗi mốc chục nghìn. Trước đó, Manoj Thomas và Vicki Morwitz qua năm thí nghiệm năm 2005 cho thấy hiệu ứng chỉ xuất hiện khi chữ số đầu thay đổi, ví dụ 2,99 so với 3,00.",
+        "Giới hạn đáng nói: hiệu ứng mạnh nhất khi bạn so hai giá đặt cạnh nhau, và yếu hơn khi bạn nhớ lại giá từ trí nhớ, theo nghiên cứu năm 2020 của Sokolova và cộng sự. Đuôi 9 cũng có mặt trái: nó gửi tín hiệu “hàng giảm giá”, nên các thương hiệu cao cấp thường dùng số tròn để trông sang hơn. Và khi bạn đã biết mẹo, chỉ cần làm tròn lên là phá được nó."
+      ],
+      "example": {
+        "title": "Xe máy cũ 19.900 km",
+        "text": "Bạn tìm mua một chiếc xe máy cũ. Chiếc A chạy 19.900 km, chiếc B chạy 20.100 km, cùng đời, cùng tình trạng. Hai trăm km chỉ là vài tuần đi làm, nhưng nhiều người mua vẫn sẵn lòng trả thêm cho chiếc “chưa tới 20 nghìn”. Nếu bạn là người bán, đó là lý do nên bán trước mốc chục nghìn. Nếu bạn là người mua, chiếc vừa qua mốc thường là món hời hơn."
+      },
+      "takeaway": "Khi so giá, hãy tự làm tròn lên: 199 nghìn là 200 nghìn, 9,99 triệu là 10 triệu. Một thao tác nhẩm hai giây giúp bạn nhìn con số như ví tiền nhìn nó.",
+      "link": "Người bán ngày nay khai thác chữ số bên trái bằng đuôi 99, trong khi ở bài số 1, Coca-Cola bị kẹt cứng ở con số tròn 5 xu vì không có đồng xu nào lẻ hơn.",
+      "sources": [
+        { "name": "NBER Digest — Limited Attention in the Car Market (2011)", "url": "https://www.nber.org/digest/sep11/limited-attention-car-market" },
+        { "name": "Lacetera, Pope & Sydnor — Heuristic Thinking and Limited Attention in the Car Market (NBER w17030)", "url": "https://www.nber.org/papers/w17030" },
+        { "name": "Thomas & Morwitz — Penny Wise and Pound Foolish: The Left-Digit Effect in Price Cognition (Journal of Consumer Research, 2005)", "url": "https://ideas.repec.org/a/oup/jconrs/v32y2005i1p54-64.html" },
+        { "name": "Sokolova, Seenivasan & Thomas — The Left-Digit Bias: When and Why Are Consumers Penny Wise and Pound Foolish? (2020)", "url": "https://research.monash.edu/en/publications/the-left-digit-bias-when-and-why-are-consumers-penny-wise-and-pou/" }
+      ]
+    },
+    {
+      "id": "impossible-trinity-mundell-fleming-trilemma",
+      "category": "econ",
+      "kind": "theory",
+      "subcategory": "Kinh tế vĩ mô & tiền tệ",
+      "title": "Bộ ba bất khả thi: vì sao không quốc gia nào có cùng lúc ba điều ước về tiền tệ",
+      "hook": "Hãy tưởng tượng một vị thần cho ngân hàng trung ương ba điều ước: tỷ giá đứng yên để doanh nghiệp dễ tính toán, vốn nước ngoài ra vào tự do, và quyền tự quyết lãi suất theo tình hình trong nước. Nghe hợp lý cả ba. Vấn đề là vị thần này có điều khoản viết bằng chữ rất nhỏ: chỉ được chọn hai.",
+      "body": [
+        "**Bộ ba bất khả thi** (impossible trinity, hay trilemma) phát triển từ mô hình Mundell–Fleming những năm 1960. Nó nói một nền kinh tế chỉ có thể chọn tối đa hai trong ba thứ: tỷ giá cố định, dòng vốn tự do, và chính sách tiền tệ độc lập. Cơ chế nằm ở dòng tiền tìm lãi suất. Nếu vốn ra vào tự do và tỷ giá bị neo, khi trong nước hạ lãi suất thấp hơn bên ngoài, tiền sẽ chảy ra ngoài, gây áp lực phá giá. Để giữ tỷ giá, ngân hàng trung ương buộc phải bán ngoại tệ và nâng lãi suất trở lại, tức là mất quyền tự quyết.",
+        "Hồng Kông là ví dụ sách giáo khoa. Từ năm 1983, đồng đô la Hồng Kông được neo vào đô la Mỹ theo cơ chế hội đồng tiền tệ, hiện trong biên độ 7,75 đến 7,85, và vốn được tự do lưu chuyển. Cái giá là lãi suất: khi Cục Dự trữ Liên bang Mỹ tăng lãi suất năm 2022, Cơ quan Tiền tệ Hồng Kông tăng lãi suất cơ bản tương ứng, như lần nâng 75 điểm cơ bản lên 4,25% vào tháng 11/2022, dù chu kỳ kinh tế của Hồng Kông không nhất thiết giống của Mỹ. Ở hướng ngược lại, các nền kinh tế thả nổi tỷ giá giữ được quyền điều chỉnh lãi suất.",
+        "Phản biện mạnh nhất đến từ nhà kinh tế Hélène Rey năm 2013. Bà cho rằng một **chu kỳ tài chính toàn cầu** do chính sách của Mỹ dẫn dắt khiến dòng vốn, giá tài sản và tín dụng các nước đồng loạt lên xuống, nên ngay cả khi thả nổi tỷ giá, quyền tự quyết vẫn bị bào mòn. Bộ ba thành “lưỡng nan”. Michael Klein và Jay Shambaugh đáp lại rằng thả nổi vẫn cho thêm không gian, chỉ không phải tấm khiên hoàn hảo. Thực tế, nhiều nước chọn “góc bo tròn”: tỷ giá linh hoạt có kiểm soát, cộng một phần kiểm soát dòng vốn."
+      ],
+      "example": {
+        "title": "Khi Fed tăng lãi suất, sổ tiết kiệm của bạn nghe thấy",
+        "text": "Giả sử lãi suất đô la tăng mạnh, tiền nóng có xu hướng rời các thị trường mới nổi để tìm lợi suất cao hơn. Một ngân hàng trung ương muốn giữ tỷ giá ổn định thì có ba cách: bán dự trữ ngoại tệ, nâng lãi suất trong nước, hoặc siết bớt dòng vốn. Nếu chọn cách thứ hai, lãi vay mua nhà của bạn có thể nhích lên dù kinh tế trong nước chưa nóng. Đó là bộ ba bất khả thi đi vào hóa đơn hằng tháng."
+      },
+      "takeaway": "Khi nghe tin một nước “giữ tỷ giá ổn định”, hãy hỏi họ đã đánh đổi điều ước nào. Trong tiền tệ, không có bữa trưa nào miễn phí, chỉ có bữa trưa chọn hai món.",
+      "link": "Bài số 1 là một mức giá bị neo cứng suốt bảy thập kỷ; ở đây, neo cứng tỷ giá cũng có cái giá của nó, chỉ là được trả bằng lãi suất.",
+      "sources": [
+        { "name": "IMF — Two Trilemmas for Monetary Policy (2017)", "url": "https://www.imf.org/en/news/articles/2017/07/24/sp072417-two-trilemmas-for-monetary-policy" },
+        { "name": "Brookings — Klein & Shambaugh, Is there a dilemma with the trilemma? (2013)", "url": "https://www.brookings.edu/articles/is-there-a-dilemma-with-the-trilemma/" },
+        { "name": "NBER — Hélène Rey, Dilemma not Trilemma: The Global Financial Cycle and Monetary Policy Independence (w21162)", "url": "https://www.nber.org/papers/w21162" },
+        { "name": "HKMA — The HKMA’s Response to the US Fed’s Rate Hike (11/2022)", "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2022/11/20221103-4/" }
+      ]
+    },
+    {
+      "id": "model-collapse-recursive-synthetic-data",
+      "category": "ai",
+      "kind": "fact",
+      "subcategory": "Xu hướng AI",
+      "title": "Cho AI học từ chữ do AI viết, sau vài thế hệ nó bắt đầu nói nhảm",
+      "hook": "Bạn photo một tờ giấy, rồi photo lại bản photo, rồi lại photo tiếp. Đến lần thứ mười, chữ đã nhòe, nét mảnh biến mất, chỉ còn những mảng đen đậm. Giờ hãy tưởng tượng chiếc máy photo đó là một mô hình AI, còn tờ giấy là toàn bộ Internet. Đó không hẳn là chuyện tưởng tượng.",
+      "body": [
+        "Năm 2024, nhóm Ilia Shumailov và cộng sự ở Oxford và Cambridge công bố trên tạp chí Nature hiện tượng họ gọi là **sụp đổ mô hình** (model collapse). Họ huấn luyện một mô hình ngôn ngữ, cho nó viết văn bản, rồi dùng văn bản đó huấn luyện thế hệ tiếp theo, và lặp lại. Cơ chế nằm ở chỗ mỗi mô hình là một bản tóm tắt xác suất của dữ liệu: nó học tốt những gì phổ biến, và hay bỏ sót những gì hiếm. Khi thế hệ sau chỉ học từ bản tóm tắt ấy, phần “đuôi” hiếm của phân phối dữ liệu bị cắt dần, sai số cộng dồn qua từng vòng.",
+        "Nhóm tác giả mô tả hai giai đoạn. Giai đoạn đầu, mô hình mất thông tin về các trường hợp hiếm. Giai đoạn cuối, phân phối mà nó tạo ra gần như không còn giống dữ liệu gốc. Trong một ví dụ được báo chí trích nhiều, đầu vào là một đoạn văn về kiến trúc tháp nhà thờ thời Trung cổ, còn đầu ra ở thế hệ thứ chín là một danh sách lộn xộn về thỏ rừng. Hiện tượng không chỉ xảy ra với mô hình ngôn ngữ mà cả với các mô hình sinh ảnh đơn giản, nên nhóm cho rằng nó mang tính phổ quát.",
+        "Giới hạn quan trọng: thí nghiệm của Nature giả định mỗi thế hệ **thay thế** hoàn toàn dữ liệu cũ bằng dữ liệu tổng hợp. Nghiên cứu của Matthias Gerstgrasser và cộng sự năm 2024 cho thấy nếu dữ liệu tổng hợp được **cộng dồn** bên cạnh dữ liệu thật thay vì thay thế, sai số được giữ trong giới hạn và mô hình không sụp đổ. Các phòng thí nghiệm lớn vẫn dùng dữ liệu tổng hợp có chọn lọc. Vấn đề thật sự là dữ liệu do người viết đang ngày càng quý, và việc lọc dữ liệu trở thành một lợi thế cạnh tranh."
+      ],
+      "example": {
+        "title": "Chatbot tiếng Việt học từ web SEO",
+        "text": "Một nhóm khởi nghiệp muốn làm chatbot tiếng Việt và thu thập 10 triệu trang web (ước tính). Nếu một phần lớn trong đó là bài “chuẩn SEO” do AI viết hàng loạt, chatbot sẽ học rất kỹ những câu sáo rỗng phổ biến, và học rất ít phương ngữ, tiếng lóng hay kiến thức địa phương hiếm gặp. Kết quả là một trợ lý nói trơn tru nhưng nhạt và đều, đúng kiểu bản photo của bản photo."
+      },
+      "takeaway": "Dữ liệu do con người viết đang trở thành tài nguyên khan hiếm. Lần tới bạn viết một bài đánh giá thật lòng, kỳ quặc, có chi tiết riêng, hãy biết rằng bạn đang giữ cho AI khỏi nhòe.",
+      "link": "AI mất dần “phần đuôi” hiếm khi tự sao chép, giống hệt cách bài số 5 kể về cây chuối mất sự đa dạng vì được nhân bản khắp thế giới.",
+      "sources": [
+        { "name": "Nature — Shumailov et al., AI models collapse when trained on recursively generated data (2024)", "url": "https://www.nature.com/articles/s41586-024-07566-y" },
+        { "name": "arXiv — The Curse of Recursion: Training on Generated Data Makes Models Forget (bản tiền ấn phẩm, 2023)", "url": "https://arxiv.org/abs/2305.17493" },
+        { "name": "arXiv — Gerstgrasser et al., Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data (2024)", "url": "https://arxiv.org/abs/2404.01413" }
+      ]
+    },
+    {
+      "id": "cavendish-banana-clonal-monoculture",
+      "category": "society",
+      "kind": "why",
+      "subcategory": "Khoa học & môi trường",
+      "title": "Tại sao chuối bán khắp thế giới gần như đều là bản sao của cùng một cây?",
+      "hook": "Quả chuối bạn mua ở siêu thị Tokyo, London hay New York gần như giống hệt nhau: cùng độ cong, cùng vị, cùng màu vàng khi chín. Lý do không phải vì nông dân khắp nơi khéo tay như nhau. Về mặt di truyền, đó gần như là cùng một cái cây, được nhân ra hàng tỷ lần. Và điều đó khiến cả ngành chuối nằm trên một sợi chỉ.",
+      "body": [
+        "Chuối xuất khẩu chủ yếu thuộc nhóm **Cavendish**, cùng nhóm với chuối tiêu quen thuộc. Cây Cavendish gần như không có hạt và không sinh sản hữu tính được, nên người ta nhân giống bằng cách tách chồi hoặc nuôi cấy mô, tạo ra những bản sao di truyền. Điều này rất có lợi cho thương mại: quả đồng đều, chín theo lịch dự đoán được, vận chuyển xa được. Nhưng nó cũng có nghĩa đa dạng di truyền rất thấp. Một mầm bệnh đánh gục được một cây thì về nguyên tắc đánh gục được cả cánh đồng, vì không cây nào khác biệt đủ để kháng lại.",
+        "Lịch sử đã diễn tập kịch bản này một lần. Trước những năm 1950, giống chuối xuất khẩu thống trị là Gros Michel, cũng được nhân giống vô tính. Nấm Fusarium gây **bệnh héo rũ Panama** (chủng Race 1) lây qua đất và gần như xóa sổ sản xuất Gros Michel thương mại. Ngành chuối được cứu nhờ Cavendish, vì nó kháng được Race 1. Rồi từ những năm 1990, một chủng mới là Tropical Race 4 (TR4) xuất hiện ở Đông Nam Á, lan sang châu Phi, Tây Á, và năm 2019 được phát hiện ở Mỹ Latinh. Cavendish hầu như không kháng được TR4. Ở Việt Nam, TR4 được ghi nhận ở miền Bắc từ năm 2018, theo các nhà nghiên cứu của Naturalis.",
+        "Cần tránh phóng đại: chuối không “sắp tuyệt chủng”. Có hàng trăm giống chuối khác, nhiều giống ở chính Đông Nam Á, nơi chuối được thuần hóa. Thứ đang gặp rủi ro là một mô hình kinh doanh dựa trên một giống duy nhất. Lối thoát được bàn đến gồm lai tạo giống kháng bệnh, chỉnh sửa gen, và trồng xen nhiều giống. Nhưng đa dạng có giá: quả không còn đồng đều, chuỗi cung ứng toàn cầu khó tối ưu như trước."
+      ],
+      "example": {
+        "title": "Hai vườn chuối ở đồng bằng",
+        "text": "Anh A trồng 10 ha toàn chuối tiêu nuôi cấy mô để xuất khẩu, năng suất cao và bán được giá theo hợp đồng. Chị B trồng 2 ha xen chuối tây, chuối ngự và chuối tiêu cho chợ địa phương (ước tính). Năm bình thường, anh A lời hơn hẳn. Nhưng nếu nấm TR4 vào đất, vườn anh A có thể mất gần hết, còn vườn chị B chỉ thiệt một phần. Đó là sự đánh đổi giữa hiệu quả và khả năng chống chịu."
+      },
+      "takeaway": "Đồng đều thì rẻ và tiện, cho tới ngày nó không còn như vậy. Dù là vườn chuối hay danh mục đầu tư, đặt tất cả vào một bản sao là đánh cược rằng sẽ không có cú sốc nào.",
+      "link": "Cây chuối mất đa dạng vì bị nhân bản, còn ở bài số 4, AI cũng mất dần những thứ hiếm khi chỉ học từ bản sao của chính mình.",
+      "sources": [
+        { "name": "American Society for Microbiology — Clone Wars: How Fusarium Fungi Control the Banana Industry (2021)", "url": "https://asm.org/articles/2021/june/clone-wars-how-fusarium-fungi-control-the-banana-i" },
+        { "name": "National Geographic — Imagining the Banana of the Future", "url": "https://www.nationalgeographic.com/culture/article/imagining-the-banana-of-the-future" },
+        { "name": "Naturalis — Fungal pandemic threatens Vietnamese banana production", "url": "https://www.naturalis.nl/en/node/16488" },
+        { "name": "Wikipedia — Panama disease", "url": "https://en.wikipedia.org/wiki/Panama_disease" }
+      ]
+    }
+  ]
+}
